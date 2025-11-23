@@ -1,0 +1,544 @@
+/* Reset and Base Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    overflow-x: hidden;
+    background-color: #f5f5f7;
+}
+
+/* Global Navigation Bar */
+.global-nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #333;
+    color: white;
+    z-index: 1000;
+    transition: all 0.3s ease;
+}
+
+.nav-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-logo {
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.nav-menu {
+    display: flex;
+    list-style: none;
+    gap: 40px;
+}
+
+.nav-item a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 10px 20px;
+    display: block;
+    transition: all 0.3s ease;
+    border-radius: 5px;
+}
+
+.nav-item a:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    transform: scale(1.05);
+}
+
+/* Hero Section - Crayon Illustration Style */
+.hero {
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+    margin-top: 60px;
+}
+
+/* Sky Layer */
+.sky-layer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 40%;
+    background: linear-gradient(to bottom, #87CEEB 0%, #B0E0E6 50%, #E0F6FF 100%);
+    filter: url('#crayon-filter');
+    transition: transform 0.5s ease-out;
+}
+
+.clouds {
+    position: absolute;
+    top: 10%;
+    left: 0;
+    right: 0;
+    height: 100px;
+    background-image:
+        radial-gradient(ellipse 80px 40px at 100px 50px, rgba(255, 255, 255, 0.7), transparent),
+        radial-gradient(ellipse 100px 50px at 300px 60px, rgba(255, 255, 255, 0.6), transparent),
+        radial-gradient(ellipse 90px 45px at 500px 40px, rgba(255, 255, 255, 0.7), transparent);
+    animation: cloudMove 30s linear infinite;
+}
+
+@keyframes cloudMove {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-200px); }
+}
+
+/* Lake Layer */
+.lake-layer {
+    position: absolute;
+    top: 40%;
+    left: 0;
+    right: 0;
+    height: 30%;
+    background: linear-gradient(to bottom, #4A90A4 0%, #5BA3B8 50%, #6BB6CC 100%);
+    transition: transform 0.5s ease-out;
+}
+
+.lake-surface {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 5px;
+    background-color: rgba(255, 255, 255, 0.3);
+    animation: waterShimmer 3s ease-in-out infinite;
+}
+
+@keyframes waterShimmer {
+    0%, 100% { opacity: 0.3; }
+    50% { opacity: 0.6; }
+}
+
+.lake-reflection {
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 200px;
+    height: 100px;
+    background: radial-gradient(ellipse, rgba(255, 255, 255, 0.2), transparent);
+}
+
+/* Tree Layer */
+.tree-layer {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    height: 20%;
+    transition: transform 0.5s ease-out;
+}
+
+.tree {
+    position: absolute;
+    bottom: 0;
+}
+
+.tree-left {
+    left: 10%;
+}
+
+.tree-right {
+    right: 15%;
+}
+
+.tree-trunk {
+    width: 40px;
+    height: 120px;
+    background-color: #8B4513;
+    border-radius: 5px;
+    margin: 0 auto;
+    box-shadow: inset -5px 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.tree-foliage {
+    width: 120px;
+    height: 150px;
+    background-color: #4CAF50;
+    border-radius: 50% 50% 45% 45%;
+    position: relative;
+    top: -140px;
+    left: 50%;
+    transform: translateX(-50%);
+    animation: treeSway 4s ease-in-out infinite;
+    box-shadow: inset -10px -10px 20px rgba(0, 0, 0, 0.1);
+}
+
+@keyframes treeSway {
+    0%, 100% { transform: translateX(-50%) rotate(-2deg); }
+    50% { transform: translateX(-50%) rotate(2deg); }
+}
+
+/* Grass Layer */
+.grass-layer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 30%;
+    background: linear-gradient(to bottom, #90C852 0%, #7AB842 50%, #6AA832 100%);
+    transition: transform 0.5s ease-out;
+}
+
+.grass-layer::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 20px;
+    background-image: repeating-linear-gradient(
+        90deg,
+        transparent,
+        transparent 10px,
+        rgba(255, 255, 255, 0.1) 10px,
+        rgba(255, 255, 255, 0.1) 12px
+    );
+}
+
+/* Main Content */
+.main-content {
+    position: relative;
+    z-index: 10;
+    background-color: #f5f5f7;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 80px 30px;
+}
+
+.section-title {
+    font-size: 48px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 30px;
+    color: #1d1d1f;
+}
+
+.section-description {
+    font-size: 24px;
+    text-align: center;
+    color: #6e6e73;
+    line-height: 1.6;
+}
+
+/* Vision Section */
+.vision-section {
+    background-color: white;
+    padding: 100px 0;
+}
+
+/* Game Section */
+.game-section {
+    padding: 100px 0;
+    background: linear-gradient(to bottom, #f5f5f7 0%, #e8f5e9 100%);
+}
+
+.game-description {
+    text-align: center;
+    font-size: 18px;
+    color: #6e6e73;
+    margin-bottom: 60px;
+}
+
+.game-description p {
+    margin-bottom: 15px;
+}
+
+/* Game Canvas - Interactive Grass Field */
+.game-canvas {
+    position: relative;
+    width: 100%;
+    height: 500px;
+    margin: 40px auto;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+}
+
+.grass-field {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, #90C852 0%, #7AB842 50%, #6AA832 100%);
+    background-image:
+        repeating-linear-gradient(
+            0deg,
+            transparent,
+            transparent 35px,
+            rgba(255, 255, 255, 0.05) 35px,
+            rgba(255, 255, 255, 0.05) 70px
+        );
+}
+
+/* Characters - Rounded Cuboid with Bean Eyes and Cute Limbs */
+.character {
+    position: absolute;
+    width: 80px;
+    height: 100px;
+    cursor: grab;
+    transition: transform 0.3s ease;
+    user-select: none;
+}
+
+.character:active {
+    cursor: grabbing;
+    transform: scale(1.1);
+}
+
+#char1 {
+    top: 20%;
+    left: 15%;
+}
+
+#char2 {
+    top: 40%;
+    left: 50%;
+}
+
+#char3 {
+    top: 60%;
+    left: 75%;
+}
+
+/* Character Body - Rounded Cuboid */
+.char-body {
+    position: relative;
+    width: 60px;
+    height: 70px;
+    background: linear-gradient(135deg, #FF6B9D 0%, #FFA5C0 100%);
+    border-radius: 15px;
+    margin: 0 auto;
+    box-shadow:
+        inset -5px -5px 10px rgba(0, 0, 0, 0.1),
+        inset 5px 5px 10px rgba(255, 255, 255, 0.3),
+        5px 5px 15px rgba(0, 0, 0, 0.2);
+    animation: charBounce 2s ease-in-out infinite;
+}
+
+#char2 .char-body {
+    background: linear-gradient(135deg, #FFC078 0%, #FFD9A5 100%);
+}
+
+#char3 .char-body {
+    background: linear-gradient(135deg, #A5D6FF 0%, #C0E5FF 100%);
+}
+
+@keyframes charBounce {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-5px); }
+}
+
+/* Bean Eyes (콩눈) */
+.char-eye {
+    position: absolute;
+    width: 8px;
+    height: 12px;
+    background-color: #000;
+    border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+    top: 20px;
+}
+
+.char-eye-left {
+    left: 15px;
+}
+
+.char-eye-right {
+    right: 15px;
+}
+
+/* Short Cute Arms */
+.char-arm {
+    position: absolute;
+    width: 15px;
+    height: 30px;
+    background: inherit;
+    border-radius: 8px;
+    top: 30px;
+}
+
+.char-arm-left {
+    left: -5px;
+    background: linear-gradient(135deg, #FF6B9D 0%, #FFA5C0 100%);
+    animation: armSwingLeft 1.5s ease-in-out infinite;
+}
+
+.char-arm-right {
+    right: -5px;
+    background: linear-gradient(135deg, #FF6B9D 0%, #FFA5C0 100%);
+    animation: armSwingRight 1.5s ease-in-out infinite;
+}
+
+#char2 .char-arm {
+    background: linear-gradient(135deg, #FFC078 0%, #FFD9A5 100%);
+}
+
+#char3 .char-arm {
+    background: linear-gradient(135deg, #A5D6FF 0%, #C0E5FF 100%);
+}
+
+@keyframes armSwingLeft {
+    0%, 100% { transform: rotate(-10deg); }
+    50% { transform: rotate(-5deg); }
+}
+
+@keyframes armSwingRight {
+    0%, 100% { transform: rotate(10deg); }
+    50% { transform: rotate(5deg); }
+}
+
+/* Short Cute Legs */
+.char-leg {
+    position: absolute;
+    width: 18px;
+    height: 25px;
+    background: inherit;
+    border-radius: 0 0 8px 8px;
+    bottom: -25px;
+}
+
+.char-leg-left {
+    left: 12px;
+    background: linear-gradient(135deg, #FF5A8D 0%, #FF95B0 100%);
+    animation: legWalkLeft 1s ease-in-out infinite;
+}
+
+.char-leg-right {
+    right: 12px;
+    background: linear-gradient(135deg, #FF5A8D 0%, #FF95B0 100%);
+    animation: legWalkRight 1s ease-in-out infinite;
+}
+
+#char2 .char-leg {
+    background: linear-gradient(135deg, #FFB068 0%, #FFC995 100%);
+}
+
+#char3 .char-leg {
+    background: linear-gradient(135deg, #95C6FF 0%, #B0D5FF 100%);
+}
+
+@keyframes legWalkLeft {
+    0%, 100% { transform: rotate(0deg); }
+    50% { transform: rotate(-5deg); }
+}
+
+@keyframes legWalkRight {
+    0%, 100% { transform: rotate(0deg); }
+    50% { transform: rotate(5deg); }
+}
+
+/* Footer */
+.footer {
+    background-color: #f5f5f7;
+    border-top: 1px solid #d2d2d7;
+    padding: 40px 0 20px;
+    color: #6e6e73;
+    font-size: 12px;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+
+.footer-links {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.footer-links a {
+    color: #424245;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+    color: #0066cc;
+}
+
+.separator {
+    margin: 0 10px;
+    color: #d2d2d7;
+}
+
+.footer-info {
+    text-align: center;
+    margin-bottom: 15px;
+    line-height: 1.6;
+}
+
+.footer-info a {
+    color: #424245;
+    text-decoration: none;
+}
+
+.footer-info a:hover {
+    color: #0066cc;
+}
+
+.footer-copyright {
+    text-align: center;
+    padding-top: 15px;
+    border-top: 1px solid #d2d2d7;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .nav-menu {
+        gap: 20px;
+    }
+
+    .nav-item a {
+        font-size: 14px;
+        padding: 8px 15px;
+    }
+
+    .section-title {
+        font-size: 36px;
+    }
+
+    .section-description {
+        font-size: 18px;
+    }
+
+    .game-canvas {
+        height: 400px;
+    }
+
+    .character {
+        width: 60px;
+        height: 80px;
+    }
+
+    .char-body {
+        width: 50px;
+        height: 60px;
+    }
+
+    .footer-links {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .separator {
+        display: none;
+    }
+}

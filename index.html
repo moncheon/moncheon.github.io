@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="RunMoon - 귀여운 캐릭터들과 함께하는 힐링 게임. 시원한 자연 속에서 평화로운 시간을 보내세요.">
+    <meta name="keywords" content="RunMoon, 게임, 모바일 게임, 힐링 게임, 캐주얼 게임">
+    <meta name="author" content="RunMoon">
+    <meta property="og:title" content="RunMoon - 귀여운 캐릭터 힐링 게임">
+    <meta property="og:description" content="시원한 자연 속에서 귀여운 캐릭터들과 함께하는 평화로운 게임">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://runmoon.github.io">
+    <title>RunMoon - 귀여운 캐릭터 힐링 게임</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Global Navigation Bar -->
+    <nav class="global-nav" id="globalNav">
+        <div class="nav-container">
+            <div class="nav-logo">RunMoon</div>
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="#vision">Vision</a></li>
+                <li class="nav-item"><a href="#game">Game</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <div class="sky-layer">
+            <div class="clouds"></div>
+        </div>
+        <div class="lake-layer">
+            <div class="lake-surface"></div>
+            <div class="lake-reflection"></div>
+        </div>
+        <div class="tree-layer">
+            <div class="tree tree-left">
+                <div class="tree-trunk"></div>
+                <div class="tree-foliage"></div>
+            </div>
+            <div class="tree tree-right">
+                <div class="tree-trunk"></div>
+                <div class="tree-foliage"></div>
+            </div>
+        </div>
+        <div class="grass-layer"></div>
+    </section>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <!-- Vision Section -->
+        <section class="vision-section" id="vision">
+            <div class="container">
+                <h1 class="section-title">Our Vision</h1>
+                <p class="section-description">
+                    평화롭고 힐링되는 게임 경험을 통해<br>
+                    일상의 여유와 행복을 선사합니다
+                </p>
+            </div>
+        </section>
+
+        <!-- Game Section -->
+        <section class="game-section" id="game">
+            <div class="container">
+                <h2 class="section-title">Game</h2>
+                <div class="game-description">
+                    <p>시원한 자연 속에서 귀여운 캐릭터들과 함께하세요.</p>
+                    <p>각진 모서리를 가진 둥근 캐릭터들이 평화롭게 걸어다닙니다.</p>
+                    <p>캐릭터를 터치하여 원하는 곳으로 이동시킬 수 있습니다.</p>
+                </div>
+
+                <!-- Interactive Grass Field with Characters -->
+                <div class="game-canvas" id="gameCanvas">
+                    <div class="grass-field">
+                        <div class="character" id="char1" data-char-id="1">
+                            <div class="char-body">
+                                <div class="char-eye char-eye-left"></div>
+                                <div class="char-eye char-eye-right"></div>
+                            </div>
+                            <div class="char-arm char-arm-left"></div>
+                            <div class="char-arm char-arm-right"></div>
+                            <div class="char-leg char-leg-left"></div>
+                            <div class="char-leg char-leg-right"></div>
+                        </div>
+                        <div class="character" id="char2" data-char-id="2">
+                            <div class="char-body">
+                                <div class="char-eye char-eye-left"></div>
+                                <div class="char-eye char-eye-right"></div>
+                            </div>
+                            <div class="char-arm char-arm-left"></div>
+                            <div class="char-arm char-arm-right"></div>
+                            <div class="char-leg char-leg-left"></div>
+                            <div class="char-leg char-leg-right"></div>
+                        </div>
+                        <div class="character" id="char3" data-char-id="3">
+                            <div class="char-body">
+                                <div class="char-eye char-eye-left"></div>
+                                <div class="char-eye char-eye-right"></div>
+                            </div>
+                            <div class="char-arm char-arm-left"></div>
+                            <div class="char-arm char-arm-right"></div>
+                            <div class="char-leg char-leg-left"></div>
+                            <div class="char-leg char-leg-right"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <nav class="footer-links">
+                <a href="privacy-policy.html">개인정보 처리방침</a>
+                <span class="separator">|</span>
+                <a href="#">웹 사이트 이용 약관</a>
+                <span class="separator">|</span>
+                <a href="#">판매 및 환불</a>
+                <span class="separator">|</span>
+                <a href="#">법적 고지</a>
+                <span class="separator">|</span>
+                <a href="#">사이트 맵</a>
+            </nav>
+            <div class="footer-info">
+                <p>runmoon | 대표이사: | 주소: | 전화: | | 사업자등록번호: | 통신판매업신고번호: | 호스팅 서비스 제공: github | <a href="#">사업자정보</a></p>
+            </div>
+            <div class="footer-copyright">
+                <p>&copy; 2025 RunMoon. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

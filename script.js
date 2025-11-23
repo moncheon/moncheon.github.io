@@ -253,36 +253,52 @@ document.addEventListener('DOMContentLoaded', () => {
 
 document.addEventListener('DOMContentLoaded', () => {
     const modal = document.getElementById('privacyModal');
-    const privacyLink = document.getElementById('privacyPolicyLink');
     const closeBtn = document.querySelector('.modal-close');
 
-    // Open modal when privacy policy link is clicked
-    if (privacyLink) {
-        privacyLink.addEventListener('click', (e) => {
-            e.preventDefault();
-            if (modal) {
-                modal.style.display = 'block';
-                document.body.style.overflow = 'hidden'; // Prevent background scrolling
-            }
-        });
+    // Function to open modal
+    function openModal() {
+        if (modal) {
+            modal.style.display = 'block';
+            document.body.style.overflow = 'hidden'; // Prevent background scrolling
+        }
     }
+
+    // Function to close modal
+    function closeModal() {
+        if (modal) {
+            modal.style.display = 'none';
+            document.body.style.overflow = 'auto'; // Restore scrolling
+            // Remove hash from URL when closing modal
+            if (window.location.hash === '#privacy') {
+                history.pushState('', document.title, window.location.pathname);
+            }
+        }
+    }
+
+    // Check URL hash on page load
+    if (window.location.hash === '#privacy') {
+        openModal();
+    }
+
+    // Listen for hash changes
+    window.addEventListener('hashchange', () => {
+        if (window.location.hash === '#privacy') {
+            openModal();
+        } else {
+            closeModal();
+        }
+    });
 
     // Close modal when close button is clicked
     if (closeBtn) {
-        closeBtn.addEventListener('click', () => {
-            if (modal) {
-                modal.style.display = 'none';
-                document.body.style.overflow = 'auto'; // Restore scrolling
-            }
-        });
+        closeBtn.addEventListener('click', closeModal);
     }
 
     // Close modal when clicking outside the modal content
     if (modal) {
         modal.addEventListener('click', (e) => {
             if (e.target === modal) {
-                modal.style.display = 'none';
-                document.body.style.overflow = 'auto'; // Restore scrolling
+                closeModal();
             }
         });
     }
@@ -290,8 +306,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // Close modal when pressing Escape key
     document.addEventListener('keydown', (e) => {
         if (e.key === 'Escape' && modal && modal.style.display === 'block') {
-            modal.style.display = 'none';
-            document.body.style.overflow = 'auto'; // Restore scrolling
+            closeModal();
         }
     });
 });

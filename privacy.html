@@ -3,15 +3,130 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="RunMoon - A healing game with cute characters. Enjoy peaceful time in refreshing nature.">
-    <meta name="keywords" content="RunMoon, game, mobile game, healing game, casual game">
+    <meta name="description" content="RunMoon Privacy Policy - Learn how we collect, use, and protect your personal information.">
+    <meta name="keywords" content="RunMoon, privacy policy, data protection, personal information">
     <meta name="author" content="RunMoon">
-    <meta property="og:title" content="RunMoon - Cute Character Healing Game">
-    <meta property="og:description" content="A peaceful game with cute characters in refreshing nature">
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://runmoon.github.io">
-    <title>RunMoon - Cute Character Healing Game</title>
+    <title>Privacy Policy - RunMoon</title>
     <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Privacy Page Specific Styles */
+        .privacy-page {
+            background-color: white;
+            min-height: 100vh;
+            padding-top: 60px;
+        }
+
+        .privacy-container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 60px 40px;
+        }
+
+        .privacy-header {
+            text-align: center;
+            margin-bottom: 40px;
+            padding-bottom: 30px;
+            border-bottom: 2px solid #f5f5f7;
+        }
+
+        .privacy-header h1 {
+            font-size: 42px;
+            color: #1d1d1f;
+            margin-bottom: 15px;
+        }
+
+        .effective-date {
+            text-align: center;
+            color: #86868b;
+            font-style: italic;
+            margin-bottom: 30px;
+            font-size: 14px;
+        }
+
+        .privacy-content h2 {
+            font-size: 24px;
+            color: #1d1d1f;
+            margin-top: 40px;
+            margin-bottom: 15px;
+            border-bottom: 2px solid #f5f5f7;
+            padding-bottom: 10px;
+        }
+
+        .privacy-content h3 {
+            font-size: 18px;
+            color: #424245;
+            margin-top: 25px;
+            margin-bottom: 10px;
+        }
+
+        .privacy-content p {
+            font-size: 16px;
+            line-height: 1.8;
+            color: #6e6e73;
+            margin-bottom: 15px;
+        }
+
+        .privacy-content ul {
+            margin-left: 30px;
+            margin-bottom: 15px;
+        }
+
+        .privacy-content li {
+            font-size: 16px;
+            line-height: 1.8;
+            color: #6e6e73;
+            margin-bottom: 8px;
+        }
+
+        .privacy-content strong {
+            color: #1d1d1f;
+            font-weight: 600;
+        }
+
+        .back-to-home {
+            display: inline-block;
+            margin-top: 40px;
+            padding: 12px 30px;
+            background-color: #0066cc;
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            font-size: 16px;
+            font-weight: 500;
+            transition: background-color 0.3s ease;
+        }
+
+        .back-to-home:hover {
+            background-color: #0055aa;
+        }
+
+        .privacy-footer {
+            text-align: center;
+            color: #86868b;
+            font-size: 14px;
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid #d2d2d7;
+        }
+
+        @media (max-width: 768px) {
+            .privacy-container {
+                padding: 40px 20px;
+            }
+
+            .privacy-header h1 {
+                font-size: 32px;
+            }
+
+            .privacy-content h2 {
+                font-size: 20px;
+            }
+
+            .privacy-content h3 {
+                font-size: 16px;
+            }
+        }
+    </style>
 </head>
 <body>
     <!-- Global Navigation Bar -->
@@ -19,113 +134,28 @@
         <div class="nav-container">
             <div class="nav-logo">RunMoon</div>
             <ul class="nav-menu">
-                <li class="nav-item"><a href="#vision">Vision</a></li>
-                <li class="nav-item"><a href="#game">Game</a></li>
+                <li class="nav-item"><a href="index.html#vision">Vision</a></li>
+                <li class="nav-item"><a href="index.html#game">Game</a></li>
             </ul>
         </div>
     </nav>
 
-    <!-- Hero Section -->
-    <section class="hero" id="hero">
-        <div class="sky-layer">
-            <div class="clouds"></div>
-        </div>
-        <div class="lake-layer">
-            <div class="lake-surface"></div>
-            <div class="lake-reflection"></div>
-        </div>
-        <div class="tree-layer">
-            <div class="tree tree-left">
-                <div class="tree-trunk"></div>
-                <div class="tree-foliage"></div>
-            </div>
-            <div class="tree tree-right">
-                <div class="tree-trunk"></div>
-                <div class="tree-foliage"></div>
-            </div>
-        </div>
-        <div class="grass-layer"></div>
-    </section>
-
-    <!-- Main Content -->
-    <main class="main-content">
-        <!-- Vision Section -->
-        <section class="vision-section" id="vision">
-            <div class="container">
-                <h1 class="section-title">Our Vision</h1>
-                <p class="section-description">
-                    Providing leisure and happiness in daily life<br>
-                    through peaceful and healing game experiences
-                </p>
-            </div>
-        </section>
-
-        <!-- Game Section -->
-        <section class="game-section" id="game">
-            <div class="container">
-                <h2 class="section-title">Game</h2>
-                <div class="game-description">
-                    <p>Join cute characters in refreshing nature.</p>
-                    <p>Rounded characters with sharp corners walk peacefully.</p>
-                    <p>Touch characters to move them wherever you want.</p>
-                </div>
-
-                <!-- Interactive Grass Field with Characters -->
-                <div class="game-canvas" id="gameCanvas">
-                    <div class="grass-field">
-                        <div class="character" id="char1" data-char-id="1">
-                            <div class="char-body">
-                                <div class="char-eye char-eye-left"></div>
-                                <div class="char-eye char-eye-right"></div>
-                            </div>
-                            <div class="char-arm char-arm-left"></div>
-                            <div class="char-arm char-arm-right"></div>
-                            <div class="char-leg char-leg-left"></div>
-                            <div class="char-leg char-leg-right"></div>
-                        </div>
-                        <div class="character" id="char2" data-char-id="2">
-                            <div class="char-body">
-                                <div class="char-eye char-eye-left"></div>
-                                <div class="char-eye char-eye-right"></div>
-                            </div>
-                            <div class="char-arm char-arm-left"></div>
-                            <div class="char-arm char-arm-right"></div>
-                            <div class="char-leg char-leg-left"></div>
-                            <div class="char-leg char-leg-right"></div>
-                        </div>
-                        <div class="character" id="char3" data-char-id="3">
-                            <div class="char-body">
-                                <div class="char-eye char-eye-left"></div>
-                                <div class="char-eye char-eye-right"></div>
-                            </div>
-                            <div class="char-arm char-arm-left"></div>
-                            <div class="char-arm char-arm-right"></div>
-                            <div class="char-leg char-leg-left"></div>
-                            <div class="char-leg char-leg-right"></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-    </main>
-
-    <!-- Privacy Policy Modal -->
-    <div id="privacyModal" class="modal">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h2>Privacy Policy</h2>
-                <span class="modal-close">&times;</span>
-            </div>
-            <div class="modal-body">
+    <!-- Privacy Policy Content -->
+    <div class="privacy-page">
+        <div class="privacy-container">
+            <div class="privacy-header">
+                <h1>Privacy Policy</h1>
                 <p class="effective-date">Effective Date: November 23, 2025</p>
+            </div>
 
+            <div class="privacy-content">
                 <p>
                     RunMoon ("we," "our," or "us") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you play our mobile game (the "Game"). Please read this Privacy Policy carefully. If you do not agree with the terms of this Privacy Policy, please do not access the Game.
                 </p>
 
-                <h3>1. Information We Collect</h3>
+                <h2>1. Information We Collect</h2>
 
-                <h4>1.1 Information You Provide to Us</h4>
+                <h3>1.1 Information You Provide to Us</h3>
                 <p>We may collect information that you voluntarily provide to us when you:</p>
                 <ul>
                     <li>Create an account or profile</li>
@@ -143,7 +173,7 @@
                     <li>Any other information you choose to provide</li>
                 </ul>
 
-                <h4>1.2 Information Automatically Collected</h4>
+                <h3>1.2 Information Automatically Collected</h3>
                 <p>When you access and play the Game, we may automatically collect certain information, including:</p>
                 <ul>
                     <li>Device information (device type, operating system, unique device identifiers)</li>
@@ -153,7 +183,7 @@
                     <li>Crash reports and performance data</li>
                 </ul>
 
-                <h4>1.3 Information from Third Parties</h4>
+                <h3>1.3 Information from Third Parties</h3>
                 <p>We may receive information about you from third-party services, such as:</p>
                 <ul>
                     <li>Social media platforms (if you choose to connect your account)</li>
@@ -162,7 +192,7 @@
                     <li>Platform providers (Google Play, Apple App Store)</li>
                 </ul>
 
-                <h3>2. How We Use Your Information</h3>
+                <h2>2. How We Use Your Information</h2>
                 <p>We use the information we collect for the following purposes:</p>
                 <ul>
                     <li><strong>Game Operation:</strong> To provide, maintain, and improve the Game functionality</li>
@@ -175,9 +205,9 @@
                     <li><strong>Research:</strong> To conduct research and development for new features</li>
                 </ul>
 
-                <h3>3. How We Share Your Information</h3>
+                <h2>3. How We Share Your Information</h2>
 
-                <h4>3.1 Service Providers</h4>
+                <h3>3.1 Service Providers</h3>
                 <p>We may share your information with third-party service providers who perform services on our behalf, including:</p>
                 <ul>
                     <li>Cloud hosting providers</li>
@@ -187,21 +217,21 @@
                     <li>Advertising networks</li>
                 </ul>
 
-                <h4>3.2 Legal Requirements</h4>
+                <h3>3.2 Legal Requirements</h3>
                 <p>We may disclose your information if required to do so by law or in response to valid requests by public authorities.</p>
 
-                <h4>3.3 Business Transfers</h4>
+                <h3>3.3 Business Transfers</h3>
                 <p>In the event of a merger, acquisition, or sale of assets, your information may be transferred to the acquiring entity.</p>
 
-                <h4>3.4 Other Players</h4>
+                <h3>3.4 Other Players</h3>
                 <p>Certain information, such as your username and game statistics, may be visible to other players within the Game.</p>
 
-                <h3>4. Data Retention</h3>
+                <h2>4. Data Retention</h2>
                 <p>
                     We retain your information for as long as necessary to fulfill the purposes outlined in this Privacy Policy, unless a longer retention period is required or permitted by law. When your information is no longer needed, we will securely delete or anonymize it.
                 </p>
 
-                <h3>5. Your Rights and Choices</h3>
+                <h2>5. Your Rights and Choices</h2>
                 <p>Depending on your location, you may have certain rights regarding your personal information:</p>
                 <ul>
                     <li><strong>Access:</strong> Request access to the personal information we hold about you</li>
@@ -215,37 +245,37 @@
                     To exercise these rights, please contact us using the information provided below. We will respond to your request within a reasonable timeframe.
                 </p>
 
-                <h3>6. Children's Privacy</h3>
+                <h2>6. Children's Privacy</h2>
                 <p>
                     Our Game is not intended for children under the age of 13 (or the applicable age of digital consent in your jurisdiction). We do not knowingly collect personal information from children under 13. If you are a parent or guardian and believe that your child has provided us with personal information, please contact us immediately, and we will take steps to delete such information.
                 </p>
 
-                <h3>7. Security</h3>
+                <h2>7. Security</h2>
                 <p>
                     We implement appropriate technical and organizational measures to protect your personal information against unauthorized access, alteration, disclosure, or destruction. However, no method of transmission over the Internet or electronic storage is 100% secure, and we cannot guarantee absolute security.
                 </p>
 
-                <h3>8. International Data Transfers</h3>
+                <h2>8. International Data Transfers</h2>
                 <p>
                     Your information may be transferred to and processed in countries other than your country of residence. These countries may have different data protection laws. We take appropriate measures to ensure that your information receives an adequate level of protection in accordance with applicable laws.
                 </p>
 
-                <h3>9. Third-Party Links and Services</h3>
+                <h2>9. Third-Party Links and Services</h2>
                 <p>
                     The Game may contain links to third-party websites or services. We are not responsible for the privacy practices of these third parties. We encourage you to read their privacy policies before providing any information to them.
                 </p>
 
-                <h3>10. Cookies and Tracking Technologies</h3>
+                <h2>10. Cookies and Tracking Technologies</h2>
                 <p>
                     We use cookies and similar tracking technologies to collect information about your activity in the Game. You may be able to disable cookies through your device settings, but this may affect your ability to use certain features of the Game.
                 </p>
 
-                <h3>11. Updates to This Privacy Policy</h3>
+                <h2>11. Updates to This Privacy Policy</h2>
                 <p>
                     We may update this Privacy Policy from time to time. We will notify you of any material changes by posting the new Privacy Policy on this page and updating the "Effective Date" above. Your continued use of the Game after any changes constitutes your acceptance of the updated Privacy Policy.
                 </p>
 
-                <h3>12. Contact Us</h3>
+                <h2>12. Contact Us</h2>
                 <p>
                     If you have any questions, concerns, or requests regarding this Privacy Policy or our privacy practices, please contact us at:
                 </p>
@@ -255,9 +285,9 @@
                     Website: https://runmoon.github.io
                 </p>
 
-                <h3>13. Specific Regional Disclosures</h3>
+                <h2>13. Specific Regional Disclosures</h2>
 
-                <h4>13.1 For Users in the European Economic Area (EEA)</h4>
+                <h3>13.1 For Users in the European Economic Area (EEA)</h3>
                 <p>
                     If you are located in the EEA, you have certain rights under the General Data Protection Regulation (GDPR), including the rights mentioned in Section 5 above. The legal basis for our processing of your personal information includes:
                 </p>
@@ -268,19 +298,21 @@
                     <li>Legal obligations (to comply with applicable laws)</li>
                 </ul>
 
-                <h4>13.2 For Users in California</h4>
+                <h3>13.2 For Users in California</h3>
                 <p>
                     If you are a California resident, you have rights under the California Consumer Privacy Act (CCPA), including the right to know what personal information we collect, the right to delete your personal information, and the right to opt-out of the sale of your personal information. We do not sell your personal information.
                 </p>
 
-                <h3>14. Do Not Track Signals</h3>
+                <h2>14. Do Not Track Signals</h2>
                 <p>
                     Some browsers have a "Do Not Track" feature that lets you tell websites that you do not want to have your online activities tracked. We currently do not respond to Do Not Track signals.
                 </p>
 
-                <p style="text-align: center; color: #86868b; font-size: 14px; margin-top: 40px; padding-top: 20px; border-top: 1px solid #d2d2d7;">
+                <div class="privacy-footer">
                     This Privacy Policy was last updated on November 23, 2025.
-                </p>
+                </div>
+
+                <a href="index.html" class="back-to-home">Back to Home</a>
             </div>
         </div>
     </div>

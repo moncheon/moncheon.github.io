@@ -88,6 +88,13 @@ export class RunSession {
     this.saveCampaign();
   }
 
+  claimSpeedToggleHint() {
+    if (!this.campaign || this.campaign.hints.speedToggleShown) return false;
+    this.campaign.hints.speedToggleShown = true;
+    this.saveCampaign();
+    return true;
+  }
+
   enterBoss(fieldStats) {
     this.campaign.genome.stages.push({ stage: this.campaign.stage, themeId: this.campaign.currentTheme, phase: PHASE.FIELD, stats: fieldStats });
     if (fieldStats.damageTaken <= 0) {

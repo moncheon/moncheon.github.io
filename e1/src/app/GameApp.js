@@ -198,6 +198,11 @@ export class GameApp {
     else if (event.type === 'miss') this.ui.showToast('MISS · 회피');
     else if (event.type === 'tutorialCue') this.ui.showToast(event.message, event.seconds);
     else if (event.type === 'defeatRewarded') this.session.saveCampaign();
+    else if (event.type === 'enemyLevelAdvanced') {
+      const first = this.session.claimSpeedToggleHint();
+      if (first && this.playSpeed === 1) this.ui.showCoachBubble('게임이 너무 쉬운가요? T를 눌러보세요', 5);
+      else if (!first) this.ui.showToast(`MONSTER LV ${event.level} · HP↑ SPEED↑ XP↑`);
+    }
     else if (event.type === 'themeLevelsGained') {
       const gained = this.session.recordThemeLevels(this.session.campaign.currentTheme, event.count);
       this.session.saveCampaign();
@@ -252,6 +257,7 @@ export class GameApp {
   togglePlaySpeed() {
     this.playSpeed = this.playSpeed === 3 ? 1 : 3;
     this.loop.speed = this.playSpeed;
+    this.ui.hideCoachBubble?.();
     this.ui.showToast(`SPEED ${this.playSpeed}×`);
   }
 

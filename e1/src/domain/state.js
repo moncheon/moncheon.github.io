@@ -31,6 +31,7 @@ export function createCampaignState(seed, id = `${Date.now()}-${Math.floor(seed)
     version: 1, id, seed: Number(seed), stage: 1, phase: PHASE.FIELD, currentTheme: THEME.CHAIN,
     unlockedThemes: [THEME.CHAIN], themeStates: { [THEME.CHAIN]: createThemeState(THEME.CHAIN) },
     openingPicksPerTheme: 0, skippedDraftPicks: {}, genome: { version: 1, seed: Number(seed), themes: {}, stages: [], result: null },
+    hints: { speedToggleShown: false },
     startedAt: Date.now()
   };
 }
@@ -54,6 +55,7 @@ export function normalizeCampaignState(value) {
     stage, phase, currentTheme: expectedTheme, unlockedThemes, themeStates,
     openingPicksPerTheme: integer(value.openingPicksPerTheme),
     skippedDraftPicks: value.skippedDraftPicks && typeof value.skippedDraftPicks === 'object' ? { ...value.skippedDraftPicks } : {},
+    hints: { speedToggleShown: Boolean(value.hints?.speedToggleShown) },
     genome: value.genome && typeof value.genome === 'object' ? value.genome : { version: 1, seed: Number(value.seed), themes: {}, stages: [], result: null },
     startedAt: Number(value.startedAt) || Date.now()
   };

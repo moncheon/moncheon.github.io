@@ -209,7 +209,9 @@ export class AutoplayController {
     const rarity = RARITY_SCORE[choice.rarity] ?? 0;
     const synergy = choice.quality?.includes('Synergy Value') ? 35 : 0;
     const ceiling = choice.quality?.includes('Ceiling Unlock') ? 25 : 0;
-    return pathScore + rarity + synergy + ceiling + (choice.repeatable ? 0 : 20);
+    const preferredIndex = this.aiProfile.preferredUpgradeIds.indexOf(choice.id);
+    const preferred = preferredIndex < 0 ? 0 : (this.aiProfile.preferredUpgradeIds.length - preferredIndex) * 85;
+    return pathScore + preferred + rarity + synergy + ceiling + (choice.repeatable ? 0 : 20);
   }
 
   identity() { return { id: this.aiProfile.id, name: this.aiProfile.name, temperament: this.aiProfile.temperament }; }

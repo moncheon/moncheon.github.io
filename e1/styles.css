@@ -65,11 +65,14 @@ button.primary { color: #3e3926; background: linear-gradient(135deg, var(--accen
 .choice p { min-height: 38px; margin: 0 0 8px; color: var(--muted); font-size: 13px; line-height: 1.45; }
 .choice small { color: #d7deef; }
 .toast { position: absolute; z-index: 20; left: 50%; top: 92px; transform: translateX(-50%); padding: 11px 19px; border: 2px solid #f2bd4f; border-radius: 5px 13px 5px 13px; background: rgba(49,91,76,.96); color: white; font-weight: 900; letter-spacing: .04em; box-shadow: 0 8px 24px rgba(39,48,34,.35); pointer-events: none; }
+.coach-bubble { position: absolute; z-index: 4; left: 28px; bottom: 34px; max-width: 360px; padding: 12px 16px; border: 2px solid #fff0bf; border-radius: 15px 15px 15px 4px; background: rgba(22,43,36,.97); color: #fffdf4; font-size: 15px; font-weight: 900; line-height: 1.4; letter-spacing: .01em; text-shadow: 0 1px 2px #000; box-shadow: 0 8px 24px rgba(20,29,23,.48); pointer-events: none; animation: coach-in .2s ease-out; }
+.coach-bubble::after { content: ""; position: absolute; left: 18px; bottom: -11px; border-width: 10px 10px 0 0; border-style: solid; border-color: rgba(255,240,191,.84) transparent transparent transparent; }
+@keyframes coach-in { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: translateY(0); } }
 .stage-transition { background: linear-gradient(135deg, rgba(45,85,71,.92), rgba(121,76,51,.9)); }
 .stage-transition h2 { color: #fff0bd; text-shadow: 0 4px 0 #9d4c3b; }
 .transition-reason { padding: 10px 18px; border: 1px solid #f2bd4f; background: rgba(49,91,76,.72); }
 @media (max-height: 600px) { .title-screen { justify-content: flex-start; padding-top: 20px; } .title-screen .tagline { margin: 10px auto; font-size: 15px; } .achievements { margin: 8px auto 10px; } }
-@media (prefers-reduced-motion: reduce) { button { transition: none; } }
+@media (prefers-reduced-motion: reduce) { button { transition: none; } .coach-bubble { animation: none; } }
 
 .showcase { position: absolute; z-index: 30; inset: 0; display: grid; grid-template-columns: 1fr 1fr; grid-template-rows: 1fr 1fr; gap: 2px; background: #020509; }
 .dev-panel { position: relative; min-width: 0; min-height: 0; overflow: hidden; border: 1px solid rgba(255,255,255,.12); }

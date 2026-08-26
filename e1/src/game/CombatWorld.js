@@ -7,6 +7,7 @@ import { createBossMotion, updateBossMotion } from './BossMotion.js';
 import { enemyAiRoster } from './EnemyAiProfiles.js';
 import { createEnemyMovement, ENEMY_MOVEMENT, movementXp, selectEnemyMovement, updateEnemyMovement } from './EnemyMovement.js';
 import { BossPacingDirector, FieldPacingDirector } from './PacingDirector.js';
+import { EnemyLevelDirector, enemyLevelSpec, enemyXpForLevel } from './EnemyProgression.js';
 
 export class CombatWorld {
   constructor({ themeId, phase, stage, themeState, rng, options, dodgeChance = 0 }) {
@@ -35,9 +36,13 @@ export class CombatWorld {
     this.harvestCharge = 0;
     this.bloomCueShown = false;
     this.attackCount = 0;
+    this.playerVolleyCount = 0;
+    this.retaliationCooldown = 0;
+    this.mechanicStats = { returnTrips: 0, twinShots: 0, twinFuses: 0, ricochets: 0, gardensPlanted: 0, gardenHits: 0, retaliationPulses: 0, borrowedAimTurns: 0, orbitCaptures: 0, orbitReleases: 0, orbitBlocks: 0 };
     this.eventBudget = new EventBudget(700, 7);
     this.fieldPacing = phase === PHASE.FIELD ? new FieldPacingDirector(rng, stage) : null;
     this.bossPacing = phase === PHASE.BOSS ? new BossPacingDirector(rng, stage) : null;
+    this.enemyLevels = new EnemyLevelDirector(themeState.level);
     this.player = {
       x: WORLD_WIDTH / 2,
       y: phase === PHASE.BOSS ? WORLD_HEIGHT - 125 : WORLD_HEIGHT / 2,
@@ -56,6 +61,7 @@ export class CombatWorld {
     this.enemies = [];
     this.projectiles = [];
     this.hostile = [];
+    this.gardens = [];
     this.effects = [];
     this.arcs = [];
     this.floatingTexts = [];
@@ -82,6 +88,7 @@ export class CombatWorld {
     this.player.invuln -= dt;
     this.comboTimer -= dt;
     this.parryWindow -= dt;
+    this.retaliationCooldown -= dt;
     if (this.comboTimer <= 0) this.combo = Math.max(0, this.combo - dt * 3);
     this.movePlayer(dt, input);
     this.attack(dt, input);
@@ -103,6 +110,7 @@ export class CombatWorld {
     if (dx || dy) ({ x: dx, y: dy } = normalize(dx, dy));
     let speed = this.themeState.stats.moveSpeed;
     if (input.dashPressed && this.player.dash <= 0) {
+      if (this.themeId === THEME.BLOOM && this.themeState.flags.dashGarden) this.plantGarden(this.player.x, this.player.y, true);
       speed *= 4.5;
       this.player.dash = this.themeState.stats.dashCooldown;
       this.player.invuln = .34;
@@ -122,12 +130,26 @@ export class CombatWorld {
 
   attack(dt, input) {
     if (!input.attack || this.cooldown > 0) return;
-    this.projectiles.push({
-      x: this.player.x, y: this.player.y, px: this.player.x, py: this.player.y,
-      dx: input.aim.x, dy: input.aim.y, r: this.themeId === THEME.HIJACK ? 8 : 5,
-      damage: this.themeState.stats.damage, life: 1.8, maxLife: 1.8,
-      pierce: this.themeState.stats.pierce ?? 0, returned: false, hit: new Set()
-    });
+    this.playerVolleyCount++;
+    const count = Math.max(1, Math.floor(this.themeState.stats.projectileCount ?? 1));
+    const damageScale = this.themeState.stats.projectileDamageScale ?? 1;
+    const shieldScale = this.themeState.flags.shieldVoltage && this.player.shield > 0 ? 1.25 : 1;
+    const perpendicular = { x: -input.aim.y, y: input.aim.x };
+    const plantsGarden = this.themeId === THEME.BLOOM && this.themeState.stats.gardenEvery > 0 && this.playerVolleyCount % this.themeState.stats.gardenEvery === 0;
+    for (let index = 0; index < count; index++) {
+      const offset = count === 1 ? 0 : (index - (count - 1) / 2) * 14;
+      const x = this.player.x + perpendicular.x * offset;
+      const y = this.player.y + perpendicular.y * offset;
+      this.projectiles.push({
+        x, y, px: x, py: y, dx: input.aim.x, dy: input.aim.y,
+        r: this.themeId === THEME.HIJACK ? 8 : 5,
+        damage: this.themeState.stats.damage * damageScale * shieldScale, baseDamage: this.themeState.stats.damage,
+        life: 1.8, maxLife: 1.8, pierce: this.themeState.stats.pierce ?? 0,
+        returned: false, hit: new Set(), volleyId: this.playerVolleyCount, twin: count > 1,
+        bouncesRemaining: this.themeState.stats.wallBounces ?? 0, plantsGarden: plantsGarden && index === 0, gardenPlanted: false
+      });
+    }
+    if (count > 1) this.mechanicStats.twinShots++;
     this.cooldown = 1 / this.themeState.stats.fireRate;
     this.emit('sound', { kind: 'shoot' });
   }
@@ -135,6 +157,7 @@ export class CombatWorld {
   updateFieldPhase(dt, input) {
     this.spawnEnemies(dt);
     this.updatePlayerProjectiles(dt);
+    this.updateGardens(dt);
     this.updateEnemies(dt);
     if (this.themeId === THEME.BLOOM) this.updateHarvest(dt, input);
     if (this.time >= this.options.fieldSeconds && !this.ended) {
@@ -155,19 +178,23 @@ export class CombatWorld {
       : { x: this.rng.range(20, WORLD_WIDTH - 20), y: side === 2 ? 35 : WORLD_HEIGHT + 25 };
     const elite = this.rng.next() < Math.min(.25, .04 + this.time / 1500);
     const themeScale = this.themeId === THEME.BLOOM ? 1.22 : 1;
-    const hp = (elite ? 86 : 30) * themeScale * (1 + this.time / 500) * (1 + (this.stage - 1) * .15);
+    const monsterLevel = this.enemyLevels.level;
+    const levelSpec = enemyLevelSpec(monsterLevel);
+    const hp = (elite ? 86 : 30) * themeScale * (1 + this.time / 500) * (1 + (this.stage - 1) * .15) * levelSpec.hpMultiplier;
     const stageSpeed = Math.min(1.45, 1 + (this.stage - 1) * .03);
-    const baseSpeed = this.rng.range(elite ? 46 : 52, elite ? 58 : 68) * stageSpeed;
+    const baseSpeed = this.rng.range(elite ? 46 : 52, elite ? 58 : 68) * stageSpeed * levelSpec.speedMultiplier;
     const requestedType = Object.values(ENEMY_MOVEMENT).includes(request.movementType) ? request.movementType : null;
     const movementType = requestedType ?? selectEnemyMovement(this.themeState.level, this.rng.next());
     const runner = Boolean(request.runner) && movementType !== ENEMY_MOVEMENT.CURVE;
     this.enemies.push({
-      ...position, r: elite ? 19 : 13, hp, maxHp: hp, baseSpeed,
+      ...position, r: (elite ? 19 : 13) * levelSpec.radiusMultiplier, hp, maxHp: hp, baseSpeed,
       speed: runner ? baseSpeed * 2.2 : baseSpeed,
       runner, runnerTime: runner ? 1.8 : 0,
-      elite, stacks: 0, flash: 0, xpValue: movementXp(movementType) + (elite ? 2 : 0),
+      elite, monsterLevel, visualTier: levelSpec.visualTier, stacks: 0, flash: 0,
+      xpValue: enemyXpForLevel(movementXp(movementType), elite, monsterLevel),
       ...createEnemyMovement(movementType, position, side, this.player, this.rng)
     });
+    this.enemyLevels.observePopulation(this.enemies.length);
   }
 
   updatePlayerProjectiles(dt) {
@@ -177,10 +204,12 @@ export class CombatWorld {
       if (this.themeId === THEME.CHAIN && this.themeState.flags.returning && !shot.returned && shot.life < shot.maxLife * .5) {
         const direction = normalize(this.player.x - shot.x, this.player.y - shot.y);
         shot.dx = direction.x; shot.dy = direction.y; shot.returned = true; shot.hit.clear();
+        this.mechanicStats.returnTrips++;
         if (this.themeState.flags.returnPower) shot.damage *= 1.8;
       }
       shot.x += shot.dx * speed * dt;
       shot.y += shot.dy * speed * dt;
+      this.handleWallBounce(shot);
       if (this.phase === PHASE.BOSS && this.boss && !shot.hit.has(this.boss) && circleHit(shot, this.boss)) {
         shot.hit.add(this.boss); this.damageBoss(shot.damage, false); shot.life = 0; continue;
       }
@@ -188,7 +217,12 @@ export class CombatWorld {
         if (shot.hit.has(enemy) || !circleHit(shot, enemy)) continue;
         shot.hit.add(enemy);
         enemy.hp -= shot.damage;
+        if (shot.twin && this.themeState.flags.twinFuse) this.applyTwinFuse(enemy, shot);
         enemy.flash = .08;
+        if (shot.plantsGarden && !shot.gardenPlanted) {
+          shot.gardenPlanted = true;
+          this.plantGarden(enemy.x, enemy.y);
+        }
         if (this.themeId === THEME.BLOOM) {
           enemy.stacks += this.themeState.stats.infection;
           if (!this.bloomCueShown) {
@@ -202,8 +236,50 @@ export class CombatWorld {
         shot.pierce--;
         if (shot.pierce < 0) { shot.life = 0; break; }
       }
+      const outside = shot.x <= 0 || shot.x >= WORLD_WIDTH || shot.y <= 45 || shot.y >= WORLD_HEIGHT;
+      if (shot.plantsGarden && !shot.gardenPlanted && (shot.life <= 0 || outside)) {
+        shot.gardenPlanted = true;
+        this.plantGarden(clamp(shot.x, 20, WORLD_WIDTH - 20), clamp(shot.y, 60, WORLD_HEIGHT - 20));
+      }
     }
     this.projectiles = this.projectiles.filter(shot => shot.life > 0 && shot.x > -90 && shot.x < WORLD_WIDTH + 90 && shot.y > -90 && shot.y < WORLD_HEIGHT + 90);
+  }
+
+  handleWallBounce(shot) {
+    const hitX = shot.x <= 0 || shot.x >= WORLD_WIDTH;
+    const hitY = shot.y <= 45 || shot.y >= WORLD_HEIGHT;
+    if ((!hitX && !hitY) || (shot.bouncesRemaining ?? 0) <= 0) return;
+    shot.x = clamp(shot.x, 1, WORLD_WIDTH - 1);
+    shot.y = clamp(shot.y, 46, WORLD_HEIGHT - 1);
+    shot.bouncesRemaining--;
+    const target = this.enemies
+      .filter(enemy => !shot.hit.has(enemy) && distanceSq(shot, enemy) <= 520 ** 2)
+      .sort((left, right) => distanceSq(shot, left) - distanceSq(shot, right))[0];
+    if (target) {
+      const direction = normalize(target.x - shot.x, target.y - shot.y);
+      shot.dx = direction.x; shot.dy = direction.y;
+    } else {
+      if (hitX) shot.dx *= -1;
+      if (hitY) shot.dy *= -1;
+    }
+    shot.damage *= this.themeState.stats.bounceDamage ?? 1;
+    shot.life = Math.max(shot.life, .9);
+    this.mechanicStats.ricochets++;
+    this.effect(shot.x, shot.y, '#9ffaff', 8, 120);
+  }
+
+  applyTwinFuse(enemy, shot) {
+    enemy.twinHits ??= new Map();
+    enemy.twinFused ??= new Set();
+    const previous = enemy.twinHits.get(shot.volleyId);
+    enemy.twinHits.set(shot.volleyId, this.time);
+    if (previous === undefined || this.time - previous > .18 || enemy.twinFused.has(shot.volleyId)) return;
+    enemy.twinFused.add(shot.volleyId);
+    const damage = shot.baseDamage * .35;
+    enemy.hp -= damage;
+    this.mechanicStats.twinFuses++;
+    this.effect(enemy.x, enemy.y, '#bffcff', 9, 145);
+    this.floatingTexts.push({ x: enemy.x, y: enemy.y - enemy.r - 8, text: `쌍탄 +${Math.round(damage)}`, color: '#dffcff', life: .5, maxLife: .5 });
   }
 
   chainFrom(source, jumps, visited, depth) {
@@ -268,6 +344,53 @@ export class CombatWorld {
     }
   }
 
+  plantGarden(x, y, small = false) {
+    if (this.phase !== PHASE.FIELD) return;
+    const radius = small ? 52 : this.themeState.stats.gardenRadius;
+    const duration = small ? 2.5 : this.themeState.stats.gardenDuration;
+    this.gardens.push({
+      x, y, r: radius, life: duration, maxLife: duration, tick: 0,
+      damage: small ? 3 : this.themeState.stats.gardenDamage, stacks: 1, infected: new Set()
+    });
+    while (this.gardens.length > 5) this.gardens.shift();
+    this.mechanicStats.gardensPlanted++;
+    this.effect(x, y, '#b8ff9f', 10, 110);
+  }
+
+  updateGardens(dt) {
+    for (const garden of this.gardens) {
+      garden.life -= dt;
+      garden.tick -= dt;
+      if (garden.tick > 0) continue;
+      garden.tick += .5;
+      for (const enemy of [...this.enemies]) {
+        if (distanceSq(garden, enemy) > (garden.r + enemy.r) ** 2) continue;
+        enemy.hp -= garden.damage;
+        if (!garden.infected.has(enemy)) {
+          garden.infected.add(enemy);
+          enemy.stacks += garden.stacks;
+        }
+        this.mechanicStats.gardenHits++;
+        enemy.flash = Math.max(enemy.flash, .05);
+        if (enemy.hp <= 0) this.killEnemy(enemy, 'garden', 0);
+      }
+    }
+    this.gardens = this.gardens.filter(garden => garden.life > 0);
+  }
+
+  pulseGardenHarvest(source, damage) {
+    if (!this.themeState.flags.gardenHarvestPulse) return;
+    const garden = this.gardens.find(item => distanceSq(item, source) <= item.r ** 2);
+    if (!garden) return;
+    for (const target of [...this.enemies]) {
+      if (target === source || distanceSq(garden, target) > (garden.r + target.r) ** 2) continue;
+      target.hp -= damage * .5;
+      target.stacks += 1;
+      this.effect(target.x, target.y, '#dca7ff', 5, 90);
+      if (target.hp <= 0) this.killEnemy(target, 'garden-harvest', 0);
+    }
+  }
+
   updateHarvest(dt, input) {
     if (this.themeState.flags.terminalHarvest && input.harvestDown) {
       this.harvestCharge = Math.min(1, this.harvestCharge + dt);
@@ -302,6 +425,7 @@ export class CombatWorld {
     const damage = stacks * this.themeState.stats.harvestDamage;
     const beforeHp = this.player.hp;
     enemy.stacks = 0; enemy.hp -= damage;
+    this.pulseGardenHarvest(enemy, damage);
     this.player.hp = Math.min(this.player.maxHp, this.player.hp + damage * this.themeState.stats.harvestHeal * .1);
     this.effect(enemy.x, enemy.y, '#b65cff', 10 + stacks, 150);
     this.floatingTexts.push({ x: enemy.x, y: enemy.y - enemy.r - 12, text: `수확 -${Math.round(damage)}`, color: '#edc5ff', life: .7, maxLife: .7 });
@@ -327,6 +451,9 @@ export class CombatWorld {
     this.effect(enemy.x, enemy.y, this.themeColor(), enemy.elite ? 28 : 14, enemy.elite ? 260 : 170);
     this.floatingTexts.push({ x: enemy.x, y: enemy.y - enemy.r - 18, text: `+${enemy.xpValue} XP`, color: '#fff2a8', life: .7, maxLife: .7 });
     this.awardDefeatXp(enemy.xpValue);
+    if (this.enemyLevels.defeated(this.enemies.length, this.themeState.level)) {
+      this.emit('enemyLevelAdvanced', { level: this.enemyLevels.level });
+    }
   }
 
   awardDefeatXp(amount) {
@@ -383,10 +510,20 @@ export class CombatWorld {
   updateHostile(dt, input) {
     for (const shot of this.hostile) {
       shot.life -= dt; shot.px = shot.x; shot.py = shot.y;
+      if (shot.orbiting) {
+        shot.orbitTimer -= dt;
+        const capacity = Math.max(1, this.themeState.stats.orbitCapacity);
+        const angle = this.time * 4.2 + shot.orbitSlot / capacity * Math.PI * 2;
+        shot.x = this.player.x + Math.cos(angle) * 55;
+        shot.y = this.player.y + Math.sin(angle) * 55;
+        if (shot.orbitTimer > 0) continue;
+        this.releaseOrbitShot(shot);
+      }
       if (shot.reflected) {
         const lead = Math.min(.35, Math.sqrt(distanceSq(shot, this.boss)) / Math.max(1, shot.speed));
         const desired = normalize(this.boss.x + this.boss.vx * lead - shot.x, this.boss.y + this.boss.vy * lead - shot.y);
-        const turn = this.themeState.flags.borrowedAim ? .24 : .08;
+        const turn = this.themeState.flags.borrowedAim || shot.captured ? .24 : .08;
+        if (this.themeState.flags.borrowedAim) this.mechanicStats.borrowedAimTurns++;
         shot.dx += (desired.x - shot.dx) * turn; shot.dy += (desired.y - shot.dy) * turn;
         const direction = normalize(shot.dx, shot.dy); shot.dx = direction.x; shot.dy = direction.y;
       }
@@ -397,21 +534,51 @@ export class CombatWorld {
         if (input.parryDown) { this.hurt(shot.damage * .35); shot.life = 0; }
         else if (this.player.invuln <= 0) { this.hurt(shot.damage); shot.life = 0; }
       } else if (shot.reflected && segmentCircleHit({ x: shot.px, y: shot.py }, shot, this.boss, shot.r + this.boss.r + 12)) {
-        let damage = shot.damage * 5 * this.themeState.stats.returnPower;
+        let damage = shot.damage * 5 * this.themeState.stats.returnPower * (shot.orbitDamageMultiplier ?? 1);
         if (this.themeState.flags.finalWord && this.boss.hp / this.boss.maxHp <= .15) damage *= 3;
         this.damageBoss(damage, true); shot.life = 0; this.kills++; this.awardDefeatXp(3);
       }
     }
+    this.resolveOrbitBlocks();
     this.hostile = this.hostile.filter(shot => shot.life > 0 && shot.x > -90 && shot.x < WORLD_WIDTH + 90 && shot.y > -90 && shot.y < WORLD_HEIGHT + 90);
   }
 
   reflect(shot) {
-    const direction = normalize(this.boss.x - shot.x, this.boss.y - shot.y);
-    shot.dx = direction.x; shot.dy = direction.y; shot.speed *= 1.45; shot.reflected = true; shot.life = 4;
+    if (this.themeState.stats.orbitCapacity > 0) {
+      const orbiting = this.hostile.filter(item => item.orbiting && item.life > 0);
+      if (orbiting.length >= this.themeState.stats.orbitCapacity) this.releaseOrbitShot(orbiting.sort((left, right) => left.orbitTimer - right.orbitTimer)[0]);
+      shot.reflected = true; shot.orbiting = true; shot.orbitTimer = .75;
+      shot.orbitSlot = this.mechanicStats.orbitCaptures++; shot.life = 4;
+    } else {
+      const direction = normalize(this.boss.x - shot.x, this.boss.y - shot.y);
+      shot.dx = direction.x; shot.dy = direction.y; shot.speed *= 1.45; shot.reflected = true; shot.life = 4;
+    }
     this.parryChain++; this.maxParryChain = Math.max(this.maxParryChain, this.parryChain);
     this.player.shield += this.themeState.stats.shieldGain;
     this.effect(shot.x, shot.y, '#ffd84d', 22, 260);
     this.emit('sound', { kind: 'parry' });
+  }
+
+  releaseOrbitShot(shot) {
+    if (!shot?.orbiting) return;
+    const lead = .25;
+    const direction = normalize(this.boss.x + this.boss.vx * lead - shot.x, this.boss.y + this.boss.vy * lead - shot.y);
+    shot.dx = direction.x; shot.dy = direction.y; shot.speed *= 1.6;
+    shot.orbiting = false; shot.captured = true; shot.life = Math.max(shot.life, 3);
+    shot.orbitDamageMultiplier = 1.35 * this.themeState.stats.orbitDamage;
+    this.mechanicStats.orbitReleases++;
+  }
+
+  resolveOrbitBlocks() {
+    const orbiting = this.hostile.filter(shot => shot.orbiting && shot.life > 0);
+    const incoming = this.hostile.filter(shot => !shot.reflected && shot.life > 0);
+    for (const guard of orbiting) {
+      const threat = incoming.find(shot => shot.life > 0 && distanceSq(guard, shot) <= (guard.r + shot.r + 5) ** 2);
+      if (!threat) continue;
+      guard.life = 0; threat.life = 0;
+      this.mechanicStats.orbitBlocks++;
+      this.effect(guard.x, guard.y, '#fff176', 14, 170);
+    }
   }
 
   damageBoss(amount, reflected) {
@@ -438,6 +605,15 @@ export class CombatWorld {
     this.damageTaken += amount;
     this.player.invuln = .52;
     this.parryChain = 0;
+    if (this.themeId === THEME.BLOOM && this.themeState.flags.retaliatorySpores && this.retaliationCooldown <= 0) {
+      this.retaliationCooldown = 1.5;
+      this.mechanicStats.retaliationPulses++;
+      for (const enemy of this.enemies) {
+        if (distanceSq(this.player, enemy) > 55 ** 2) continue;
+        enemy.stacks += 2;
+        this.effect(enemy.x, enemy.y, '#b8ff9f', 7, 100);
+      }
+    }
     this.emit('sound', { kind: 'hurt' });
   }
 
@@ -493,7 +669,8 @@ export class CombatWorld {
     return {
       themeId: this.themeId, phase: this.phase, stage: this.stage, duration: this.time,
       kills: this.kills, score: this.score, level: this.themeState.level,
-      damageTaken: this.damageTaken, maxCombo: this.maxCombo, maxParryChain: this.maxParryChain
+      enemyLevel: this.enemyLevels.level, damageTaken: this.damageTaken,
+      maxCombo: this.maxCombo, maxParryChain: this.maxParryChain, mechanics: { ...this.mechanicStats }
     };
   }
 
@@ -507,7 +684,8 @@ export class CombatWorld {
       level: `LV ${this.themeState.level} · XP ${Math.floor(this.themeState.xp)}/${xpRequiredForLevel(this.themeState.level)}`,
       timer: `${String(Math.floor(remaining / 60)).padStart(2, '0')}:${String(Math.floor(remaining % 60)).padStart(2, '0')}`,
       score: `${this.score.toLocaleString()} · KILL ${this.kills}`,
-      enemyAi: enemyAiRoster(this.enemies),
+      enemyLevel: this.enemyLevels.level,
+      enemyAi: `MONSTER LV ${this.enemyLevels.level} · ${enemyAiRoster(this.enemies)}`,
       combo: this.themeId === THEME.HIJACK ? `PARRY ×${this.parryChain}` : this.themeId === THEME.BLOOM ? `STACK ${harvest?.stacks ?? 0} · ${harvest?.lethal ? '수확 처치 가능' : `수확 ${Math.round(harvest?.damage ?? 0)}`}` : `CHAIN ×${Math.floor(this.combo)}`,
       ability: this.themeId === THEME.BLOOM
         ? harvest ? `Q 수확 · ${Math.round(harvest.damage)} 피해 · ${Math.round(harvest.heal)} 회복` : '탄환으로 STACK 축적 · Q 수확'

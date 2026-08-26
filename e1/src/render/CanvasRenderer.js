@@ -7,6 +7,7 @@ import { ENEMY_AI_TYPE, getEnemyAiProfile } from '../game/EnemyAiProfiles.js';
 import { ENEMY_MOVEMENT } from '../game/EnemyMovement.js';
 import { stageVisualFor } from '../game/StageVisualRegistry.js';
 import { drawStageMotifBadge } from './StageMotifPainter.js';
+import { drawEvolvingEnemy } from './EnemyEvolutionPainter.js';
 
 const BACKGROUND_IMAGE_FILTER = 'saturate(.48) brightness(.84) contrast(.88)';
 
@@ -16,6 +17,7 @@ export class CanvasRenderer {
   render(world, pointer = null) {
     if (!world) { this.renderEmpty(); return; }
     this.renderBackground(world);
+    this.renderGardens(world.gardens ?? []);
     this.renderEnemies(world);
     if (world.boss) this.renderBoss(world);
     this.renderProjectiles(world);
@@ -101,26 +103,8 @@ export class CanvasRenderer {
       if (enemy.movementType === ENEMY_MOVEMENT.CURVE && enemy.trail?.length > 1) this.renderCurveTrail(enemy);
       const image = this.assets.getImage(visual.enemyAssetIds[enemy.aiType ?? enemy.movementType] ?? visual.enemyAssetIds[ENEMY_AI_TYPE.PURSUER])
         ?? this.assets.getImage(enemy.elite ? `enemy.${world.themeId}.elite` : `enemy.${world.themeId}.normal`);
-      if (image) {
-        this.ctx.save();
-        this.ctx.filter = enemy.flash > 0 ? 'brightness(2)' : 'drop-shadow(0 2px 2px rgba(43,48,34,.75))';
-        this.ctx.drawImage(image, enemy.x - enemy.r * 1.7, enemy.y - enemy.r * 1.9, enemy.r * 3.4, enemy.r * 3.4);
-        this.ctx.restore();
-        if (enemy.elite) this.renderEliteStructure(enemy, visual.palette[2]);
-      }
-      else if (enemy.movementType === ENEMY_MOVEMENT.INTERCEPTOR) {
-        const angle = Math.atan2(enemy.lastMoveY ?? 0, enemy.lastMoveX ?? 1);
-        this.ctx.save(); this.ctx.translate(enemy.x, enemy.y); this.ctx.rotate(angle);
-        this.ctx.fillStyle = enemy.flash > 0 ? '#fff' : enemy.elite ? '#ff5376' : aiProfile.color;
-        this.ctx.beginPath(); this.ctx.moveTo(enemy.r * 1.25, 0); this.ctx.lineTo(-enemy.r, enemy.r * .8); this.ctx.lineTo(-enemy.r * .45, 0); this.ctx.lineTo(-enemy.r, -enemy.r * .8); this.ctx.closePath(); this.ctx.fill(); this.ctx.restore();
-      } else if (enemy.movementType === ENEMY_MOVEMENT.CURVE) {
-        this.ctx.save(); this.ctx.translate(enemy.x, enemy.y); this.ctx.rotate(enemy.movementTime * 2.4);
-        this.ctx.fillStyle = enemy.flash > 0 ? '#fff' : enemy.elite ? '#ff5376' : aiProfile.color;
-        this.ctx.beginPath(); this.ctx.moveTo(0, -enemy.r * 1.25); this.ctx.lineTo(enemy.r, 0); this.ctx.lineTo(0, enemy.r * 1.25); this.ctx.lineTo(-enemy.r, 0); this.ctx.closePath(); this.ctx.fill(); this.ctx.restore();
-      } else {
-        this.ctx.fillStyle = enemy.flash > 0 ? '#fff' : enemy.elite ? '#ff5376' : aiProfile.color;
-        this.ctx.beginPath(); this.ctx.arc(enemy.x, enemy.y, enemy.r, 0, Math.PI * 2); this.ctx.fill();
-      }
+      drawEvolvingEnemy(this.ctx, enemy, aiProfile, image, visual.palette[2]);
+      if (enemy.elite) this.renderEliteStructure(enemy, visual.palette[2]);
       drawStageMotifBadge(this.ctx, visual, enemy.x + enemy.r * .72, enemy.y - enemy.r * .72, Math.max(7, enemy.r * .48));
       this.renderMovementMarker(enemy);
       if (enemy.stacks > 0) this.renderBloomStacks(enemy, harvest?.target === enemy ? harvest : null);
@@ -151,6 +135,23 @@ export class CanvasRenderer {
     drawStageMotifBadge(this.ctx, stageVisualFor(world.stage), boss.x + boss.r * .66, boss.y - boss.r * .66, 15);
     this.healthBar(boss.x, boss.y - boss.r - 24, 220, boss.hp / boss.maxHp, '#ff4f63');
     if (boss.shield > 0) this.healthBar(boss.x, boss.y - boss.r - 14, 220, boss.shield / boss.maxShield, '#ffd84d');
+  }
+
+  renderGardens(gardens) {
+    for (const garden of gardens) {
+      const ratio = clamp(garden.life / garden.maxLife, 0, 1);
+      this.ctx.save(); this.ctx.translate(garden.x, garden.y);
+      this.ctx.globalAlpha = .18 + ratio * .25;
+      this.ctx.fillStyle = '#7bd88f'; this.ctx.strokeStyle = '#e8ffc8'; this.ctx.lineWidth = 2;
+      this.ctx.beginPath(); this.ctx.arc(0, 0, garden.r, 0, Math.PI * 2); this.ctx.fill(); this.ctx.stroke();
+      this.ctx.globalAlpha = .55;
+      for (let index = 0; index < 8; index++) {
+        const angle = index / 8 * Math.PI * 2 + garden.life * .35;
+        const radius = garden.r * (.38 + (index % 2) * .28);
+        this.ctx.beginPath(); this.ctx.ellipse(Math.cos(angle) * radius, Math.sin(angle) * radius, 6, 3, angle, 0, Math.PI * 2); this.ctx.fill();
+      }
+      this.ctx.restore();
+    }
   }
 
   renderEliteStructure(enemy, color) {
@@ -226,6 +227,10 @@ export class CanvasRenderer {
     }
     for (const shot of world.hostile) {
       this.ctx.save();
+      if (shot.orbiting) {
+        this.ctx.strokeStyle = 'rgba(255,241,118,.55)'; this.ctx.lineWidth = 2; this.ctx.setLineDash([5, 5]);
+        this.ctx.beginPath(); this.ctx.moveTo(world.player.x, world.player.y); this.ctx.lineTo(shot.x, shot.y); this.ctx.stroke(); this.ctx.setLineDash([]);
+      }
       this.ctx.fillStyle = shot.reflected ? '#fff176' : shot.fast ? '#ffb347' : '#ff3d59'; this.ctx.strokeStyle = '#4a1826'; this.ctx.lineWidth = 2.4;
       this.ctx.shadowColor = this.ctx.fillStyle; this.ctx.shadowBlur = shot.fast ? 20 : 12;
       this.ctx.beginPath(); this.ctx.arc(shot.x, shot.y, Math.max(shot.r, 4), 0, Math.PI * 2); this.ctx.fill(); this.ctx.stroke();

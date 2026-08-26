@@ -10,6 +10,8 @@ export class FieldPacingDirector {
     this.runnersRemaining = 0;
     this.burstTimer = 0;
     this.recovery = 0;
+    this.openingRemaining = 5;
+    this.openingTimer = 0;
     this.burstsStarted = 0;
     this.recoveriesStarted = 0;
   }
@@ -17,6 +19,15 @@ export class FieldPacingDirector {
   update(dt, enemyCount) {
     const requests = [];
     if (enemyCount >= 120) return requests;
+    if (this.openingRemaining > 0) {
+      this.openingTimer -= dt;
+      while (this.openingTimer <= 0 && this.openingRemaining > 0 && enemyCount + requests.length < 120) {
+        requests.push({ runner: false, source: 'opening' });
+        this.openingRemaining--;
+        this.openingTimer += .22;
+      }
+      return requests;
+    }
     if (this.recovery > 0) {
       this.recovery -= dt;
       return requests;
@@ -55,7 +66,7 @@ export class FieldPacingDirector {
   }
 
   snapshot() {
-    return { burstsStarted: this.burstsStarted, recoveriesStarted: this.recoveriesStarted, recovery: this.recovery, burstRemaining: this.burstRemaining };
+    return { openingRemaining: this.openingRemaining, burstsStarted: this.burstsStarted, recoveriesStarted: this.recoveriesStarted, recovery: this.recovery, burstRemaining: this.burstRemaining };
   }
 }
 

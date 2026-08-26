@@ -9,7 +9,7 @@ import { CanvasRenderer } from '../render/CanvasRenderer.js';
 import { AutoplayController } from './AutoplayController.js';
 import { botAiProfileForStage } from './BotAiProfiles.js';
 
-const PRESETS = Object.freeze({ [THEME.CHAIN]: 'chain-arc', [THEME.BLOOM]: 'bloom-spread', [THEME.HIJACK]: 'hijack-aim' });
+const PRESETS = Object.freeze({ [THEME.CHAIN]: 'chain-twin', [THEME.BLOOM]: 'bloom-garden', [THEME.HIJACK]: 'hijack-orbit' });
 const PHASE_FOR_THEME = Object.freeze({ [THEME.CHAIN]: PHASE.FIELD, [THEME.BLOOM]: PHASE.FIELD, [THEME.HIJACK]: PHASE.BOSS });
 const LABELS = Object.freeze({ [THEME.CHAIN]: 'CHAIN', [THEME.BLOOM]: 'BLOOM', [THEME.HIJACK]: 'HIJACK' });
 

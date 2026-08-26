@@ -21,15 +21,18 @@ export function createThemeState(themeId) {
 export function createBaseStats(themeId) {
   if (themeId === THEME.BLOOM) return {
     maxHp: 63, damage: 14, fireRate: 5.4, moveSpeed: 245, projectileSpeed: 520,
-    infection: 1, harvestDamage: 12, harvestHeal: .5, spread: 0, dashCooldown: 2.2
+    infection: 1, harvestDamage: 12, harvestHeal: .5, spread: 0, dashCooldown: 2.2,
+    gardenEvery: 0, gardenRadius: 68, gardenDuration: 4, gardenDamage: 4
   };
   if (themeId === THEME.HIJACK) return {
     maxHp: 91, damage: 30, fireRate: 4.6, moveSpeed: 245, projectileSpeed: 610,
-    returnPower: 1, parryWindow: .32, parryRadius: 52, shieldGain: 0, dashCooldown: 2.1
+    returnPower: 1, parryWindow: .32, parryRadius: 52, shieldGain: 0, dashCooldown: 2.1,
+    orbitCapacity: 0, orbitDamage: 1
   };
   return {
     maxHp: 56, damage: 20, fireRate: 7.2, moveSpeed: 255, projectileSpeed: 650,
-    pierce: 1, chainJumps: 0, chainDamage: 13, explosionRadius: 0, dashCooldown: 2.2
+    pierce: 1, chainJumps: 0, chainDamage: 13, explosionRadius: 0, dashCooldown: 2.2,
+    projectileCount: 1, projectileDamageScale: 1, wallBounces: 0, bounceDamage: 1
   };
 }
 

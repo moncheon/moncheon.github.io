@@ -17,14 +17,14 @@ const PROFILES = [
     name: '아크 설계자', temperament: '군집 폭발 · 침착한 중거리',
     navigation: { desiredRange: 330, reactionMin: .2, reactionMax: .35 },
     targeting: { cluster: 105, xp: 28, urgency: 70, distance: .055, wounded: 12, stackGap: 0, stickiness: 115 },
-    ability: {}, upgradePaths: ['CIRCUIT', 'REACTOR', 'RETURN']
+    ability: {}, upgradePaths: ['CIRCUIT', 'REACTOR', 'RETURN'], preferredUpgradeIds: ['chain-ricochet', 'chain-arc']
   }),
   profile({
     id: BOT_AI_TYPE.SURGE_HUNTER, themeId: THEME.CHAIN,
     name: '과전류 사냥꾼', temperament: '고가치 추격 · 공격적 근거리',
     navigation: { desiredRange: 285, reactionMin: .16, reactionMax: .29 },
     targeting: { cluster: 72, xp: 42, urgency: 118, distance: .04, wounded: 24, stackGap: 0, stickiness: 78 },
-    ability: {}, upgradePaths: ['REACTOR', 'CIRCUIT', 'RETURN']
+    ability: {}, upgradePaths: ['REACTOR', 'CIRCUIT', 'RETURN'], preferredUpgradeIds: ['chain-twin', 'chain-reactor']
   }),
   profile({
     id: BOT_AI_TYPE.SPORE_GARDENER, themeId: THEME.BLOOM,
@@ -32,7 +32,7 @@ const PROFILES = [
     navigation: { desiredRange: 350, reactionMin: .2, reactionMax: .35 },
     targeting: { cluster: 0, xp: 26, urgency: 85, distance: .05, wounded: 0, stackGap: 32, stickiness: 115 },
     ability: { harvestStacks: 4, emergencyHp: .65, emergencyStacks: 2, terminalEnemies: 3, terminalStacks: 10 },
-    upgradePaths: ['CONTAGION', 'LEECH', 'OVERDOSE']
+    upgradePaths: ['CONTAGION', 'LEECH', 'OVERDOSE'], preferredUpgradeIds: ['bloom-garden', 'bloom-spread']
   }),
   profile({
     id: BOT_AI_TYPE.RIPE_REAPER, themeId: THEME.BLOOM,
@@ -40,7 +40,7 @@ const PROFILES = [
     navigation: { desiredRange: 335, reactionMin: .16, reactionMax: .28 },
     targeting: { cluster: 0, xp: 34, urgency: 100, distance: .05, wounded: 0, stackGap: 19, stickiness: 90 },
     ability: { harvestStacks: 3, emergencyHp: .78, emergencyStacks: 2, terminalEnemies: 2, terminalStacks: 8 },
-    upgradePaths: ['LEECH', 'CONTAGION', 'OVERDOSE']
+    upgradePaths: ['LEECH', 'CONTAGION', 'OVERDOSE'], preferredUpgradeIds: ['bloom-dash', 'bloom-overdose']
   }),
   profile({
     id: BOT_AI_TYPE.MIRROR_DUELIST, themeId: THEME.HIJACK,
@@ -48,7 +48,7 @@ const PROFILES = [
     navigation: { desiredRange: 400, reactionMin: .16, reactionMax: .28 },
     targeting: { cluster: 0, xp: 30, urgency: 90, distance: .05, wounded: 0, stackGap: 0, stickiness: 105 },
     ability: { parryWindowBonus: .08, parryClearance: 28, guardTime: .3, guardClearance: 42 },
-    upgradePaths: ['RETURN', 'SHIELD', 'DEBT']
+    upgradePaths: ['RETURN', 'SHIELD', 'DEBT'], preferredUpgradeIds: ['hijack-orbit', 'hijack-return']
   }),
   profile({
     id: BOT_AI_TYPE.BULLET_AUDITOR, themeId: THEME.HIJACK,
@@ -56,7 +56,7 @@ const PROFILES = [
     navigation: { desiredRange: 445, reactionMin: .14, reactionMax: .25 },
     targeting: { cluster: 0, xp: 26, urgency: 80, distance: .055, wounded: 0, stackGap: 0, stickiness: 125 },
     ability: { parryWindowBonus: .1, parryClearance: 32, guardTime: .38, guardClearance: 50 },
-    upgradePaths: ['SHIELD', 'RETURN', 'DEBT']
+    upgradePaths: ['SHIELD', 'RETURN', 'DEBT'], preferredUpgradeIds: ['hijack-aim', 'hijack-shield']
   })
 ];
 
@@ -79,5 +79,5 @@ export function botAiProfileForStage(themeId, stage = 1) {
 }
 
 function profile(definition) {
-  return Object.freeze({ ...definition, alternativeChance: .2 });
+  return Object.freeze({ ...definition, preferredUpgradeIds: Object.freeze([...(definition.preferredUpgradeIds ?? [])]), alternativeChance: .2 });
 }

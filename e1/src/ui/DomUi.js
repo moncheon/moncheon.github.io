@@ -11,10 +11,11 @@ export class DomUi {
       start: $('#start'), skip: $('#skip-stages'), restart: $('#restart'), newSeed: $('#new-seed'), dev: $('#dev-mode'), showcase: $('#showcase'),
       abandon: $('#abandon-run'), home: $('#end-home'),
       profile: $('#profile-summary'), achievements: $('#achievements'), draftRows: $('#draft-rows'), draftConfirm: $('#draft-confirm'),
-      draftTitle: $('#draft-title'), draftSubtitle: $('#draft-subtitle'), endSummary: $('#end-summary'), toast: $('#toast'),
+      draftTitle: $('#draft-title'), draftSubtitle: $('#draft-subtitle'), endSummary: $('#end-summary'), toast: $('#toast'), coachBubble: $('#coach-bubble'),
       transitionPlace: $('#transition-place'), transitionMeta: $('#transition-meta'), transitionReason: $('#transition-reason')
     };
     this.toastTimer = 0;
+    this.coachTimer = 0;
   }
 
   bind(actions) {
@@ -61,6 +62,20 @@ export class DomUi {
     this.nodes.draftTitle.textContent = title;
     this.nodes.draftSubtitle.textContent = subtitle;
     const selections = new Map();
+    const choiceButtons = [];
+    const syncChoiceButtons = () => {
+      for (const record of choiceButtons) {
+        const selected = selections.get(record.rowId) === record.choice;
+        const conflicts = record.choice.exclusiveGroup && [...selections.entries()].some(([rowId, choice]) => (
+          rowId !== record.rowId
+          && choice.exclusiveGroup === record.choice.exclusiveGroup
+          && choice.id !== record.choice.id
+        ));
+        record.button.classList.toggle('selected', selected);
+        record.button.disabled = Boolean(conflicts);
+      }
+      this.nodes.draftConfirm.disabled = selections.size !== rows.length;
+    };
     this.nodes.draftRows.replaceChildren(...rows.map((row, rowIndex) => {
       const section = document.createElement('section'); section.className = 'draft-row';
       const heading = document.createElement('strong'); heading.textContent = `${rowIndex + 1}. ${row.themeId.toUpperCase()}`;
@@ -69,15 +84,20 @@ export class DomUi {
         const button = document.createElement('button'); button.className = 'choice';
         button.innerHTML = `<span>${choice.path} · ${choice.rarity}</span><h3>${choice.title}</h3><p>${choice.description}</p><small>${choice.quality.join(' · ')}</small>`;
         button.addEventListener('click', () => {
+          if (choice.exclusiveGroup) {
+            for (const [selectedRowId, selectedChoice] of selections) {
+              if (selectedRowId !== row.id && selectedChoice.exclusiveGroup === choice.exclusiveGroup) selections.delete(selectedRowId);
+            }
+          }
           selections.set(row.id, choice);
-          for (const sibling of Array.from(choices.children)) sibling.classList.toggle('selected', sibling === button);
-          this.nodes.draftConfirm.disabled = selections.size !== rows.length;
+          syncChoiceButtons();
         });
+        choiceButtons.push({ button, rowId: row.id, choice });
         return button;
       }));
       section.append(heading, choices); return section;
     }));
-    this.nodes.draftConfirm.disabled = rows.length > 0;
+    syncChoiceButtons();
     this.nodes.draftConfirm.onclick = () => onConfirm(rows.map(row => ({ themeId: row.themeId, choice: selections.get(row.id) })));
     this.nodes.draft.classList.remove('hidden'); this.nodes.hud.classList.add('hidden');
   }
@@ -104,6 +124,11 @@ export class DomUi {
   }
 
   showToast(message, seconds = 1.2) { this.nodes.toast.textContent = message; this.nodes.toast.classList.remove('hidden'); this.toastTimer = Math.max(this.toastTimer, seconds); }
-  update(dt) { if (this.toastTimer > 0 && (this.toastTimer -= dt) <= 0) this.nodes.toast.classList.add('hidden'); }
-  hideOverlays() { for (const node of [this.nodes.title, this.nodes.draft, this.nodes.pause, this.nodes.end, this.nodes.transition]) node.classList.add('hidden'); }
+  showCoachBubble(message, seconds = 5) { this.nodes.coachBubble.textContent = message; this.nodes.coachBubble.classList.remove('hidden'); this.coachTimer = seconds; }
+  hideCoachBubble() { this.nodes.coachBubble.classList.add('hidden'); this.coachTimer = 0; }
+  update(dt) {
+    if (this.toastTimer > 0 && (this.toastTimer -= dt) <= 0) this.nodes.toast.classList.add('hidden');
+    if (this.coachTimer > 0 && (this.coachTimer -= dt) <= 0) this.hideCoachBubble();
+  }
+  hideOverlays() { for (const node of [this.nodes.title, this.nodes.draft, this.nodes.pause, this.nodes.end, this.nodes.transition]) node.classList.add('hidden'); this.hideCoachBubble(); }
 }

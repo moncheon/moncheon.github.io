@@ -1,0 +1,460 @@
+{
+  "version": 2,
+  "assets": [
+    {
+      "id": "title.vietnam",
+      "type": "image",
+      "group": "global",
+      "url": "./assets/generated/title-vietnam.webp",
+      "fallback": "procedural.title.vietnam"
+    },
+    {
+      "id": "ui.motifs",
+      "type": "image",
+      "group": "global",
+      "url": "./assets/generated/ui-motifs.webp",
+      "fallback": "procedural.ui.vietnam"
+    },
+    {
+      "id": "player.chain",
+      "type": "image",
+      "group": "global",
+      "url": "./assets/generated/player-chain.webp",
+      "fallback": "procedural.player.chain"
+    },
+    {
+      "id": "player.bloom",
+      "type": "image",
+      "group": "global",
+      "url": "./assets/generated/player-bloom.webp",
+      "fallback": "procedural.player.bloom"
+    },
+    {
+      "id": "player.hijack",
+      "type": "image",
+      "group": "global",
+      "url": "./assets/generated/player-hijack.webp",
+      "fallback": "procedural.player.hijack"
+    },
+    {
+      "id": "stage.01.map",
+      "type": "image",
+      "group": "stage-01",
+      "url": "./assets/generated/stage-01-map.webp",
+      "fallback": "procedural.background.vietnam"
+    },
+    {
+      "id": "stage.01.enemy.basic",
+      "type": "image",
+      "group": "stage-01",
+      "url": "./assets/generated/stage-01-enemy-basic.webp",
+      "fallback": "procedural.enemy.basic"
+    },
+    {
+      "id": "stage.01.enemy.interceptor",
+      "type": "image",
+      "group": "stage-01",
+      "url": "./assets/generated/stage-01-enemy-interceptor.webp",
+      "fallback": "procedural.enemy.interceptor"
+    },
+    {
+      "id": "stage.01.enemy.curve",
+      "type": "image",
+      "group": "stage-01",
+      "url": "./assets/generated/stage-01-enemy-curve.webp",
+      "fallback": "procedural.enemy.curve"
+    },
+    {
+      "id": "stage.01.boss",
+      "type": "image",
+      "group": "stage-01",
+      "url": "./assets/generated/stage-01-boss.webp",
+      "fallback": "procedural.boss.vietnam"
+    },
+    {
+      "id": "stage.02.map",
+      "type": "image",
+      "group": "stage-02",
+      "url": "./assets/generated/stage-02-map.webp",
+      "fallback": "procedural.background.vietnam"
+    },
+    {
+      "id": "stage.02.enemy.basic",
+      "type": "image",
+      "group": "stage-02",
+      "url": "./assets/generated/stage-02-enemy-basic.webp",
+      "fallback": "procedural.enemy.basic"
+    },
+    {
+      "id": "stage.02.enemy.interceptor",
+      "type": "image",
+      "group": "stage-02",
+      "url": "./assets/generated/stage-02-enemy-interceptor.webp",
+      "fallback": "procedural.enemy.interceptor"
+    },
+    {
+      "id": "stage.02.enemy.curve",
+      "type": "image",
+      "group": "stage-02",
+      "url": "./assets/generated/stage-02-enemy-curve.webp",
+      "fallback": "procedural.enemy.curve"
+    },
+    {
+      "id": "stage.02.boss",
+      "type": "image",
+      "group": "stage-02",
+      "url": "./assets/generated/stage-02-boss.webp",
+      "fallback": "procedural.boss.vietnam"
+    },
+    {
+      "id": "stage.03.map",
+      "type": "image",
+      "group": "stage-03",
+      "url": "./assets/generated/stage-03-map.webp",
+      "fallback": "procedural.background.vietnam"
+    },
+    {
+      "id": "stage.03.enemy.basic",
+      "type": "image",
+      "group": "stage-03",
+      "url": "./assets/generated/stage-03-enemy-basic.webp",
+      "fallback": "procedural.enemy.basic"
+    },
+    {
+      "id": "stage.03.enemy.interceptor",
+      "type": "image",
+      "group": "stage-03",
+      "url": "./assets/generated/stage-03-enemy-interceptor.webp",
+      "fallback": "procedural.enemy.interceptor"
+    },
+    {
+      "id": "stage.03.enemy.curve",
+      "type": "image",
+      "group": "stage-03",
+      "url": "./assets/generated/stage-03-enemy-curve.webp",
+      "fallback": "procedural.enemy.curve"
+    },
+    {
+      "id": "stage.03.boss",
+      "type": "image",
+      "group": "stage-03",
+      "url": "./assets/generated/stage-03-boss.webp",
+      "fallback": "procedural.boss.vietnam"
+    },
+    {
+      "id": "stage.04.map",
+      "type": "image",
+      "group": "stage-04",
+      "url": "./assets/generated/stage-04-map.webp",
+      "fallback": "procedural.background.vietnam"
+    },
+    {
+      "id": "stage.04.enemy.basic",
+      "type": "image",
+      "group": "stage-04",
+      "url": "./assets/generated/stage-04-enemy-basic.webp",
+      "fallback": "procedural.enemy.basic"
+    },
+    {
+      "id": "stage.04.enemy.interceptor",
+      "type": "image",
+      "group": "stage-04",
+      "url": "./assets/generated/stage-04-enemy-interceptor.webp",
+      "fallback": "procedural.enemy.interceptor"
+    },
+    {
+      "id": "stage.04.enemy.curve",
+      "type": "image",
+      "group": "stage-04",
+      "url": "./assets/generated/stage-04-enemy-curve.webp",
+      "fallback": "procedural.enemy.curve"
+    },
+    {
+      "id": "stage.04.boss",
+      "type": "image",
+      "group": "stage-04",
+      "url": "./assets/generated/stage-04-boss.webp",
+      "fallback": "procedural.boss.vietnam"
+    },
+    {
+      "id": "stage.05.map",
+      "type": "image",
+      "group": "stage-05",
+      "url": "./assets/generated/stage-05-map.webp",
+      "fallback": "procedural.background.vietnam"
+    },
+    {
+      "id": "stage.05.enemy.basic",
+      "type": "image",
+      "group": "stage-05",
+      "url": "./assets/generated/stage-05-enemy-basic.webp",
+      "fallback": "procedural.enemy.basic"
+    },
+    {
+      "id": "stage.05.enemy.interceptor",
+      "type": "image",
+      "group": "stage-05",
+      "url": "./assets/generated/stage-05-enemy-interceptor.webp",
+      "fallback": "procedural.enemy.interceptor"
+    },
+    {
+      "id": "stage.05.enemy.curve",
+      "type": "image",
+      "group": "stage-05",
+      "url": "./assets/generated/stage-05-enemy-curve.webp",
+      "fallback": "procedural.enemy.curve"
+    },
+    {
+      "id": "stage.05.boss",
+      "type": "image",
+      "group": "stage-05",
+      "url": "./assets/generated/stage-05-boss.webp",
+      "fallback": "procedural.boss.vietnam"
+    },
+    {
+      "id": "stage.06.map",
+      "type": "image",
+      "group": "stage-06",
+      "url": "./assets/generated/stage-06-map.webp",
+      "fallback": "procedural.background.vietnam"
+    },
+    {
+      "id": "stage.06.enemy.basic",
+      "type": "image",
+      "group": "stage-06",
+      "url": "./assets/generated/stage-06-enemy-basic.webp",
+      "fallback": "procedural.enemy.basic"
+    },
+    {
+      "id": "stage.06.enemy.interceptor",
+      "type": "image",
+      "group": "stage-06",
+      "url": "./assets/generated/stage-06-enemy-interceptor.webp",
+      "fallback": "procedural.enemy.interceptor"
+    },
+    {
+      "id": "stage.06.enemy.curve",
+      "type": "image",
+      "group": "stage-06",
+      "url": "./assets/generated/stage-06-enemy-curve.webp",
+      "fallback": "procedural.enemy.curve"
+    },
+    {
+      "id": "stage.06.boss",
+      "type": "image",
+      "group": "stage-06",
+      "url": "./assets/generated/stage-06-boss.webp",
+      "fallback": "procedural.boss.vietnam"
+    },
+    {
+      "id": "stage.07.map",
+      "type": "image",
+      "group": "stage-07",
+      "url": "./assets/generated/stage-07-map.webp",
+      "fallback": "procedural.background.vietnam"
+    },
+    {
+      "id": "stage.07.enemy.basic",
+      "type": "image",
+      "group": "stage-07",
+      "url": "./assets/generated/stage-07-enemy-basic.webp",
+      "fallback": "procedural.enemy.basic"
+    },
+    {
+      "id": "stage.07.enemy.interceptor",
+      "type": "image",
+      "group": "stage-07",
+      "url": "./assets/generated/stage-07-enemy-interceptor.webp",
+      "fallback": "procedural.enemy.interceptor"
+    },
+    {
+      "id": "stage.07.enemy.curve",
+      "type": "image",
+      "group": "stage-07",
+      "url": "./assets/generated/stage-07-enemy-curve.webp",
+      "fallback": "procedural.enemy.curve"
+    },
+    {
+      "id": "stage.07.boss",
+      "type": "image",
+      "group": "stage-07",
+      "url": "./assets/generated/stage-07-boss.webp",
+      "fallback": "procedural.boss.vietnam"
+    },
+    {
+      "id": "stage.08.map",
+      "type": "image",
+      "group": "stage-08",
+      "url": "./assets/generated/stage-08-map.webp",
+      "fallback": "procedural.background.vietnam"
+    },
+    {
+      "id": "stage.08.enemy.basic",
+      "type": "image",
+      "group": "stage-08",
+      "url": "./assets/generated/stage-08-enemy-basic.webp",
+      "fallback": "procedural.enemy.basic"
+    },
+    {
+      "id": "stage.08.enemy.interceptor",
+      "type": "image",
+      "group": "stage-08",
+      "url": "./assets/generated/stage-08-enemy-interceptor.webp",
+      "fallback": "procedural.enemy.interceptor"
+    },
+    {
+      "id": "stage.08.enemy.curve",
+      "type": "image",
+      "group": "stage-08",
+      "url": "./assets/generated/stage-08-enemy-curve.webp",
+      "fallback": "procedural.enemy.curve"
+    },
+    {
+      "id": "stage.08.boss",
+      "type": "image",
+      "group": "stage-08",
+      "url": "./assets/generated/stage-08-boss.webp",
+      "fallback": "procedural.boss.vietnam"
+    },
+    {
+      "id": "stage.09.map",
+      "type": "image",
+      "group": "stage-09",
+      "url": "./assets/generated/stage-09-map.webp",
+      "fallback": "procedural.background.vietnam"
+    },
+    {
+      "id": "stage.09.enemy.basic",
+      "type": "image",
+      "group": "stage-09",
+      "url": "./assets/generated/stage-09-enemy-basic.webp",
+      "fallback": "procedural.enemy.basic"
+    },
+    {
+      "id": "stage.09.enemy.interceptor",
+      "type": "image",
+      "group": "stage-09",
+      "url": "./assets/generated/stage-09-enemy-interceptor.webp",
+      "fallback": "procedural.enemy.interceptor"
+    },
+    {
+      "id": "stage.09.enemy.curve",
+      "type": "image",
+      "group": "stage-09",
+      "url": "./assets/generated/stage-09-enemy-curve.webp",
+      "fallback": "procedural.enemy.curve"
+    },
+    {
+      "id": "stage.09.boss",
+      "type": "image",
+      "group": "stage-09",
+      "url": "./assets/generated/stage-09-boss.webp",
+      "fallback": "procedural.boss.vietnam"
+    },
+    {
+      "id": "stage.10.map",
+      "type": "image",
+      "group": "stage-10",
+      "url": "./assets/generated/stage-10-map.webp",
+      "fallback": "procedural.background.vietnam"
+    },
+    {
+      "id": "stage.10.enemy.basic",
+      "type": "image",
+      "group": "stage-10",
+      "url": "./assets/generated/stage-10-enemy-basic.webp",
+      "fallback": "procedural.enemy.basic"
+    },
+    {
+      "id": "stage.10.enemy.interceptor",
+      "type": "image",
+      "group": "stage-10",
+      "url": "./assets/generated/stage-10-enemy-interceptor.webp",
+      "fallback": "procedural.enemy.interceptor"
+    },
+    {
+      "id": "stage.10.enemy.curve",
+      "type": "image",
+      "group": "stage-10",
+      "url": "./assets/generated/stage-10-enemy-curve.webp",
+      "fallback": "procedural.enemy.curve"
+    },
+    {
+      "id": "stage.10.boss",
+      "type": "image",
+      "group": "stage-10",
+      "url": "./assets/generated/stage-10-boss.webp",
+      "fallback": "procedural.boss.vietnam"
+    },
+    {
+      "id": "stage.11.map",
+      "type": "image",
+      "group": "stage-11",
+      "url": "./assets/generated/stage-11-map.webp",
+      "fallback": "procedural.background.vietnam"
+    },
+    {
+      "id": "stage.11.enemy.basic",
+      "type": "image",
+      "group": "stage-11",
+      "url": "./assets/generated/stage-11-enemy-basic.webp",
+      "fallback": "procedural.enemy.basic"
+    },
+    {
+      "id": "stage.11.enemy.interceptor",
+      "type": "image",
+      "group": "stage-11",
+      "url": "./assets/generated/stage-11-enemy-interceptor.webp",
+      "fallback": "procedural.enemy.interceptor"
+    },
+    {
+      "id": "stage.11.enemy.curve",
+      "type": "image",
+      "group": "stage-11",
+      "url": "./assets/generated/stage-11-enemy-curve.webp",
+      "fallback": "procedural.enemy.curve"
+    },
+    {
+      "id": "stage.11.boss",
+      "type": "image",
+      "group": "stage-11",
+      "url": "./assets/generated/stage-11-boss.webp",
+      "fallback": "procedural.boss.vietnam"
+    },
+    {
+      "id": "stage.12.map",
+      "type": "image",
+      "group": "stage-12",
+      "url": "./assets/generated/stage-12-map.webp",
+      "fallback": "procedural.background.vietnam"
+    },
+    {
+      "id": "stage.12.enemy.basic",
+      "type": "image",
+      "group": "stage-12",
+      "url": "./assets/generated/stage-12-enemy-basic.webp",
+      "fallback": "procedural.enemy.basic"
+    },
+    {
+      "id": "stage.12.enemy.interceptor",
+      "type": "image",
+      "group": "stage-12",
+      "url": "./assets/generated/stage-12-enemy-interceptor.webp",
+      "fallback": "procedural.enemy.interceptor"
+    },
+    {
+      "id": "stage.12.enemy.curve",
+      "type": "image",
+      "group": "stage-12",
+      "url": "./assets/generated/stage-12-enemy-curve.webp",
+      "fallback": "procedural.enemy.curve"
+    },
+    {
+      "id": "stage.12.boss",
+      "type": "image",
+      "group": "stage-12",
+      "url": "./assets/generated/stage-12-boss.webp",
+      "fallback": "procedural.boss.vietnam"
+    }
+  ]
+}

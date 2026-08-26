@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <meta name="description" content="베트남 골목의 일상 리듬을 달리는 브라우저 액션 게임">
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" href="styles.css?v=2">
+  <title>Nhịp Phố — Evolution Relay</title>
+</head>
+<body>
+  <main id="app">
+    <canvas id="game" width="1280" height="720" aria-label="게임 화면"></canvas>
+
+    <section id="hud" class="hud hidden" aria-live="polite">
+      <div class="hud-group"><strong id="theme-stat"></strong><small id="stage-weather"></small><span id="health"></span><span id="level"></span></div>
+      <div class="hud-group center"><strong id="timer"></strong><span id="ability-hint"></span></div>
+      <div class="hud-group right"><span id="score"></span><strong id="combo"></strong></div>
+    </section>
+
+    <section id="title-screen" class="overlay title-screen">
+      <h1><span>NHỊP PHỐ</span><small>EVOLUTION RELAY</small></h1>
+      <p class="tagline">베트남 골목을 누비는 하루<br><span lang="vi">Một ngày rong ruổi qua những con hẻm Việt Nam</span></p>
+      <div class="rule-ribbon" aria-label="세 전투 규칙"><span>〰 CHAIN</span><span>❀ BLOOM</span><span>◇ HIJACK</span></div>
+      <div id="profile-summary" class="profile-summary"></div>
+      <div class="button-row">
+        <button id="start" class="primary">새 캠페인 시작</button>
+        <button id="skip-stages" class="secondary hidden">스테이지 일괄 스킵</button>
+        <button id="dev-mode" class="secondary">개발 관전</button>
+      </div>
+      <p class="quick-controls"><b>WASD</b> 이동 · <b>F</b> 자동 공격</p>
+      <details class="title-drawer">
+        <summary>기록과 조작 보기</summary>
+        <div id="achievements" class="achievements" aria-label="업적 목록"></div>
+        <p class="controls"><b>Q</b> 수확 · <b>E</b> 패링/가드 · <b>Shift/Space</b> 대시 · <b>T</b> 3배속 · <b>P/Esc</b> 일시정지 · <b>M</b> 음소거</p>
+        <p class="hint">마우스는 조준에만 사용하며 버튼은 공격하지 않습니다.</p>
+      </details>
+    </section>
+
+    <section id="stage-transition" class="overlay stage-transition hidden" aria-live="assertive">
+      <p class="eyebrow">ĐIỂM DỪNG TIẾP THEO · 다음 골목</p>
+      <h2 id="transition-place"></h2>
+      <p id="transition-meta" class="tagline"></p>
+      <strong id="transition-reason" class="transition-reason"></strong>
+    </section>
+
+    <section id="draft-screen" class="overlay draft-screen hidden">
+      <p class="eyebrow">CHỌN NHỊP · 진화 선택</p>
+      <h2 id="draft-title">능력 선택</h2>
+      <p id="draft-subtitle" class="tagline"></p>
+      <div id="draft-rows" class="draft-rows"></div>
+      <button id="draft-confirm" class="primary" disabled>선택 확정 후 전투 시작</button>
+    </section>
+
+    <section id="pause-screen" class="overlay compact hidden">
+      <p class="eyebrow">TẠM NGHỈ · 잠시 쉬어가기</p>
+      <h2>일시정지</h2>
+      <p><b>P / Escape</b> 계속 · <b>Q</b> 캠페인 포기</p>
+      <button id="abandon-run" class="secondary">캠페인 포기 (Q)</button>
+    </section>
+
+    <section id="end-screen" class="overlay hidden">
+      <p class="eyebrow">HẾT MỘT VÒNG · 한 바퀴 종료</p>
+      <h2>빠르게 죽고, 더 강하게 다시</h2>
+      <p id="end-summary" class="tagline"></p>
+      <div class="button-row">
+        <button id="restart" class="primary">같은 Seed로 재도전</button>
+        <button id="new-seed" class="secondary">새 Seed로 시작</button>
+        <button id="end-home" class="secondary">홈으로 (H)</button>
+      </div>
+    </section>
+
+    <div id="toast" class="toast hidden" role="status" aria-live="assertive"></div>
+
+    <section id="showcase" class="showcase hidden" aria-label="4분할 개발 관전 모드">
+      <article class="dev-panel direct-panel">
+        <canvas id="dev-manual-canvas" width="1280" height="720" aria-label="직접 플레이 테스트 화면"></canvas>
+        <header class="dev-panel-head">
+          <strong>DIRECT</strong><span data-dev-hud="manual"></span>
+          <div class="dev-actions">
+            <button data-dev-theme="chain">CHAIN</button><button data-dev-theme="bloom">BLOOM</button><button data-dev-theme="hijack">HIJACK</button>
+            <button id="dev-speed">DIRECT SPEED 1× (T)</button><button id="dev-exit">테스트 종료</button>
+          </div>
+        </header>
+        <section id="dev-direct-draft" class="dev-draft hidden">
+          <strong>직접 플레이 진화 선택</strong><div id="dev-direct-choices"></div>
+        </section>
+        <p class="dev-focus-hint">3×: Shift 집중 1× · 중앙 6px 피격 · Space 대시</p>
+      </article>
+      <article class="dev-panel"><canvas id="dev-chain-canvas" width="1280" height="720" aria-label="Chain 자동 플레이"></canvas><header class="dev-panel-head"><strong>CHAIN AUTO</strong><span data-dev-hud="auto-chain"></span><small data-dev-ai="auto-chain"></small></header></article>
+      <article class="dev-panel"><canvas id="dev-bloom-canvas" width="1280" height="720" aria-label="Bloom 자동 플레이"></canvas><header class="dev-panel-head"><strong>BLOOM AUTO</strong><span data-dev-hud="auto-bloom"></span><small data-dev-ai="auto-bloom"></small></header></article>
+      <article class="dev-panel"><canvas id="dev-hijack-canvas" width="1280" height="720" aria-label="Hijack 자동 플레이"></canvas><header class="dev-panel-head"><strong>HIJACK AUTO</strong><span data-dev-hud="auto-hijack"></span><small data-dev-ai="auto-hijack"></small></header></article>
+    </section>
+  </main>
+  <script type="module" src="src/main.js?v=3"></script>
+</body>
+</html>

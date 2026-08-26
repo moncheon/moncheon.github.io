@@ -1,0 +1,814 @@
+{
+  "schema": "evolution-relay.asset-pack.v1",
+  "source_run": "vietnam-20260826-v16-final",
+  "generator": "DreamShaperXL_Turbo_v2.safetensors",
+  "generator_license": "OpenRAIL++",
+  "background_removal": "edge-connected-flat-background-v1",
+  "background_removal_review": "BiRefNet was tested first and rejected for this flat studio set after retaining the backdrop; the deterministic color-key path passed alpha and visual QA.",
+  "source_spec": "art/vietnam-stage-assets.json",
+  "assets": [
+    {
+      "asset_id": "title-vietnam",
+      "sha256": "8f708997bf221a7bff1b8c9cc2179f2557a224f95ba35c3693c50050a100cb0b",
+      "bytes": 16898,
+      "width": 512,
+      "height": 288,
+      "mode": "RGB",
+      "alpha_range": null,
+      "opaque_fraction": null
+    },
+    {
+      "asset_id": "ui-motifs",
+      "sha256": "ebfad469da8a0e5544f05369a34bdbcae51fb0946dca7b53332edc66defb0133",
+      "bytes": 6820,
+      "width": 512,
+      "height": 512,
+      "mode": "RGB",
+      "alpha_range": null,
+      "opaque_fraction": null
+    },
+    {
+      "asset_id": "player-chain",
+      "sha256": "7475a716092c8f416a568971881450447f88af3dae84dd58ef948cde3c8ab88c",
+      "bytes": 9880,
+      "width": 256,
+      "height": 256,
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ],
+      "opaque_fraction": 0.5333
+    },
+    {
+      "asset_id": "player-bloom",
+      "sha256": "184ae73b437221a3673dd79250434dd57ee79fa65a538853aee08be933ee013e",
+      "bytes": 8292,
+      "width": 256,
+      "height": 256,
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ],
+      "opaque_fraction": 0.4031
+    },
+    {
+      "asset_id": "player-hijack",
+      "sha256": "a49d353aee4b4b4e123cbb54561420fd5cd444d2adf21242ca7de5f4e6fe99a3",
+      "bytes": 8546,
+      "width": 256,
+      "height": 256,
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ],
+      "opaque_fraction": 0.3838
+    },
+    {
+      "asset_id": "stage-01-map",
+      "sha256": "0a4c962bafaf5a4f81fdc62eca68520e5942adef5bcdac18baeebdeabede98bc",
+      "bytes": 3548,
+      "width": 512,
+      "height": 288,
+      "mode": "RGB",
+      "alpha_range": null,
+      "opaque_fraction": null
+    },
+    {
+      "asset_id": "stage-01-enemy-basic",
+      "sha256": "66ba10dab3e2cd060f24eecb914a2dc36b1905ae75cf4a04cc76498391d1b467",
+      "bytes": 7258,
+      "width": 256,
+      "height": 256,
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ],
+      "opaque_fraction": 0.5294
+    },
+    {
+      "asset_id": "stage-01-enemy-interceptor",
+      "sha256": "7d3a38e133166fa1781b5c26019f896b5186baf08342695ded42eb0ae910393d",
+      "bytes": 7418,
+      "width": 256,
+      "height": 256,
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ],
+      "opaque_fraction": 0.3142
+    },
+    {
+      "asset_id": "stage-01-enemy-curve",
+      "sha256": "9c9ec116fb12ab22ce2635490f48b66a37de3a7e255aa1b1c144288f4d56ea6a",
+      "bytes": 7006,
+      "width": 256,
+      "height": 256,
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ],
+      "opaque_fraction": 0.2134
+    },
+    {
+      "asset_id": "stage-01-boss",
+      "sha256": "0debcb93f23980872c59966a5e583b9faf1f6c5e5891b578198824bdd259da26",
+      "bytes": 12130,
+      "width": 384,
+      "height": 384,
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ],
+      "opaque_fraction": 0.3981
+    },
+    {
+      "asset_id": "stage-02-map",
+      "sha256": "4a2b2d8a3ded567fb9066e50457c2e09bbe533738a71146cd9644ab9cc789cfa",
+      "bytes": 3136,
+      "width": 512,
+      "height": 288,
+      "mode": "RGB",
+      "alpha_range": null,
+      "opaque_fraction": null
+    },
+    {
+      "asset_id": "stage-02-enemy-basic",
+      "sha256": "362079badf9dd1ea32a7e2ec2f090c5dae056063e9f256603533c4122f779c84",
+      "bytes": 7262,
+      "width": 256,
+      "height": 256,
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ],
+      "opaque_fraction": 0.5311
+    },
+    {
+      "asset_id": "stage-02-enemy-interceptor",
+      "sha256": "4be70d6f63c618e33c5e43ac32960b6366eb69f614f4f828763f8125f6626ead",
+      "bytes": 7244,
+      "width": 256,
+      "height": 256,
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ],
+      "opaque_fraction": 0.3125
+    },
+    {
+      "asset_id": "stage-02-enemy-curve",
+      "sha256": "3a2c5c438078d2e9d8844dbc9ff6891a20bf047280649b70f2055c48f4510a3b",
+      "bytes": 6914,
+      "width": 256,
+      "height": 256,
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ],
+      "opaque_fraction": 0.2152
+    },
+    {
+      "asset_id": "stage-02-boss",
+      "sha256": "14ac2708fbe96063c999152271fa89bc67a74fc8d24cc98cb150363146ccdd0e",
+      "bytes": 12008,
+      "width": 384,
+      "height": 384,
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ],
+      "opaque_fraction": 0.3954
+    },
+    {
+      "asset_id": "stage-03-map",
+      "sha256": "0b98a39e9f47c521bd19e5e743adc85204776eb93e0a3bb360e732aa6a6225f2",
+      "bytes": 3246,
+      "width": 512,
+      "height": 288,
+      "mode": "RGB",
+      "alpha_range": null,
+      "opaque_fraction": null
+    },
+    {
+      "asset_id": "stage-03-enemy-basic",
+      "sha256": "80db3c50c54d05ddb3ae150f142c120e249ee0e7e236d4cedf17539cd9d61cb1",
+      "bytes": 7488,
+      "width": 256,
+      "height": 256,
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ],
+      "opaque_fraction": 0.5275
+    },
+    {
+      "asset_id": "stage-03-enemy-interceptor",
+      "sha256": "569824704974dc4c3c44901ebae75bd25a57361eef987b8ea57cfe76b2026019",
+      "bytes": 7290,
+      "width": 256,
+      "height": 256,
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ],
+      "opaque_fraction": 0.3151
+    },
+    {
+      "asset_id": "stage-03-enemy-curve",
+      "sha256": "2b389a97493c86ef285277b2875aab8d2a8db104170e01ab295a7f1d8a2a80ab",
+      "bytes": 7152,
+      "width": 256,
+      "height": 256,
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ],
+      "opaque_fraction": 0.2163
+    },
+    {
+      "asset_id": "stage-03-boss",
+      "sha256": "05d44afd4b04eeed69899679ca07a2515b93a3eb69221b151643e10346ad60f9",
+      "bytes": 12078,
+      "width": 384,
+      "height": 384,
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ],
+      "opaque_fraction": 0.3967
+    },
+    {
+      "asset_id": "stage-04-map",
+      "sha256": "03c5d2df843b4d514156718d7ccb28f018dd42f08621cd6d93c199fe5fc45c3c",
+      "bytes": 3906,
+      "width": 512,
+      "height": 288,
+      "mode": "RGB",
+      "alpha_range": null,
+      "opaque_fraction": null
+    },
+    {
+      "asset_id": "stage-04-enemy-basic",
+      "sha256": "ac10e0f533a7749fefa7aec3ec7bf7d9c952da1da30c813f8c7233215b2d7aef",
+      "bytes": 7584,
+      "width": 256,
+      "height": 256,
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ],
+      "opaque_fraction": 0.5347
+    },
+    {
+      "asset_id": "stage-04-enemy-interceptor",
+      "sha256": "b314bc2c0643240663573fe26462e4cf8a471a691c576c6909a407aaf2243a70",
+      "bytes": 7330,
+      "width": 256,
+      "height": 256,
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ],
+      "opaque_fraction": 0.3146
+    },
+    {
+      "asset_id": "stage-04-enemy-curve",
+      "sha256": "81c8299e046255da01c1e83966f46599e2089cfc97864cf62cbb8811fb9cd348",
+      "bytes": 7432,
+      "width": 256,
+      "height": 256,
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ],
+      "opaque_fraction": 0.2155
+    },
+    {
+      "asset_id": "stage-04-boss",
+      "sha256": "99dafe29b239365ec38732d2afc9b541bbad55e566c33b2a01b76b6e6877d3b2",
+      "bytes": 12170,
+      "width": 384,
+      "height": 384,
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ],
+      "opaque_fraction": 0.3965
+    },
+    {
+      "asset_id": "stage-05-map",
+      "sha256": "fce046a44eb34552fb3c9dfc9ad33404fa296bab21068fe7ff7df99b269affb3",
+      "bytes": 4250,
+      "width": 512,
+      "height": 288,
+      "mode": "RGB",
+      "alpha_range": null,
+      "opaque_fraction": null
+    },
+    {
+      "asset_id": "stage-05-enemy-basic",
+      "sha256": "978172d87e4c608dd5e1e1fcd6de31d29cfac774e8b18ae22bf28732bb216c6a",
+      "bytes": 7670,
+      "width": 256,
+      "height": 256,
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ],
+      "opaque_fraction": 0.53
+    },
+    {
+      "asset_id": "stage-05-enemy-interceptor",
+      "sha256": "559622f462252cb63300339eaa3165ecb40a149c49cab9d30cc6fadb6e4d763b",
+      "bytes": 7590,
+      "width": 256,
+      "height": 256,
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ],
+      "opaque_fraction": 0.3152
+    },
+    {
+      "asset_id": "stage-05-enemy-curve",
+      "sha256": "611b8515828b0c817f319fc8743c8cfc27f21036d2c929cd270e695df089d8e6",
+      "bytes": 7416,
+      "width": 256,
+      "height": 256,
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ],
+      "opaque_fraction": 0.2141
+    },
+    {
+      "asset_id": "stage-05-boss",
+      "sha256": "358f65d9a89214f70229d2f74a123c6a6d884eaeef599e77b9c380f2cd27439a",
+      "bytes": 12152,
+      "width": 384,
+      "height": 384,
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ],
+      "opaque_fraction": 0.3958
+    },
+    {
+      "asset_id": "stage-06-map",
+      "sha256": "7cea1e895c2a4c428fa0bd3c5aaff1d7bb7bb6c24ff49b1208c37f1e28e0a8c2",
+      "bytes": 3390,
+      "width": 512,
+      "height": 288,
+      "mode": "RGB",
+      "alpha_range": null,
+      "opaque_fraction": null
+    },
+    {
+      "asset_id": "stage-06-enemy-basic",
+      "sha256": "7e716e23f1dbfcdfd452d72f92387b2e7f7ec969225979059d905f842dc4acf7",
+      "bytes": 7364,
+      "width": 256,
+      "height": 256,
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ],
+      "opaque_fraction": 0.5335
+    },
+    {
+      "asset_id": "stage-06-enemy-interceptor",
+      "sha256": "4f65f8b7734273993ceb1ad46529b757c0db93feb6bb47a2755bfcd158d2a602",
+      "bytes": 7040,
+      "width": 256,
+      "height": 256,
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ],
+      "opaque_fraction": 0.3146
+    },
+    {
+      "asset_id": "stage-06-enemy-curve",
+      "sha256": "98c8041cb88210d5cef120a807c931c8ea7d344c9ecbe9a2b7f1ad1b5175192a",
+      "bytes": 7042,
+      "width": 256,
+      "height": 256,
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ],
+      "opaque_fraction": 0.2165
+    },
+    {
+      "asset_id": "stage-06-boss",
+      "sha256": "e428e680d5921d0f988e88cf9ed3954fbaf2abb6e773f4a173d50ad7e95dcf9f",
+      "bytes": 11936,
+      "width": 384,
+      "height": 384,
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ],
+      "opaque_fraction": 0.3942
+    },
+    {
+      "asset_id": "stage-07-map",
+      "sha256": "acb253b0f77fb8be918d1fff05dfb1489c71355ac6c09f860ad9d0142b071429",
+      "bytes": 4494,
+      "width": 512,
+      "height": 288,
+      "mode": "RGB",
+      "alpha_range": null,
+      "opaque_fraction": null
+    },
+    {
+      "asset_id": "stage-07-enemy-basic",
+      "sha256": "d023d8264d0f52e6930fc7242830fb38794990f3136be28e50cf05e05d26633d",
+      "bytes": 7868,
+      "width": 256,
+      "height": 256,
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ],
+      "opaque_fraction": 0.5326
+    },
+    {
+      "asset_id": "stage-07-enemy-interceptor",
+      "sha256": "b8584cf71be49660eedda0377ee15c8e41ded3ab10aeb0c59d101435145a5726",
+      "bytes": 7688,
+      "width": 256,
+      "height": 256,
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ],
+      "opaque_fraction": 0.3141
+    },
+    {
+      "asset_id": "stage-07-enemy-curve",
+      "sha256": "03caab90ddb5d241da72231502264a414e267554137004cb45f42b16e099ff21",
+      "bytes": 7444,
+      "width": 256,
+      "height": 256,
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ],
+      "opaque_fraction": 0.2162
+    },
+    {
+      "asset_id": "stage-07-boss",
+      "sha256": "65308a81e96ab6c2ce597657e13396b7497aef60bb0f8c116ea647650fbc60a1",
+      "bytes": 12468,
+      "width": 384,
+      "height": 384,
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ],
+      "opaque_fraction": 0.3922
+    },
+    {
+      "asset_id": "stage-08-map",
+      "sha256": "18ec0b6ef258062bdb46ed4e4d1be3dadee3373b8a0b7d9472ef4cfd09494bc5",
+      "bytes": 4004,
+      "width": 512,
+      "height": 288,
+      "mode": "RGB",
+      "alpha_range": null,
+      "opaque_fraction": null
+    },
+    {
+      "asset_id": "stage-08-enemy-basic",
+      "sha256": "8e8ab5d2077e6b8e5d22e52a8b52f3333869f16ba60e6e2872c72f030d313d68",
+      "bytes": 7680,
+      "width": 256,
+      "height": 256,
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ],
+      "opaque_fraction": 0.5323
+    },
+    {
+      "asset_id": "stage-08-enemy-interceptor",
+      "sha256": "2ff4566d24ee1a731d9d4546b6934ecdaba3cf2417d5c65a42f0990110117597",
+      "bytes": 7554,
+      "width": 256,
+      "height": 256,
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ],
+      "opaque_fraction": 0.3125
+    },
+    {
+      "asset_id": "stage-08-enemy-curve",
+      "sha256": "07bae72c9873dac980bbe643172e8f5a8441eabeca242805c1ada8356372c13c",
+      "bytes": 7384,
+      "width": 256,
+      "height": 256,
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ],
+      "opaque_fraction": 0.2144
+    },
+    {
+      "asset_id": "stage-08-boss",
+      "sha256": "5f02be412bd47b83622fb06faca1ea726c6900a7279020555ba2c7aa5cfeb7a9",
+      "bytes": 12306,
+      "width": 384,
+      "height": 384,
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ],
+      "opaque_fraction": 0.3958
+    },
+    {
+      "asset_id": "stage-09-map",
+      "sha256": "9eeeec0b58bb470b9ececd8a15404af739c7ca8452ffef22a846f6c46a006c60",
+      "bytes": 5326,
+      "width": 512,
+      "height": 288,
+      "mode": "RGB",
+      "alpha_range": null,
+      "opaque_fraction": null
+    },
+    {
+      "asset_id": "stage-09-enemy-basic",
+      "sha256": "b4823851f04ae55a4e79605fd72f4be955e1021a37325e9bbcca6b2a6262ac32",
+      "bytes": 8036,
+      "width": 256,
+      "height": 256,
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ],
+      "opaque_fraction": 0.5328
+    },
+    {
+      "asset_id": "stage-09-enemy-interceptor",
+      "sha256": "b4297e8e112584567723e56dd36af531844ef9fd143927bcaa1a1a58abd80263",
+      "bytes": 7628,
+      "width": 256,
+      "height": 256,
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ],
+      "opaque_fraction": 0.3135
+    },
+    {
+      "asset_id": "stage-09-enemy-curve",
+      "sha256": "19f3514122fbba49275616d8b8513ab78a8be66c29578762667e49902b9ebe62",
+      "bytes": 7748,
+      "width": 256,
+      "height": 256,
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ],
+      "opaque_fraction": 0.2138
+    },
+    {
+      "asset_id": "stage-09-boss",
+      "sha256": "2451a3cc7ccb860e656563b52536a371340dbaafe8bdeafee6c03a3eed826d59",
+      "bytes": 12640,
+      "width": 384,
+      "height": 384,
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ],
+      "opaque_fraction": 0.395
+    },
+    {
+      "asset_id": "stage-10-map",
+      "sha256": "a72d8d6d10e1bfd14961f9510bd74df92d77788d47d6b016e65c5287fc5e8a43",
+      "bytes": 4188,
+      "width": 512,
+      "height": 288,
+      "mode": "RGB",
+      "alpha_range": null,
+      "opaque_fraction": null
+    },
+    {
+      "asset_id": "stage-10-enemy-basic",
+      "sha256": "13afef8ac5286244fdd6ced2dc7de255fd12df20b0880d71c8ca88eb76d43b0b",
+      "bytes": 7440,
+      "width": 256,
+      "height": 256,
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ],
+      "opaque_fraction": 0.5323
+    },
+    {
+      "asset_id": "stage-10-enemy-interceptor",
+      "sha256": "307d50012bf16c2ab8042410954ae4e9e723286d639a3bc4ef060af17b91009d",
+      "bytes": 7494,
+      "width": 256,
+      "height": 256,
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ],
+      "opaque_fraction": 0.3159
+    },
+    {
+      "asset_id": "stage-10-enemy-curve",
+      "sha256": "8cbf0215420aef936e9b1610ededad802be3f8b76b6ff8efc55f59ed70a042bc",
+      "bytes": 7094,
+      "width": 256,
+      "height": 256,
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ],
+      "opaque_fraction": 0.2167
+    },
+    {
+      "asset_id": "stage-10-boss",
+      "sha256": "20ea7151b17efb6a69923ef65204f6b2773555c4498dbb6105c4f5b23caa89ed",
+      "bytes": 12012,
+      "width": 384,
+      "height": 384,
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ],
+      "opaque_fraction": 0.3967
+    },
+    {
+      "asset_id": "stage-11-map",
+      "sha256": "bb8610b72b43ca0d5e41033f9fdea8c6aa1912978c753ca4b33dbc93e7f16850",
+      "bytes": 3902,
+      "width": 512,
+      "height": 288,
+      "mode": "RGB",
+      "alpha_range": null,
+      "opaque_fraction": null
+    },
+    {
+      "asset_id": "stage-11-enemy-basic",
+      "sha256": "054a93d46eab050ebaacdef3a45f980f6c075c45b5aac8d03c36f54a3717cf12",
+      "bytes": 7662,
+      "width": 256,
+      "height": 256,
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ],
+      "opaque_fraction": 0.5296
+    },
+    {
+      "asset_id": "stage-11-enemy-interceptor",
+      "sha256": "447dfb77205994afc6ddd010cfce484d47ee62a0fa65774c551725ab79f11fd6",
+      "bytes": 7136,
+      "width": 256,
+      "height": 256,
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ],
+      "opaque_fraction": 0.3139
+    },
+    {
+      "asset_id": "stage-11-enemy-curve",
+      "sha256": "515cc9f7373101d3352d7fad006a3d308d1099612d6b075b8cbc91ebe1e61fa3",
+      "bytes": 7186,
+      "width": 256,
+      "height": 256,
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ],
+      "opaque_fraction": 0.2152
+    },
+    {
+      "asset_id": "stage-11-boss",
+      "sha256": "cc7bf86b03159fc8a818261dd1eb75df76ea61547e96fa88cc5a805e67b2b7cf",
+      "bytes": 12108,
+      "width": 384,
+      "height": 384,
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ],
+      "opaque_fraction": 0.3953
+    },
+    {
+      "asset_id": "stage-12-map",
+      "sha256": "023173b5362c34b212d1016eb0e352b4f33b0f166cd0e7421f7a98982468b840",
+      "bytes": 4126,
+      "width": 512,
+      "height": 288,
+      "mode": "RGB",
+      "alpha_range": null,
+      "opaque_fraction": null
+    },
+    {
+      "asset_id": "stage-12-enemy-basic",
+      "sha256": "9f880786567e90197e4897d62b7f391adc36012e0412b12854277e304fed435b",
+      "bytes": 7872,
+      "width": 256,
+      "height": 256,
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ],
+      "opaque_fraction": 0.5276
+    },
+    {
+      "asset_id": "stage-12-enemy-interceptor",
+      "sha256": "8afd84ed032f56f6b3f980911e83fa244a207c4fc94cc6c29f9bc0e8f5a809d4",
+      "bytes": 7634,
+      "width": 256,
+      "height": 256,
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ],
+      "opaque_fraction": 0.3136
+    },
+    {
+      "asset_id": "stage-12-enemy-curve",
+      "sha256": "e1fced8a608cd41e66f638ad7aa3ea9c0f01ed7e2d372a05d325909c689ec4a4",
+      "bytes": 7586,
+      "width": 256,
+      "height": 256,
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ],
+      "opaque_fraction": 0.2133
+    },
+    {
+      "asset_id": "stage-12-boss",
+      "sha256": "03d55e716b703d30cf92876e3e7a86343dad89f97e3bbf7f60df689a8b6538f8",
+      "bytes": 12522,
+      "width": 384,
+      "height": 384,
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ],
+      "opaque_fraction": 0.3963
+    }
+  ]
+}

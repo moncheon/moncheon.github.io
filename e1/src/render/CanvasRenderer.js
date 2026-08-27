@@ -23,6 +23,7 @@ export class CanvasRenderer {
     this.renderProjectiles(world);
     this.renderArcs(world.arcs);
     this.renderPlayer(world.player, world.themeId);
+    this.renderParryFeedback(world);
     this.renderEffects(world.effects);
     this.renderFloatingTexts(world.floatingTexts);
     if (pointer) this.renderReticle(pointer, world.themeColor());
@@ -32,7 +33,7 @@ export class CanvasRenderer {
     const title = this.assets.getImage('title.vietnam');
     if (title) {
       this.ctx.drawImage(title, 0, 0, WORLD_WIDTH, WORLD_HEIGHT);
-      this.ctx.fillStyle = 'rgba(32,44,34,.24)'; this.ctx.fillRect(0, 0, WORLD_WIDTH, WORLD_HEIGHT);
+      this.ctx.fillStyle = 'rgba(32,44,34,.12)'; this.ctx.fillRect(0, 0, WORLD_WIDTH, WORLD_HEIGHT);
       return;
     }
     const gradient = this.ctx.createLinearGradient(0, 0, 0, WORLD_HEIGHT);
@@ -87,6 +88,26 @@ export class CanvasRenderer {
       this.ctx.save(); this.ctx.fillStyle = '#fff'; this.ctx.shadowColor = color; this.ctx.shadowBlur = 18;
       this.ctx.beginPath(); this.ctx.arc(player.x, player.y, player.hitR, 0, Math.PI * 2); this.ctx.fill(); this.ctx.restore();
     }
+  }
+
+  renderParryFeedback(world) {
+    if (world.phase !== PHASE.BOSS || (world.parryWindow <= 0 && !world.parryGuarding)) return;
+    const active = world.parryWindow > 0;
+    const ratio = active ? clamp(world.parryWindow / Math.max(.01, world.themeState.stats.parryWindow), 0, 1) : .35;
+    const radius = world.themeState.stats.parryRadius + (active ? (1 - ratio) * 10 : 0);
+    this.ctx.save();
+    this.ctx.strokeStyle = active ? '#fff0a8' : 'rgba(255,228,123,.5)';
+    this.ctx.lineWidth = active ? 5 : 3;
+    this.ctx.globalAlpha = .45 + ratio * .5;
+    this.ctx.setLineDash(active ? [] : [8, 7]);
+    this.ctx.shadowColor = '#ffd84d'; this.ctx.shadowBlur = active ? 22 : 8;
+    this.ctx.beginPath(); this.ctx.arc(world.player.x, world.player.y, radius, 0, Math.PI * 2); this.ctx.stroke();
+    if (active && world.parryAssistShot) {
+      this.ctx.setLineDash([5, 6]); this.ctx.lineWidth = 2; this.ctx.globalAlpha = .72;
+      this.ctx.beginPath(); this.ctx.moveTo(world.player.x, world.player.y); this.ctx.lineTo(world.parryAssistShot.x, world.parryAssistShot.y); this.ctx.stroke();
+      this.ctx.setLineDash([]); this.ctx.beginPath(); this.ctx.arc(world.parryAssistShot.x, world.parryAssistShot.y, world.parryAssistShot.r + 8, 0, Math.PI * 2); this.ctx.stroke();
+    }
+    this.ctx.restore();
   }
 
   renderEnemies(world) {

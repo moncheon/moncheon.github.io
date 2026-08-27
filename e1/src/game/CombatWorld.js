@@ -31,6 +31,8 @@ export class CombatWorld {
     this.calmMinute = 0;
     this.cooldown = 0;
     this.parryWindow = 0;
+    this.parryAssistShot = null;
+    this.parryGuarding = false;
     this.parryChain = 0;
     this.maxParryChain = 0;
     this.harvestCharge = 0;
@@ -42,7 +44,7 @@ export class CombatWorld {
     this.eventBudget = new EventBudget(700, 7);
     this.fieldPacing = phase === PHASE.FIELD ? new FieldPacingDirector(rng, stage) : null;
     this.bossPacing = phase === PHASE.BOSS ? new BossPacingDirector(rng, stage) : null;
-    this.enemyLevels = new EnemyLevelDirector(themeState.level);
+    this.enemyLevels = phase === PHASE.FIELD ? new EnemyLevelDirector(themeState.level) : null;
     this.player = {
       x: WORLD_WIDTH / 2,
       y: phase === PHASE.BOSS ? WORLD_HEIGHT - 125 : WORLD_HEIGHT / 2,
@@ -88,6 +90,7 @@ export class CombatWorld {
     this.player.invuln -= dt;
     this.comboTimer -= dt;
     this.parryWindow -= dt;
+    if (this.parryWindow <= 0) this.parryAssistShot = null;
     this.retaliationCooldown -= dt;
     if (this.comboTimer <= 0) this.combo = Math.max(0, this.combo - dt * 3);
     this.movePlayer(dt, input);
@@ -155,6 +158,7 @@ export class CombatWorld {
   }
 
   updateFieldPhase(dt, input) {
+    this.enemyLevels?.update(dt, this.enemies.length);
     this.spawnEnemies(dt);
     this.updatePlayerProjectiles(dt);
     this.updateGardens(dt);
@@ -178,7 +182,7 @@ export class CombatWorld {
       : { x: this.rng.range(20, WORLD_WIDTH - 20), y: side === 2 ? 35 : WORLD_HEIGHT + 25 };
     const elite = this.rng.next() < Math.min(.25, .04 + this.time / 1500);
     const themeScale = this.themeId === THEME.BLOOM ? 1.22 : 1;
-    const monsterLevel = this.enemyLevels.level;
+    const monsterLevel = this.enemyLevels?.level ?? 1;
     const levelSpec = enemyLevelSpec(monsterLevel);
     const hp = (elite ? 86 : 30) * themeScale * (1 + this.time / 500) * (1 + (this.stage - 1) * .15) * levelSpec.hpMultiplier;
     const stageSpeed = Math.min(1.45, 1 + (this.stage - 1) * .03);
@@ -194,7 +198,7 @@ export class CombatWorld {
       xpValue: enemyXpForLevel(movementXp(movementType), elite, monsterLevel),
       ...createEnemyMovement(movementType, position, side, this.player, this.rng)
     });
-    this.enemyLevels.observePopulation(this.enemies.length);
+    this.enemyLevels?.observePopulation(this.enemies.length);
   }
 
   updatePlayerProjectiles(dt) {
@@ -451,7 +455,7 @@ export class CombatWorld {
     this.effect(enemy.x, enemy.y, this.themeColor(), enemy.elite ? 28 : 14, enemy.elite ? 260 : 170);
     this.floatingTexts.push({ x: enemy.x, y: enemy.y - enemy.r - 18, text: `+${enemy.xpValue} XP`, color: '#fff2a8', life: .7, maxLife: .7 });
     this.awardDefeatXp(enemy.xpValue);
-    if (this.enemyLevels.defeated(this.enemies.length, this.themeState.level)) {
+    if (this.enemyLevels?.defeated(this.enemies.length, this.themeState.level)) {
       this.emit('enemyLevelAdvanced', { level: this.enemyLevels.level });
     }
   }
@@ -480,7 +484,8 @@ export class CombatWorld {
       this.boss.attackTimer -= dt;
       if (this.boss.attackTimer <= 0) this.fireBossVolley();
     }
-    if (input.parryPressed) this.parryWindow = this.themeState.stats.parryWindow;
+    this.parryGuarding = Boolean(input.parryDown);
+    if (input.parryPressed) this.beginParry();
     this.updateHostile(dt, input);
     if (distanceSq(this.player, this.boss) < (this.player.hitR + this.boss.r) ** 2 && this.player.invuln <= 0) this.hurt(24 + this.stage * 2);
     if (this.time >= this.options.bossSeconds && !this.ended) this.finish('defeat');
@@ -528,7 +533,8 @@ export class CombatWorld {
         const direction = normalize(shot.dx, shot.dy); shot.dx = direction.x; shot.dy = direction.y;
       }
       shot.x += shot.dx * shot.speed * dt; shot.y += shot.dy * shot.speed * dt;
-      const catches = !shot.reflected && this.parryWindow > 0 && segmentCircleHit({ x: shot.px, y: shot.py }, shot, this.player, this.themeState.stats.parryRadius + shot.r);
+      const assist = shot === this.parryAssistShot ? 24 : 0;
+      const catches = !shot.reflected && this.parryWindow > 0 && segmentCircleHit({ x: shot.px, y: shot.py }, shot, this.player, this.themeState.stats.parryRadius + shot.r + assist);
       if (catches) this.reflect(shot);
       else if (!shot.reflected && distanceSq(shot, this.player) <= (shot.r + this.player.hitR) ** 2) {
         if (input.parryDown) { this.hurt(shot.damage * .35); shot.life = 0; }
@@ -544,6 +550,7 @@ export class CombatWorld {
   }
 
   reflect(shot) {
+    if (shot === this.parryAssistShot) this.parryAssistShot = null;
     if (this.themeState.stats.orbitCapacity > 0) {
       const orbiting = this.hostile.filter(item => item.orbiting && item.life > 0);
       if (orbiting.length >= this.themeState.stats.orbitCapacity) this.releaseOrbitShot(orbiting.sort((left, right) => left.orbitTimer - right.orbitTimer)[0]);
@@ -557,6 +564,31 @@ export class CombatWorld {
     this.player.shield += this.themeState.stats.shieldGain;
     this.effect(shot.x, shot.y, '#ffd84d', 22, 260);
     this.emit('sound', { kind: 'parry' });
+  }
+
+  beginParry() {
+    const window = this.themeState.stats.parryWindow;
+    const radius = this.themeState.stats.parryRadius + 24;
+    this.parryWindow = window;
+    this.parryAssistShot = null;
+    let bestTime = Infinity;
+    for (const shot of this.hostile) {
+      if (shot.reflected || shot.orbiting || shot.life <= 0) continue;
+      const relativeX = shot.x - this.player.x;
+      const relativeY = shot.y - this.player.y;
+      const velocityX = shot.dx * shot.speed - this.player.vx;
+      const velocityY = shot.dy * shot.speed - this.player.vy;
+      const speedSq = velocityX * velocityX + velocityY * velocityY;
+      const approach = relativeX * velocityX + relativeY * velocityY;
+      const currentDistance = Math.hypot(relativeX, relativeY);
+      if (approach >= 0 && currentDistance > radius + shot.r) continue;
+      const closestTime = speedSq > 0 ? clamp(-approach / speedSq, 0, window) : 0;
+      const closestDistance = Math.hypot(relativeX + velocityX * closestTime, relativeY + velocityY * closestTime);
+      if (closestDistance <= radius + shot.r && closestTime < bestTime) {
+        this.parryAssistShot = shot;
+        bestTime = closestTime;
+      }
+    }
   }
 
   releaseOrbitShot(shot) {
@@ -669,7 +701,7 @@ export class CombatWorld {
     return {
       themeId: this.themeId, phase: this.phase, stage: this.stage, duration: this.time,
       kills: this.kills, score: this.score, level: this.themeState.level,
-      enemyLevel: this.enemyLevels.level, damageTaken: this.damageTaken,
+      enemyLevel: this.enemyLevels?.level ?? null, damageTaken: this.damageTaken,
       maxCombo: this.maxCombo, maxParryChain: this.maxParryChain, mechanics: { ...this.mechanicStats }
     };
   }
@@ -684,12 +716,14 @@ export class CombatWorld {
       level: `LV ${this.themeState.level} · XP ${Math.floor(this.themeState.xp)}/${xpRequiredForLevel(this.themeState.level)}`,
       timer: `${String(Math.floor(remaining / 60)).padStart(2, '0')}:${String(Math.floor(remaining % 60)).padStart(2, '0')}`,
       score: `${this.score.toLocaleString()} · KILL ${this.kills}`,
-      enemyLevel: this.enemyLevels.level,
-      enemyAi: `MONSTER LV ${this.enemyLevels.level} · ${enemyAiRoster(this.enemies)}`,
+      enemyLevel: this.enemyLevels?.level ?? null,
+      enemyAi: this.enemyLevels ? `MONSTER LV ${this.enemyLevels.level} · ${enemyAiRoster(this.enemies)}` : 'BOSS · RULE HIJACK',
       combo: this.themeId === THEME.HIJACK ? `PARRY ×${this.parryChain}` : this.themeId === THEME.BLOOM ? `STACK ${harvest?.stacks ?? 0} · ${harvest?.lethal ? '수확 처치 가능' : `수확 ${Math.round(harvest?.damage ?? 0)}`}` : `CHAIN ×${Math.floor(this.combo)}`,
       ability: this.themeId === THEME.BLOOM
         ? harvest ? `Q 수확 · ${Math.round(harvest.damage)} 피해 · ${Math.round(harvest.heal)} 회복` : '탄환으로 STACK 축적 · Q 수확'
-        : this.phase === PHASE.BOSS ? 'E 패링/가드' : 'F 공격 토글'
+        : this.phase === PHASE.BOSS
+          ? this.parryWindow > 0 ? `E 패링 ACTIVE · ${this.parryWindow.toFixed(2)}s` : this.parryGuarding ? 'E GUARD · 피해 65% 감소' : 'E 패링/가드'
+          : 'F 공격 토글'
     };
   }
 

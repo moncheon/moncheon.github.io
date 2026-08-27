@@ -1,7 +1,7 @@
 // @ts-check
 
 export class AssetLoader {
-  constructor(manifestUrl = './assets/manifest.json') {
+  constructor(manifestUrl = './assets/manifest.json?v=5') {
     this.manifestUrl = manifestUrl;
     this.entries = new Map();
     this.images = new Map();

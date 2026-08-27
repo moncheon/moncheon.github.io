@@ -26,7 +26,7 @@ export function createBaseStats(themeId) {
   };
   if (themeId === THEME.HIJACK) return {
     maxHp: 91, damage: 30, fireRate: 4.6, moveSpeed: 245, projectileSpeed: 610,
-    returnPower: 1, parryWindow: .32, parryRadius: 52, shieldGain: 0, dashCooldown: 2.1,
+    returnPower: 1, parryWindow: .55, parryRadius: 72, shieldGain: 0, dashCooldown: 2.1,
     orbitCapacity: 0, orbitDamage: 1
   };
   return {

@@ -1,6 +1,7 @@
 // @ts-check
 
 const LEVEL_THREE = 3;
+export const ENEMY_PROMOTION_GRACE_SECONDS = 5;
 
 export function startingEnemyLevel(playerLevel = 0) {
   return Math.max(1, Math.floor(Number(playerLevel) || 0) - 1);
@@ -29,18 +30,28 @@ export function enemyXpForLevel(baseXp, elite, level) {
 }
 
 export class EnemyLevelDirector {
-  constructor(playerLevel = 0) {
+  constructor(playerLevel = 0, graceSeconds = ENEMY_PROMOTION_GRACE_SECONDS) {
     this.level = startingEnemyLevel(playerLevel);
+    this.graceSeconds = Math.max(0, Number(graceSeconds) || 0);
+    this.elapsed = 0;
+    this.firstLowPromotionAvailable = true;
     this.lowPopulationArmed = false;
   }
 
+  update(dt, enemyCount) {
+    this.elapsed += Math.max(0, Number(dt) || 0);
+    this.observePopulation(enemyCount);
+  }
+
   observePopulation(enemyCount) {
-    if (enemyCount > 3) this.lowPopulationArmed = true;
+    if (this.elapsed >= this.graceSeconds && enemyCount > 3) this.lowPopulationArmed = true;
   }
 
   defeated(enemyCount, playerLevel) {
-    if (!this.lowPopulationArmed || enemyCount > 3 || this.level >= maximumEnemyLevel(playerLevel)) return false;
+    if (this.elapsed < this.graceSeconds || enemyCount > 3 || this.level >= maximumEnemyLevel(playerLevel)) return false;
+    if (!this.firstLowPromotionAvailable && !this.lowPopulationArmed) return false;
     this.level++;
+    this.firstLowPromotionAvailable = false;
     this.lowPopulationArmed = false;
     return true;
   }

@@ -199,9 +199,9 @@ export class GameApp {
     else if (event.type === 'tutorialCue') this.ui.showToast(event.message, event.seconds);
     else if (event.type === 'defeatRewarded') this.session.saveCampaign();
     else if (event.type === 'enemyLevelAdvanced') {
-      const first = this.session.claimSpeedToggleHint();
+      this.ui.showToast(`MONSTER LV ${event.level} · HP↑ SPEED↑ XP↑`);
+      const first = this.session.claimSpeedToggleHint(2);
       if (first && this.playSpeed === 1) this.ui.showCoachBubble('게임이 너무 쉬운가요? T를 눌러보세요', 5);
-      else if (!first) this.ui.showToast(`MONSTER LV ${event.level} · HP↑ SPEED↑ XP↑`);
     }
     else if (event.type === 'themeLevelsGained') {
       const gained = this.session.recordThemeLevels(this.session.campaign.currentTheme, event.count);

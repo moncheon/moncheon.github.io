@@ -49,6 +49,7 @@ export class InputController {
     if (fresh) this.pressed.add(code);
     this.keys.add(code);
     if (['Space', 'ShiftLeft', 'ShiftRight', 'ArrowUp', 'ArrowDown', 'ArrowLeft', 'ArrowRight'].includes(code)) event.preventDefault();
+    if (this.gameplayEnabled && code === 'KeyE') event.preventDefault();
     if (this.gameplayEnabled && fresh && (code === 'KeyF' || event.key?.toLowerCase() === 'f')) {
       event.preventDefault();
       this.attackEnabled = !this.attackEnabled;

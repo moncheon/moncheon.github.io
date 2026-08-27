@@ -88,9 +88,10 @@ export class RunSession {
     this.saveCampaign();
   }
 
-  claimSpeedToggleHint() {
-    if (!this.campaign || this.campaign.hints.speedToggleShown) return false;
+  claimSpeedToggleHint(version = 2) {
+    if (!this.campaign || this.campaign.hints.speedTogglePromptVersion >= version) return false;
     this.campaign.hints.speedToggleShown = true;
+    this.campaign.hints.speedTogglePromptVersion = version;
     this.saveCampaign();
     return true;
   }

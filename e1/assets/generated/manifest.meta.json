@@ -9,13 +9,16 @@
   "assets": [
     {
       "asset_id": "title-vietnam",
-      "sha256": "8f708997bf221a7bff1b8c9cc2179f2557a224f95ba35c3693c50050a100cb0b",
-      "bytes": 16898,
-      "width": 512,
-      "height": 288,
+      "sha256": "72aae43e974cff6a7deea960a6588cdb0dd0b78fc52d448032f9ad804b0c3074",
+      "bytes": 190836,
+      "width": 1024,
+      "height": 576,
       "mode": "RGB",
       "alpha_range": null,
-      "opaque_fraction": null
+      "opaque_fraction": null,
+      "generator": "OpenAI built-in image generation",
+      "source_run": "title-vietnam-v2",
+      "source_sha256": "fdf79c31935611c7b7d93f056164e3645a67e736afd86a8b4b1dcf5a3f0fbf46"
     },
     {
       "asset_id": "ui-motifs",

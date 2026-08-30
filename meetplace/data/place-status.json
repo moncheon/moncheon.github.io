@@ -1,0 +1,3455 @@
+{
+  "schema_version": "1.0",
+  "statuses": [
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_00e601f6269319e03d0d",
+      "source_url": "https://www.google.com/maps/place/%EB%A6%AC%EC%97%94%EC%B0%A8%EC%9D%B4/data=!3m1!4b1!4m6!3m5!1s0x35654b10c5d4abcd:0xd67d7d48fbacba96!8m2!3d36.3799284!4d127.3247835!16s%2Fg%2F1tk8lfwp",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_00e6ab76ce87dd9dbaca",
+      "source_url": "https://map.naver.com/p/search/%EC%8A%A4%ED%83%80%EB%B2%85%EC%8A%A4(%EB%8C%80%EC%A0%84%EC%9E%A5%EB%8C%80%EC%A0%90)%20%EB%8C%80%EC%A0%84%EA%B4%91%EC%97%AD%EC%8B%9C%20%EC%9C%A0%EC%84%B1%EA%B5%AC%20%EC%9C%A0%EC%84%B1%EB%8C%80%EB%A1%9C%20781?c=15.00,0,0,0,dh",
+      "status": "closed"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_015764fc6cefdbc9e91d",
+      "source_url": "https://map.naver.com/p/search/%EC%95%A4%EB%94%94%ED%8C%AC%EB%94%94(%EB%AC%B8%EC%A7%80%EB%8F%99)%20%EB%8C%80%EC%A0%84%EA%B4%91%EC%97%AD%EC%8B%9C%20%EC%9C%A0%EC%84%B1%EA%B5%AC%20%EC%97%91%EC%8A%A4%ED%8F%AC%EB%A1%9C446%EB%B2%88%EA%B8%B8%2038?c=15.00,0,0,0,dh",
+      "status": "closed"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_01cf175f659462c32f6e",
+      "source_url": "https://place.map.kakao.com/1824318257#blogreview",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_0228798ba8b6ddad1111",
+      "source_url": "https://www.google.com/maps/place/%EC%98%88%EC%9D%B4%EC%A0%9C448/data=!3m1!4b1!4m6!3m5!1s0x35654b58fcf7d8a1:0xf1729de6bcfbd776!8m2!3d36.4050481!4d127.3020863!16s%2Fg%2F11lhsfw4wn",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_0263d13dfca0edca9200",
+      "source_url": "https://map.naver.com/p/search/%EC%81%98%EB%A6%AC%EB%AA%A8%20%EB%8C%80%EC%A0%84%EA%B4%91%EC%97%AD%EC%8B%9C%20%EC%9C%A0%EC%84%B1%EA%B5%AC%20%EC%9D%80%EA%B5%AC%EB%B9%84%EB%82%A8%EB%A1%9C7%EB%B2%88%EA%B8%B8%2048-19?c=15.00,0,0,0,dh",
+      "status": "closed"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_02cec4b388632dc5ed90",
+      "source_url": "https://place.map.kakao.com/901123714#blogreview",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_02e30b23a11bb3ecbbee",
+      "source_url": "https://www.google.com/maps/place/%EB%B9%84%EC%8A%A4%ED%8A%B8%EB%A1%9C+%ED%8D%BC%EB%B8%94%EB%A6%AD/data=!3m1!4b1!4m6!3m5!1s0x35654ba2cbf9dfe3:0x8c30c0e32bb4076e!8m2!3d36.362498!4d127.3582026!16s%2Fg%2F11cncvxk9h",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_02f9030cff755b2ee081",
+      "source_url": "https://www.google.com/maps/place/%EB%B8%8C%EB%9D%BC%ED%83%80%EC%9A%B0%EC%8A%A4/data=!3m1!4b1!4m6!3m5!1s0x35654b9ccdeb4953:0x1987cb33b06ceea5!8m2!3d36.3556712!4d127.3427858!16s%2Fg%2F11d_8dlp0p",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_035d39a766762bfacc11",
+      "source_url": "https://pcmap.place.naver.com/place/36828020?from=map&fromPanelNum=1&additionalHeight=76&timestamp=202608301709&locale=ko&svcName=map_pcv5&searchText=%ED%99%94%EC%9D%B4%ED%8A%B8%EC%B9%B4%ED%8E%98%20%EB%8C%80%EC%A0%84%EA%B4%91%EC%97%AD%EC%8B%9C%20%EC%9C%A0%EC%84%B1%EA%B5%AC%20%EB%B0%95%EC%82%B0%EB%A1%9C%20184",
+      "status": "closed"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_03786b6adfe4e1ccd935",
+      "source_url": "https://www.google.com/maps/place/%EC%8A%A4%ED%83%80%EB%B2%85%EC%8A%A4+%EB%8C%80%EC%A0%84%EC%A1%B0%EC%9D%B4%EB%A7%88%EB%A3%A8%EC%A0%90/data=!3m1!4b1!4m6!3m5!1s0x3565498f9ce92bbb:0x2a1f4c94598b2689!8m2!3d36.3762335!4d127.3911915!16s%2Fg%2F11bwfmhlg6",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_0384c0756eaf3e9a0f41",
+      "source_url": "https://www.google.com/maps/place/%EC%BB%A4%ED%94%BC%EB%A7%88%EB%A7%88%ED%80%B8+%EC%95%94%EC%82%AC%EC%97%AD%EC%A0%90/data=!3m1!4b1!4m6!3m5!1s0x357cb009cb6d7987:0xa26ac6e2b0320931!8m2!3d37.5514941!4d127.127148!16s%2Fg%2F11c1g6389s",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_03c9f27b32f91e93e7d3",
+      "source_url": "https://www.google.com/maps/place/%ED%8A%B8%EC%9B%B0%EB%B8%8C+%EC%98%A4/data=!3m1!4b1!4m6!3m5!1s0x35654b0762c7fb29:0xdd6fd65e10239598!8m2!3d36.385507!4d127.3799364!16s%2Fg%2F11pkbw137d",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_05b4c29a9a01c9eee9cd",
+      "source_url": "https://map.naver.com/p/search/%EC%97%94%EC%A0%9C%EB%A6%AC%EB%84%88%EC%8A%A4%20(Angel-in-us)%20(%EC%8B%A0%EC%84%B1%EC%A0%90)%20%EB%8C%80%EC%A0%84%EA%B4%91%EC%97%AD%EC%8B%9C%20%EC%9C%A0%EC%84%B1%EA%B5%AC%20%EC%9C%A0%EC%84%B1%EB%8C%80%EB%A1%9C1184%EB%B2%88%EA%B8%B8%2011-9?c=15.00,0,0,0,dh",
+      "status": "closed"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_062941f7512630b831c2",
+      "source_url": "https://map.naver.com/p/search/%EB%94%94%EC%97%90%EB%96%BC%20%ED%95%9C%EC%8B%A0%EB%A9%94%EC%B9%B4%EC%A0%90(%ED%95%9C%EC%8B%A0%EB%A9%94%EC%B9%B4%EC%A0%90)%20%EC%9C%A0%EC%84%B1%EA%B5%AC%20%ED%85%8C%ED%81%AC%EB%85%B8%203%EB%A1%9C%2065%20%ED%95%9C%EC%8B%A0%EB%A9%94%EC%B9%B4%20140%ED%98%B8?c=15.00,0,0,0,dh",
+      "status": "closed"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_069a3cd84591433816fb",
+      "source_url": "https://www.google.com/maps/place/%ED%8F%AD%EC%8A%A4+%EB%9D%BC%EC%9D%B4%EB%B8%8C%EB%9F%AC%EB%A6%AC+%EC%95%A4+%EC%B9%B4%ED%8E%98/data=!3m1!4b1!4m6!3m5!1s0x3565494316b0ef65:0x4baa06176aaafdd8!8m2!3d36.3761565!4d127.3904983!16s%2Fg%2F11mvsg9c4l",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_06ba66253ab2409f6b25",
+      "source_url": "https://www.google.com/maps/place/%EC%BB%A4%ED%94%BC%EB%A5%BC%ED%95%B4%EB%9E%91/data=!3m1!4b1!4m6!3m5!1s0x35654c89a2d63d21:0x39d24ec2c0883c7d!8m2!3d36.3360532!4d127.3379903!16s%2Fg%2F11tmy2hbby",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_06d34b05683781cafbd0",
+      "source_url": "https://www.google.com/maps/place/%ED%95%A0%EB%A6%AC%EC%8A%A4%EC%BB%A4%ED%94%BC+%EB%8C%80%EC%A0%84%EC%8B%A0%EC%84%B1%EC%A0%90/data=!3m1!4b1!4m6!3m5!1s0x35654a44ed114ef3:0x70e0e74c34988331!8m2!3d36.3933781!4d127.3525447!16s%2Fg%2F11g72b532z",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_06dc44c050c985c81ca8",
+      "source_url": "https://place.map.kakao.com/1884388098#blogreview",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_073ee1d8962a9608662a",
+      "source_url": "https://www.google.com/maps/place/%EC%B1%A0%EC%98%A4/data=!3m1!4b1!4m6!3m5!1s0x356549e26adb634f:0x38f50632f2f80aa1!8m2!3d36.4005679!4d127.3973157!16s%2Fg%2F1tfq2hs0",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_097df39c9b8779e5eb6a",
+      "source_url": "https://www.google.com/maps/place/%EC%9C%A0%EB%9E%8C+%EC%BB%A4%ED%94%BC%EB%A1%9C%EC%8A%A4%ED%84%B0%EC%8A%A4+%EB%8C%80%EC%A0%84%EB%B4%89%EB%AA%85%EC%A0%90/data=!3m1!4b1!4m6!3m5!1s0x35654bf015df76ad:0x70c41a277c4ccad!8m2!3d36.3495223!4d127.3397426!16s%2Fg%2F11ht52wd5n",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_0981cc80362f5c37874b",
+      "source_url": "https://www.google.com/maps/place/%ED%95%98%EC%9D%B4%ED%85%8C%EC%9D%B4%EB%B8%94+%EB%8C%80%EC%A0%84%EB%B4%89%EB%AA%85%EC%A0%90/data=!3m1!4b1!4m6!3m5!1s0x35654b706e21b3cb:0x642e515273f7f11a!8m2!3d36.354689!4d127.3432723!16s%2Fg%2F11tmsldyk8",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_0a369d2f408caf620b70",
+      "source_url": "https://place.map.kakao.com/157163578#blogreview",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_0ab0a5937dc56ccbd908",
+      "source_url": "https://map.naver.com/p/search/%EC%8A%A4%ED%83%80%EB%B2%85%EC%8A%A4(%EA%B8%B8%EB%8F%99%20%EC%82%AC%EA%B1%B0%EB%A6%AC%EC%A0%90)%20%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C%20%EA%B0%95%EB%8F%99%EA%B5%AC%20%EC%96%91%EC%9E%AC%EB%8C%80%EB%A1%9C%201441?c=15.00,0,0,0,dh",
+      "status": "closed"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_0b11c1ca8a49317dca28",
+      "source_url": "https://www.google.com/maps/place/%EC%BB%A4%ED%94%BC%ED%96%A5%EC%9D%B4+%EC%A2%8B%EC%9D%80%EB%82%A0/data=!3m1!4b1!4m6!3m5!1s0x35654b035efbcb11:0xd19f5303b08ec49a!8m2!3d36.370039!4d127.336361!16s%2Fg%2F11lgpyt7rw",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_0b5715de449543a44ccf",
+      "source_url": "https://www.google.com/maps/place/%EC%98%A4%EB%B8%8C%EB%96%BC%EB%A5%B4/data=!3m1!4b1!4m6!3m5!1s0x35654bf95ab49dd5:0x4a950428d947146c!8m2!3d36.3493427!4d127.3363476!16s%2Fg%2F11t6q7xhcj",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_0c201a6b52c3edfc0977",
+      "source_url": "https://map.naver.com/p/search/%EC%B9%B4%ED%8E%98%EB%94%94%20%EB%8C%80%EC%A0%84%EA%B4%91%EC%97%AD%EC%8B%9C%20%EC%9C%A0%EC%84%B1%EA%B5%AC%20%EC%9D%80%EA%B5%AC%EB%B9%84%EB%A1%9C155%EB%B2%88%EC%95%88%EA%B8%B8%2028?c=15.00,0,0,0,dh",
+      "status": "closed"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_0c396df8fbbea84ad03e",
+      "source_url": "https://pcmap.place.naver.com/place/1398797455?from=map&fromPanelNum=1&additionalHeight=76&timestamp=202608301716&locale=ko&svcName=map_pcv5&searchText=%ED%95%A0%EB%A6%AC%EC%8A%A4%EC%BB%A4%ED%94%BC%20%ED%98%B8%ED%85%94%20ICC%EC%A0%90(%EB%8F%84%EB%A3%A1%EB%8F%99%20)%20%EB%8C%80%EC%A0%84%EA%B4%91%EC%97%AD%EC%8B%9C%20%EC%9C%A0%EC%84%B1%EA%B5%AC%20%EC%97%91%EC%8A%A4%ED%8F%AC%EB%A1%9C123%EB%B2%88%EA%B8%B8%2055",
+      "status": "closed"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_0c50c8f0ea4d9f2a37ff",
+      "source_url": "https://www.google.com/maps/place/%EB%B0%94%EB%A6%AC%EC%8A%A4%ED%83%80%EB%B9%88/data=!3m1!4b1!4m6!3m5!1s0x35654b98689ba6ad:0xcfae4939d8a5109b!8m2!3d36.3621688!4d127.3518093!16s%2Fg%2F1tj5h_x7",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_0c62b60ae46f5184fd91",
+      "source_url": "https://www.google.com/maps/place/%EB%B8%8C%EB%A6%AC%EB%B8%8C/data=!3m1!4b1!4m6!3m5!1s0x35654d7fba5d2ebf:0x5611f4fa779037ac!8m2!3d36.3413251!4d127.3434143!16s%2Fg%2F11qqsqblrb",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_0cb9fb0506c40b5f039a",
+      "source_url": "https://place.map.kakao.com/306913049#blogreview",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_0cd7fb3695ab2c4e47ff",
+      "source_url": "https://map.naver.com/p/search/%EC%84%B8%EB%B8%90%ED%8C%A9%ED%86%A0%EB%A6%AC%20%EB%8C%80%EC%A0%84%EA%B4%91%EC%97%AD%EC%8B%9C%20%EC%9C%A0%EC%84%B1%EA%B5%AC%20%ED%95%9C%EB%B0%AD%EB%8C%80%EB%A1%9C492%EB%B2%88%EA%B8%B8%2026-9?c=15.00,0,0,0,dh",
+      "status": "closed"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_0cd95492028a68a382b8",
+      "source_url": "https://pcmap.place.naver.com/place/1906285055?from=map&fromPanelNum=1&additionalHeight=76&timestamp=202608301717&locale=ko&svcName=map_pcv5&searchText=COE%EC%BB%A4%ED%94%BC%20%EB%8C%80%EC%A0%84%EA%B4%91%EC%97%AD%EC%8B%9C%20%EC%9C%A0%EC%84%B1%EA%B5%AC%20%EC%9D%80%EA%B5%AC%EB%B9%84%EB%A1%9C155%EB%B2%88%EC%95%88%EA%B8%B8%2047",
+      "status": "closed"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_0da31fcbfe6d2a3f3582",
+      "source_url": "https://www.google.com/maps/place/%EB%91%90%EB%91%90%EC%B9%B4%ED%8E%98/data=!4m7!3m6!1s0x35654b1a78583d85:0xd761777cefe51340!8m2!3d36.3809787!4d127.3261066!16s%2Fg%2F11fn5zyg9b!19sChIJhT1YeBpLZTURQBPl73x3Ydc",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_0dbe88060e1c16cef449",
+      "source_url": "https://map.naver.com/p/search/%EA%B7%B8%EB%A3%A8%EB%B8%8C%20%EB%A1%9C%EC%8A%A4%ED%84%B0%EB%A6%AC%20%EC%B9%B4%ED%8E%98%20%EB%8C%80%EC%A0%84%EA%B4%91%EC%97%AD%EC%8B%9C%20%EC%9C%A0%EC%84%B1%EA%B5%AC%20%EC%9D%80%EA%B5%AC%EB%B9%84%EB%A1%9C%20151?c=15.00,0,0,0,dh",
+      "status": "closed"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_0dc03f7d2ec07a31447b",
+      "source_url": "https://www.google.com/maps/place/%EC%BB%A4%ED%94%BC%EB%B9%88+%EC%98%AC%EB%A6%BC%ED%94%BD%EA%B3%B5%EC%9B%90%EB%B6%812%EB%AC%B8%EC%95%9E%EC%A0%90/data=!3m1!4b1!4m6!3m5!1s0x357caf3d3423248f:0xdf72f1086ad7467b!8m2!3d37.5244663!4d127.1279626!16s%2Fg%2F11hz1271vt",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_0de4f413ee6470727249",
+      "source_url": "https://www.google.com/maps/place/%EC%8A%A4%ED%83%80%EB%B2%85%EC%8A%A4+%EB%AC%B8%EC%A7%80%EC%A0%90/data=!3m1!4b1!4m6!3m5!1s0x35654977b66f6b6d:0x586dcc8294d3b2f9!8m2!3d36.3923837!4d127.4054452!16s%2Fg%2F11k55z23rp",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_0e5d1d4204c4d0028ab7",
+      "source_url": "https://www.google.com/maps/place/%EB%8D%94+%ED%94%BC%EC%95%84%EB%85%B8/data=!3m1!4b1!4m6!3m5!1s0x35654c874cd34cbb:0xc5915a9b4ff371d4!8m2!3d36.3433687!4d127.3391605!16s%2Fg%2F124yjd0sj",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_0f87f3bd0ff5ab02da2a",
+      "source_url": "https://map.naver.com/p/search/%EC%8A%A4%ED%83%80%EB%B2%85%EC%8A%A4%20(%EC%B2%9C%ED%98%B8%EB%A1%9C%EB%8D%B0%EC%98%A4%EC%A0%90)%20%EC%A7%80%ED%95%98%EC%B2%A0%205%ED%98%B8%EC%84%A0%2C%208%ED%98%B8%EC%84%A0%20%EC%B2%9C%ED%98%B8%EC%97%AD%205%EB%B2%88%EC%B6%9C%EA%B5%AC%20%EA%B0%95%EB%8F%99%EC%97%AD%20%EB%B0%A9%EB%A9%B4%20%EB%8F%84%EB%B3%B4%203%EB%B6%84%20%EA%B1%B0%EB%A6%AC(%EA%B3%B5%EC%98%81%EC%A3%BC%EC%B0%A8%EC%9E%A5%EC%9D%B4%EC%9A%A9%EA%B0%80%EB%8A%A5)?c=15.00,0,0,0,dh",
+      "status": "closed"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_1053f9cc055f4ec09223",
+      "source_url": "https://map.naver.com/p/search/truchillo%20%ED%8A%B8%EB%A3%A8%EC%B9%A0%EB%A1%9C%20%EB%8C%80%EC%A0%84%EA%B4%91%EC%97%AD%EC%8B%9C%20%EC%9C%A0%EC%84%B1%EA%B5%AC%20%EB%8C%80%ED%95%99%EB%A1%9C%2023?c=15.00,0,0,0,dh",
+      "status": "closed"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_107a73e2c09558ff17d3",
+      "source_url": "https://map.naver.com/p/search/%EB%A9%9C%ED%8C%85%20%EB%8C%80%EC%A0%84%EA%B4%91%EC%97%AD%EC%8B%9C%20%EC%9C%A0%EC%84%B1%EA%B5%AC%20%EC%96%B4%EC%9D%80%EB%A1%9C%2057?c=15.00,0,0,0,dh",
+      "status": "closed"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_10890d4347d1f71f91e1",
+      "source_url": "https://www.google.com/maps/place/%EC%9D%B8%ED%84%B0%EB%B7%B0+%EC%BB%A4%ED%94%BC+%EB%9D%BC%EC%9A%B4%EC%A7%80+%EB%8F%84%EB%A3%A1%EB%8F%99/data=!3m1!4b1!4m6!3m5!1s0x35654b006a53acf1:0x898b885664f1b33a!8m2!3d36.3871527!4d127.3789091!16s%2Fg%2F11xg_zqt_8",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_10905126f14b5588e775",
+      "source_url": "https://map.naver.com/p/search/%ED%94%84%EB%A0%8C%EC%A6%88(FRIENDS)%20%EB%8C%80%EC%A0%84%EA%B4%91%EC%97%AD%EC%8B%9C%20%EC%9C%A0%EC%84%B1%EA%B5%AC%20%EB%AC%B8%ED%99%94%EC%9B%90%EB%A1%9C%2077?c=15.00,0,0,0,dh",
+      "status": "closed"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_10f8ebca005bab8e372f",
+      "source_url": "https://www.google.com/maps/place/%EC%B9%B4%ED%8E%98+%ED%94%8C%EB%A1%9C%ED%94%BC/data=!3m1!4b1!4m6!3m5!1s0x35654b005b259d5f:0xdbaeae029b505c7b!8m2!3d36.3570846!4d127.3302334!16s%2Fg%2F11wqfbz9_s",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_1260cc126eb261dc9226",
+      "source_url": "https://map.naver.com/p/search/%EC%84%B8%EB%B8%90%ED%8C%A9%ED%86%A0%EB%A6%AC%EB%B8%8C%EB%A6%BF%EC%A7%80%20%EB%8C%80%EC%A0%84%EA%B4%91%EC%97%AD%EC%8B%9C%20%EC%9C%A0%EC%84%B1%EA%B5%AC%20%EB%8F%84%EC%95%88%EB%B6%81%EB%A1%9C%2081?c=15.00,0,0,0,dh",
+      "status": "closed"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_12c0a70825ae7ac933cd",
+      "source_url": "https://www.google.com/maps/place/%EA%B0%93%ED%8F%AC%ED%9A%8C%EB%8B%B4/data=!3m1!4b1!4m6!3m5!1s0x35654b9a02198df1:0x2c72969ba85d0b59!8m2!3d36.3579869!4d127.3502964!16s%2Fg%2F11tmy5hsw1",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_12cb65d21e13842d27bf",
+      "source_url": "https://www.google.com/maps/place/%EC%8A%A4%ED%83%80%EB%B2%85%EC%8A%A4+%EB%8C%80%EC%A0%84%EC%9C%A0%EC%84%B1%EC%A0%90/data=!3m1!4b1!4m6!3m5!1s0x35654b78845e3f31:0x5fc169bd66f3b683!8m2!3d36.3545222!4d127.3395544!16s%2Fg%2F11bwd8cdd7",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_13aa7e601e7bc66a6925",
+      "source_url": "https://www.google.com/maps/place/%EB%9D%BC%ED%94%84%EB%A0%88%EC%A6%88%EB%B2%A0%EC%9D%B4%EC%BB%A4%EB%A6%AC%EC%B9%B4%ED%8E%98/data=!4m7!3m6!1s0x35654b87312111bd:0x6a540510ae522229!8m2!3d36.3892961!4d127.3040814!16s%2Fg%2F11fn62cnh4!19sChIJvREhMYdLZTURKSJSrhAFVGo",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_13c7dfbe10951d886f3e",
+      "source_url": "https://www.google.com/maps/place/%EB%82%98%EB%AC%B4%EC%99%80%EC%9E%90%EC%A0%84%EA%B1%B0/data=!3m1!4b1!4m6!3m5!1s0x356536733bf467f5:0x7eeb315a0e5f1216!8m2!3d36.4238754!4d127.3897947!16s%2Fg%2F1tf40tl8",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_146fa03ea07b6e491d33",
+      "source_url": "https://map.naver.com/p/search/%ED%8C%8C%EB%A8%B8%EC%8A%A4%ED%86%A0%EB%A6%AC(%ED%83%91%EB%A6%BD%EB%8F%99%20)%20%EB%8C%80%EC%A0%84%EA%B4%91%EC%97%AD%EC%8B%9C%20%EC%9C%A0%EC%84%B1%EA%B5%AC%20%EC%97%91%EC%8A%A4%ED%8F%AC%EB%A1%9C%20628?c=15.00,0,0,0,dh",
+      "status": "closed"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_14ee3e98c7592822aae4",
+      "source_url": "https://pcmap.place.naver.com/place/33492407",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_15055ec64b39c848c19b",
+      "source_url": "https://map.naver.com/p/search/%EC%B9%B4%ED%8E%98%EC%8A%A4%ED%85%8C%EC%9D%B4%EC%9D%B8%ED%84%B0%EB%B7%B0%20%EB%8C%80%EC%A0%84%EC%8B%A0%EC%84%B8%EA%B3%84Art%26Science%EC%A0%90%20%EB%8C%80%EC%A0%84%20%EC%9C%A0%EC%84%B1%EA%B5%AC%20%EC%97%91%EC%8A%A4%ED%8F%AC%EB%A1%9C%201%20(%EB%8F%84%EB%A3%A1%EB%8F%99%20648)?c=15.00,0,0,0,dh",
+      "status": "closed"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_15f3b98bfa280cc6b815",
+      "source_url": "https://www.google.com/maps/place/ong+design+cafe/data=!3m1!4b1!4m6!3m5!1s0x3565375b1d70d8e3:0xabc7fb84a0e818aa!8m2!3d36.4234734!4d127.3920308!16s%2Fg%2F11ty8c5nl9",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_168c25af0ce09cb3d992",
+      "source_url": "https://www.google.com/maps/place/%EC%97%B0%EC%8A%A4%EC%8B%9C/data=!3m1!4b1!4m6!3m5!1s0x35654b4021273a79:0x7634041c2b35e2fd!8m2!3d36.3729177!4d127.3184197!16s%2Fg%2F1q5bq3mfv",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_16f163b97cf993376789",
+      "source_url": "https://www.google.com/maps/place/%EA%B8%80%EB%A1%9C%EB%A6%AC+%EB%8D%B0%EC%9D%B4%EC%A6%88/data=!3m1!4b1!4m6!3m5!1s0x35654b775a7b0acf:0x176bef86114370f4!8m2!3d36.3613032!4d127.3481328!16s%2Fg%2F11fv45p89k",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_170a3486fea9ba711c41",
+      "source_url": "https://pcmap.place.naver.com/place/1611357913?from=map&fromPanelNum=1&additionalHeight=76&timestamp=202608301727&locale=ko&svcName=map_pcv5&searchText=%EA%B0%A4%EB%9F%AC%EB%A6%AC%EC%A7%80%EC%97%90%EC%9D%B4%20%EB%8C%80%EC%A0%84%20%EC%9C%A0%EC%84%B1%EA%B5%AC%20%EC%9A%A9%EA%B3%84%EB%8F%99%20166-11",
+      "status": "closed"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_170ca0ccfafedaa69fe9",
+      "source_url": "https://place.map.kakao.com/901123714#blogreview",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_1aa48c5ac681e3284e88",
+      "source_url": "https://map.naver.com/p/search/%EC%BB%A4%ED%94%BC%EB%B9%88%20%ED%98%84%EB%8C%80%EC%9E%90%EB%8F%99%EC%B0%A8%EC%84%B1%EB%82%B4%EC%A0%90%20%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C%20%EA%B0%95%EB%8F%99%EA%B5%AC%20%EC%A7%84%ED%99%A9%EB%8F%84%EB%A1%9C31%EA%B8%B8%206?c=15.00,0,0,0,dh",
+      "status": "closed"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_1b06b037c56b6cdeee2c",
+      "source_url": "https://pcmap.place.naver.com/place/1287904339?from=map&fromPanelNum=1&additionalHeight=76&timestamp=202608301728&locale=ko&svcName=map_pcv5&searchText=%EC%B9%B4%ED%8E%98%ED%85%8C%EB%A6%AC%EC%95%84%20%EB%8C%80%EC%A0%84%EA%B4%91%EC%97%AD%EC%8B%9C%20%EC%9C%A0%EC%84%B1%EA%B5%AC%20%EC%9C%A0%EC%84%B1%EB%8C%80%EB%A1%9C1184%EB%B2%88%EA%B8%B8%2011-9",
+      "status": "closed"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_1b134c0c4d57623d687f",
+      "source_url": "https://www.google.com/maps/place/%EB%8D%B8%EB%A6%AC%EC%B9%98%EC%98%A4%EC%9E%90/data=!3m1!4b1!4m6!3m5!1s0x357caf0d2426c363:0xc4e0d15638099dd4!8m2!3d37.5348642!4d127.1343321!16s%2Fg%2F11td9j9n2s",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_1b8193d1336937b0062e",
+      "source_url": "https://www.google.com/maps/place/%EC%B9%98%EB%B8%8C%EB%A0%88%EC%98%A4/data=!3m1!4b1!4m6!3m5!1s0x35654b9eada34251:0xe5176e604ed54791!8m2!3d36.3603414!4d127.3450966!16s%2Fg%2F1vzqq3kj",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_1c8a716293153545bdc9",
+      "source_url": "https://map.naver.com/p/search/%EB%A0%88%EC%9D%B4%EB%8B%88%20%ED%95%98%EC%9A%B0%EC%8A%A4(%EC%8B%A0%EC%84%B1)%20%EB%8C%80%EC%A0%84%EA%B4%91%EC%97%AD%EC%8B%9C%20%EC%9C%A0%EC%84%B1%EA%B5%AC%20%EC%8B%A0%EC%84%B1%EB%A1%9C84%EB%B2%88%EA%B8%B8%2058?c=15.00,0,0,0,dh",
+      "status": "closed"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_1cf4cb00b7e317339e56",
+      "source_url": "https://www.google.com/maps/place/1987%EC%96%91%EB%B0%98%EB%8C%81/data=!4m7!3m6!1s0x35654b7774711667:0x8f92093cbe5d9fa9!8m2!3d36.3591891!4d127.3369968!16s%2Fg%2F11fy5jcwbg!19sChIJZxZxdHdLZTURqZ9dvjwJko8",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_1d05e3e2bc8de52cdb55",
+      "source_url": "https://www.google.com/maps/place/%ED%94%BC%EC%A0%9C%EB%A6%AC%EC%95%84614+%EC%88%98%ED%86%B5%EA%B3%A8/data=!3m1!4b1!4m6!3m5!1s0x357ab3f46c8ff375:0x1b318ea9e98b13aa!8m2!3d36.3460422!4d127.2892463!16s%2Fg%2F11h0cfn5gw",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_1d7b6f31f1cd68945c0c",
+      "source_url": "https://pcmap.place.naver.com/place/1976306870",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_1e0a865813c1e4cf5149",
+      "source_url": "https://www.google.com/maps/place/%EC%9D%BC%ED%95%98%EA%B8%B0%EC%8B%AB%EC%9D%80%EB%82%A0%EB%8B%A4%EB%B0%A9/data=!3m1!4b1!4m6!3m5!1s0x35654bc9884b7887:0xe5b4c7b68bceef0f!8m2!3d36.3895641!4d127.315555!16s%2Fg%2F11hz0twx1d",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_1e6b1744af5282ce0ba8",
+      "source_url": "https://www.google.com/maps/place/%EC%95%88%EB%8F%84%EC%8A%A4%EC%8B%9C/data=!3m1!4b1!4m6!3m5!1s0x35654b09ec100007:0xe69310c2cc7937c9!8m2!3d36.372236!4d127.3389576!16s%2Fg%2F11g6xw624p",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_1f489fc5bdbee2cfbbd2",
+      "source_url": "https://map.naver.com/p/search/%ED%98%B8%EB%9D%BC%EC%9D%B4%EC%A6%8C(%EB%8F%84%EB%A3%A1%EB%8F%99)%20%EB%8C%80%EC%A0%84%20%EC%9C%A0%EC%84%B1%EA%B5%AC%20%EC%97%91%EC%8A%A4%ED%8F%AC%EB%A1%9C%201%20%EC%8B%A0%EC%84%B8%EA%B3%84%20%EC%97%91%EC%8A%A4%ED%8F%AC%EC%A0%90%201%EC%B8%B5%20T1-1%ED%98%B8%20(%EB%8F%84%EB%A3%A1%EB%8F%99)?c=15.00,0,0,0,dh",
+      "status": "closed"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_1f634aba0d9e472b5c41",
+      "source_url": "https://www.google.com/maps/place/%EB%B0%94%EB%9D%BC%EB%8D%98%EB%B0%94/data=!3m1!4b1!4m6!3m5!1s0x35654b8482159a29:0xd069eb8f0d92c86e!8m2!3d36.344767!4d127.3415848!16s%2Fg%2F11cs6h7pv3",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_213d38bfbf784a7321fc",
+      "source_url": "https://place.map.kakao.com/743666897#blogreview",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_216c9ac9404a4b5c23f7",
+      "source_url": "https://www.google.com/maps/place/%ED%8A%B8%EC%9B%B0%EB%B8%8C+%EC%98%A4/data=!3m1!4b1!4m6!3m5!1s0x35654b0762c7fb29:0xdd6fd65e10239598!8m2!3d36.385507!4d127.3799364!16s%2Fg%2F11pkbw137d",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_218e81cc65aa1bf6a257",
+      "source_url": "https://www.google.com/maps/place/%EB%A6%AC%EC%BD%94%EC%A0%9C%EC%9D%B4+%EB%A0%88%EC%8A%A4%ED%86%A0%EB%9E%91/data=!4m7!3m6!1s0x35654b33841c939b:0x17297d01d67a4184!8m2!3d36.3864086!4d127.3788512!16s%2Fg%2F11h5lg05jg!19sChIJm5MchDNLZTURhEF61gF9KRc",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_21b93e6440438eed3ad3",
+      "source_url": "https://map.naver.com/p/search/%EC%95%B3%ED%94%84%EB%9E%91%EC%8A%A4%20%EB%8C%80%EC%A0%84%EA%B4%91%EC%97%AD%EC%8B%9C%20%EC%9C%A0%EC%84%B1%EA%B5%AC%20%EC%97%91%EC%8A%A4%ED%8F%AC%EB%A1%9C123%EB%B2%88%EA%B8%B8%2046-15?c=15.00,0,0,0,dh",
+      "status": "closed"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_220231a6792242df5fe1",
+      "source_url": "https://map.naver.com/p/search/%ED%83%80%EC%9D%B4%ED%83%88%EB%A6%AC%20%EB%8C%80%EC%A0%84%EA%B4%91%EC%97%AD%EC%8B%9C%20%EC%9C%A0%EC%84%B1%EA%B5%AC%20%ED%85%8C%ED%81%AC%EB%85%B84%EB%A1%9C%2094?c=15.00,0,0,0,dh",
+      "status": "closed"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_2328a7195842df779afe",
+      "source_url": "https://map.naver.com/p/search/%EB%AF%B8%EB%87%BD%20%EB%8C%80%EC%A0%84%EA%B4%91%EC%97%AD%EC%8B%9C%20%EC%9C%A0%EC%84%B1%EA%B5%AC%20%EC%97%91%EC%8A%A4%ED%8F%AC%EB%A1%9C539%EB%B2%88%EA%B8%B8%2024-11?c=15.00,0,0,0,dh",
+      "status": "closed"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_2356553c07bb3a1f25f6",
+      "source_url": "https://www.google.com/maps/place/%ED%83%80%EB%B3%BC%EB%9D%BC%ED%83%80/data=!3m1!4b1!4m6!3m5!1s0x35654ba75bcb38af:0x144ea6d4d6de35d8!8m2!3d36.371977!4d127.3402962!16s%2Fg%2F11c5_4_plt",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_235819467a8ed47002f0",
+      "source_url": "https://www.google.com/maps/place/Cafe+106/data=!3m1!4b1!4m6!3m5!1s0x35654c7e08673de1:0xefdbcf24c678e338!8m2!3d36.3429622!4d127.3407218!16s%2Fg%2F11c6sky9j9",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_24a207c6c9795298cb4f",
+      "source_url": "https://www.google.com/maps/place/%ED%8A%B8%EB%A0%88%EB%B9%84%EB%A0%88%EC%8A%A4%ED%86%A0%EB%9E%91/data=!3m1!4b1!4m6!3m5!1s0x356549e2386d2d87:0x91311d71f2dd3e0a!8m2!3d36.3998784!4d127.3974613!16s%2Fg%2F1tgvbgzf",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_24c557625486fc6a1ae6",
+      "source_url": "https://www.google.com/maps/place/%EA%B3%B0%EC%97%90%EC%8A%A4%ED%94%84%EB%A0%88%EC%86%8C+%EB%B3%B8%EC%A0%90/data=!3m1!4b1!4m6!3m5!1s0x35654c7e6ade50b5:0x5d859dab790c2b22!8m2!3d36.3435953!4d127.3413767!16s%2Fg%2F11c56r21gk",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_24ee61bd3cf16fa70c96",
+      "source_url": "https://www.google.com/maps/place/%ED%94%BC%EB%85%B8%EB%A1%9C%28Pinolo%29/data=!4m7!3m6!1s0x356549e23b9125a5:0x22d5cc44de95e767!8m2!3d36.3998995!4d127.3978584!16s%2Fg%2F11c2nzbd10!19sChIJpSWRO-JJZTURZ-eV3kTM1SI",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_24f1d534879ac5d1b277",
+      "source_url": "https://map.naver.com/p/search/%ED%83%90%EC%95%A4%ED%83%90%EC%8A%A4(%ED%85%8C%ED%81%AC%EB%85%B8%EC%86%A1%EA%B0%95%EC%A0%90)%20%EB%8C%80%EC%A0%84%20%EC%9C%A0%EC%84%B1%EA%B5%AC%20%EA%B8%88%EB%82%A8%EA%B5%AC%EC%A6%89%EB%A1%9C%201392%20C3L%20(%EB%B4%89%EC%82%B0%EB%8F%99%20719-4)",
+      "status": "closed"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_250fd9b4c43a667452a4",
+      "source_url": "https://www.google.com/maps/place/%EC%BB%A4%ED%94%BC+%EC%9D%B8%ED%84%B0%EB%B7%B0/data=!3m1!4b1!4m6!3m5!1s0x35654b9fc0aa96e9:0x6182f37645cf0b05!8m2!3d36.3645845!4d127.3412946!16s%2Fg%2F11dxrw6lv0",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_25397291a0ca73d5ffd6",
+      "source_url": "https://www.google.com/maps/place/%EC%8A%A4%ED%83%80%EB%B2%85%EC%8A%A4+%EC%B2%9C%ED%98%B8%EC%9D%B4%EB%A7%88%ED%8A%B8%EC%A0%90/data=!3m1!4b1!4m6!3m5!1s0x357ca55565f3e305:0x8a40cdf46a95ccf!8m2!3d37.5389169!4d127.1252133!16s%2Fg%2F11c3swyhqw",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_259da90db28abae3588e",
+      "source_url": "https://www.google.com/maps/place/%EC%8A%A4%ED%94%84%EB%A7%81%ED%8F%B4+%EC%B9%B4%ED%8E%98/data=!3m1!4b1!4m6!3m5!1s0x35654b3b03aee89f:0xd3de5f3769229b13!8m2!3d36.3854636!4d127.3801151!16s%2Fg%2F11kr3wfywj",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_266300ba2a502d767f49",
+      "source_url": "https://www.google.com/maps/place/%EC%96%B4%EB%82%98%EB%8D%94%ED%82%A4%EC%B9%9C-%EB%8C%80%EC%A0%84%EC%A0%90/data=!3m1!4b1!4m6!3m5!1s0x35654b9c69a48a87:0x38a43720081cf7bf!8m2!3d36.3587382!4d127.3441209!16s%2Fg%2F11g02njt6p",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_26bc6b6cc03380338688",
+      "source_url": "https://map.naver.com/p/search/%ED%86%A0%EB%AF%B8%EC%BB%A4%ED%94%BC%20%EB%8C%80%EC%A0%84%EA%B4%91%EC%97%AD%EC%8B%9C%20%EC%9C%A0%EC%84%B1%EA%B5%AC%20%EC%A7%80%EC%A1%B1%EB%B6%81%EB%A1%9C6%EB%B2%88%EA%B8%B8%201?c=15.00,0,0,0,dh",
+      "status": "closed"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_26cecb51e25fd032a138",
+      "source_url": "https://map.naver.com/p/search/%EC%B1%97%EB%A8%B8%EC%B9%98%20%EB%8C%80%EC%A0%84%EA%B4%91%EC%97%AD%EC%8B%9C%20%EC%9C%A0%EC%84%B1%EA%B5%AC%20%EC%9D%80%EA%B5%AC%EB%B9%84%EB%A1%9C%20155?c=15.00,0,0,0,dh",
+      "status": "closed"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_27f76cab9f1861248a24",
+      "source_url": "https://pcmap.place.naver.com/place/37562541?from=map&fromPanelNum=1&additionalHeight=76&timestamp=202608301740&locale=ko&svcName=map_pcv5&searchText=%EC%84%B8%EB%B8%90%ED%8C%A9%ED%86%A0%EB%A6%AC%EB%AA%A8%EB%A8%BC%ED%8A%B8(%EB%B4%89%EB%AA%85%EB%8F%99)%20%EB%8C%80%EC%A0%84%EA%B4%91%EC%97%AD%EC%8B%9C%20%EC%9C%A0%EC%84%B1%EA%B5%AC%20%EB%8C%80%ED%95%99%EB%A1%9C%2059",
+      "status": "closed"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_28aaa619aacc541eb87b",
+      "source_url": "https://map.naver.com/p/search/%EC%95%88%EB%8B%A4%EB%AF%B8%EB%A1%9C%20%EB%8C%80%EC%A0%84%EA%B4%91%EC%97%AD%EC%8B%9C%20%EC%9C%A0%EC%84%B1%EA%B5%AC%20%EB%B0%98%EC%84%9D%EB%A1%9C11%EB%B2%88%EA%B8%B8%2037?c=15.00,0,0,0,dh",
+      "status": "closed"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_28dfb6fff44e0a141bae",
+      "source_url": "https://www.google.com/maps/place/%ED%88%AC%EC%8D%B8%ED%94%8C%EB%A0%88%EC%9D%B4%EC%8A%A4+%EB%8C%80%EC%A0%84%EB%85%B8%EC%9D%80%EC%97%AD%EC%A0%90/data=!3m1!4b1!4m6!3m5!1s0x35654b14429ff3f5:0x1fb1654e33be3959!8m2!3d36.3741938!4d127.3196823!16s%2Fg%2F11hy9qllqt",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_29044bfc6157d7ba1673",
+      "source_url": "https://www.google.com/maps/place/%ED%88%AC%EC%8D%B8%ED%94%8C%EB%A0%88%EC%9D%B4%EC%8A%A4+%EA%B0%95%EB%8F%99%EC%97%AD%EC%A0%90/data=!3m1!4b1!4m6!3m5!1s0x357caf604a4ea65b:0x628f78ef7eecf21d!8m2!3d37.5366169!4d127.1320265!16s%2Fg%2F11j029prp8",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_2913da1046ffbb9cbefa",
+      "source_url": "https://map.naver.com/p/search/%EC%BD%94%EC%96%B4%20%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C%20%EA%B0%95%EB%8F%99%EA%B5%AC%20%EC%96%91%EC%9E%AC%EB%8C%80%EB%A1%9C128%EA%B8%B8%2060?c=15.00,0,0,0,dh",
+      "status": "closed"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_29c2678c787a0d6b5a93",
+      "source_url": "https://www.google.com/maps/place/%ED%8C%8C%EB%A6%AC%EC%9D%98+%EC%95%84%EC%B9%A8/data=!4m7!3m6!1s0x35654b1a75cdb0c7:0x90a4bf502decf843!8m2!3d36.3812045!4d127.3255608!16s%2Fg%2F11dfsw2t64!19sChIJx7DNdRpLZTURQ_jsLVC_pJA",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_2acf1ed21c22a9f5c316",
+      "source_url": "https://www.google.com/maps/place/%EA%B4%80%ED%8F%89%EC%9D%98%EC%88%B2/data=!3m1!4b1!4m6!3m5!1s0x35653580512e966d:0xc3de8f6fc6aa2fb4!8m2!3d36.41784!4d127.3788443!16s%2Fg%2F11kj72xwwc",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_2b2413f6f8c209d5bd53",
+      "source_url": "https://www.google.com/maps/place/%EC%8A%A4%ED%83%80%EB%B2%85%EC%8A%A4+%EB%8C%80%EC%A0%84%ED%98%84%EB%8C%80%EC%95%84%EC%9A%B8%EB%A0%9B/data=!3m1!4b1!4m6!3m5!1s0x356537e685ada9ed:0xf31ba81b0dba6819!8m2!3d36.4238445!4d127.3986037!16s%2Fg%2F11jp32bn_z",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_2b648a6295c7adbd2023",
+      "source_url": "https://map.naver.com/p/search/%EB%94%94%EC%B4%88%EC%BD%9C%EB%A6%BF%EC%BB%A4%ED%94%BC(%EB%8C%80%EC%A0%84%EB%8F%84%EC%95%88%EC%8B%A0%EB%8F%84%EC%8B%9C%EC%A0%90)%20%EB%8C%80%EC%A0%84%EA%B4%91%EC%97%AD%EC%8B%9C%20%EC%9C%A0%EC%84%B1%EA%B5%AC%20%EB%8F%84%EC%95%88%EB%B6%81%EB%A1%9C%2085-31?c=15.00,0,0,0,dh",
+      "status": "closed"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_2b648bf14665d141a32b",
+      "source_url": "https://www.google.com/maps/place/%ED%8F%B4%EC%9D%B8%EB%A0%88%EB%AF%B8%EC%9C%A0+%EB%8C%80%EC%A0%84%EC%A0%90/data=!3m1!4b1!4m6!3m5!1s0x35654b3effcb8dbb:0x4834c08b721d32ec!8m2!3d36.35216!4d127.3351445!16s%2Fg%2F11s4h7c937",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_2bda01ce86bc47f9daf9",
+      "source_url": "https://map.kakao.com/?q=%EB%B9%84%ED%8A%B8%EC%B9%B4%ED%8E%98%EB%9D%BC%EC%9A%B4%EC%A7%80%20%EC%B2%9C%ED%98%B8%EC%A0%90%20%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C%20%EA%B0%95%EB%8F%99%EA%B5%AC%20%EA%B5%AC%EC%B2%9C%EB%A9%B4%EB%A1%9C%20140",
+      "status": "closed"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_2c3510e3b2e157580c7d",
+      "source_url": "https://www.google.com/maps/place/%ED%88%AC%EC%8D%B8%ED%94%8C%EB%A0%88%EC%9D%B4%EC%8A%A4+%EB%8C%80%EC%A0%84%EC%9E%A5%EB%8C%80%EB%8F%99%EC%A0%90/data=!3m1!4b1!4m6!3m5!1s0x35654b774de0087d:0x11afbbd9feeeccf6!8m2!3d36.359613!4d127.334963!16s%2Fg%2F11c67wqbs4",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_2cb1cde798b9f7023707",
+      "source_url": "https://map.kakao.com/?q=%EB%A7%88%EA%B0%80%EB%A0%9B%20%EB%8C%80%EC%A0%84%EA%B4%91%EC%97%AD%EC%8B%9C%20%EC%9C%A0%EC%84%B1%EA%B5%AC%20%EB%8C%80%ED%95%99%EB%A1%9C%20235-1",
+      "status": "closed"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_2f00940d64bf4f085e81",
+      "source_url": "https://place.map.kakao.com/646153744#blogreview",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_2f10011473b123491a56",
+      "source_url": "https://place.map.kakao.com/1712726500",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_2f6c1652c3e3ee253167",
+      "source_url": "https://place.map.kakao.com/1619274847",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_2fe7459b6da267d37249",
+      "source_url": "https://place.map.kakao.com/1458165034",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_308eda3116ac263db6d7",
+      "source_url": "https://place.map.kakao.com/386181330",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_31d0fee66c8a6e983b75",
+      "source_url": "https://place.map.kakao.com/20307482",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_31e118aec8e8b7f25887",
+      "source_url": "https://place.map.kakao.com/624463795",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_31ecb745a38fb18d5763",
+      "source_url": "https://map.naver.com/p/search/%ED%86%A0%EB%B9%84%EC%8A%A4%20%EC%BB%A4%ED%94%BC%20%EC%84%9C%EC%9A%B8%20%EA%B0%95%EB%8F%99%EA%B5%AC%20%EC%B2%9C%ED%98%B8%EB%8C%80%EB%A1%9C%201116?placePath=%2Fhome%3Ffrom%3Dmap%26fromPanelNum%3D1%26additionalHeight%3D76%26timestamp%3D202608301856%26locale%3Dko%26svcName%3Dmap_pcv5%26searchText%3D%ED%86%A0%EB%B9%84%EC%8A%A4%20%EC%BB%A4%ED%94%BC%20%EC%84%9C%EC%9A%B8%20%EA%B0%95%EB%8F%99%EA%B5%AC%20%EC%B2%9C%ED%98%B8%EB%8C%80%EB%A1%9C%201116&c=15.00,0,0,0,dh",
+      "status": "closed"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_3217e0c7136acd7dca71",
+      "source_url": "https://www.google.com/maps/place/%ED%88%AC%EC%8D%B8%ED%94%8C%EB%A0%88%EC%9D%B4%EC%8A%A4+%EA%B0%95%EB%8F%99%EA%B8%B8%EB%8F%99%EC%97%AD%EC%A0%90/data=!3m1!4b1!4m6!3m5!1s0x357cb12734478795:0xedba8d5e8ea8ba79!8m2!3d37.5362956!4d127.1391954!16s%2Fg%2F11t6lgcxhz?entry=ttu&g_ep=EgoyMDI2MDgyNi4wIKXMDSoASAFQAw%3D%3D",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_322ace0527d71aae07ec",
+      "source_url": "https://map.kakao.com/?q=%EC%82%B4%EB%A3%A8%EB%96%BC%20%EB%8C%80%EC%A0%84%20%EC%9C%A0%EC%84%B1%EA%B5%AC",
+      "status": "closed"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_32fde59b05e431d9f61f",
+      "source_url": "https://place.map.kakao.com/743442960",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_33e8801d2691627ad0cf",
+      "source_url": "https://map.kakao.com/?q=%EC%95%88%ED%83%88%EB%A6%AC%EC%95%84%20%EB%8C%80%EC%A0%84%20%EC%9C%A0%EC%84%B1%EA%B5%AC",
+      "status": "closed"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_3410acccb8220dae731a",
+      "source_url": "https://map.kakao.com/?q=%EC%9D%B4%EB%A0%88%EC%BB%A4%ED%94%BC(%EC%A3%BD%EB%8F%99)%20%EB%8C%80%EC%A0%84%20%EC%9C%A0%EC%84%B1%EA%B5%AC",
+      "status": "closed"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_345750703433df34e0a3",
+      "source_url": "https://map.kakao.com/?q=%ED%83%90%EC%95%A4%ED%83%90%EC%8A%A4(%EA%B4%80%ED%8F%89%EC%A0%90%20)%20%EB%8C%80%EC%A0%84%20%EC%9C%A0%EC%84%B1%EA%B5%AC",
+      "status": "closed"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_34ee589f164a8f0e8c04",
+      "source_url": "https://place.map.kakao.com/1078991837",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_353989a3f6241576815b",
+      "source_url": "https://map.kakao.com/?q=%EC%9C%A0%EB%9E%8C(%EB%B4%89%EB%AA%85%EB%8F%99)%20%EB%8C%80%EC%A0%84%20%EC%9C%A0%EC%84%B1%EA%B5%AC",
+      "status": "closed"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_355526cd5371a1471d1b",
+      "source_url": "https://place.map.kakao.com/13267710",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_356beac57d9b79991666",
+      "source_url": "https://place.map.kakao.com/1449361370",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_35cabbafd1826684ed35",
+      "source_url": "https://place.map.kakao.com/26469904",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_36dc96606c25b8f42602",
+      "source_url": "https://map.kakao.com/?q=MOON(%EB%8C%80%EC%A0%84%EC%9C%A0%EC%84%B1%EC%A0%90)%20%EB%8C%80%EC%A0%84%20%EC%9C%A0%EC%84%B1%EA%B5%AC",
+      "status": "closed"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_3724b21a49a70aadf1a3",
+      "source_url": "https://place.map.kakao.com/1649348139",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_380c6772dd4703257903",
+      "source_url": "https://place.map.kakao.com/12627467",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_38df32b666c91ae963f8",
+      "source_url": "https://map.kakao.com/?q=%ED%8F%B4%EB%A0%88%ED%8F%B4%EB%A0%88%20%EC%9C%A0%EC%84%B1%EB%B3%B8%EC%A0%90%20%EB%8C%80%EC%A0%84%20%EC%9C%A0%EC%84%B1%EA%B5%AC",
+      "status": "closed"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_38ee61324e13c996ecee",
+      "source_url": "https://map.kakao.com/?q=%EA%B9%8C%ED%8E%98%20%EA%B9%8C%EB%A9%9C%EB%A6%AC%EC%95%84%20%EB%8C%80%EC%A0%84%20%EC%9C%A0%EC%84%B1%EA%B5%AC",
+      "status": "closed"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_3a15c9e07f8405e4024e",
+      "source_url": "https://place.map.kakao.com/2031573995",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_3a3be2132edfccc1cd09",
+      "source_url": "https://place.map.kakao.com/975974891",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_3a87b7a949fd9ed67374",
+      "source_url": "https://map.kakao.com/?q=Denhaag%20%EB%8C%80%EC%A0%84%20%EC%9C%A0%EC%84%B1%EA%B5%AC",
+      "status": "closed"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_3b517a8bc9647047e28b",
+      "source_url": "https://place.map.kakao.com/24165238",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_3b6db84b1ae90883d2cd",
+      "source_url": "https://place.map.kakao.com/18583057",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_3b7a0d5302370f64a1d6",
+      "source_url": "https://place.map.kakao.com/2070748723",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_3b7b88891767482fd14c",
+      "source_url": "https://map.kakao.com/?q=%ED%94%BC%EC%98%A4%EB%9D%BC%ED%86%A0(%EC%9C%A0%EC%84%B1)%20%EB%8C%80%EC%A0%84%20%EC%9C%A0%EC%84%B1%EA%B5%AC",
+      "status": "closed"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_3bba5c0dbda33f81d944",
+      "source_url": "https://map.kakao.com/?q=%EC%BB%A4%ED%94%BC%EB%8B%A4%20%EB%8C%80%EC%A0%84%20%EC%9C%A0%EC%84%B1%EA%B5%AC",
+      "status": "closed"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_3bc8c26ad7ea886db966",
+      "source_url": "https://place.map.kakao.com/1259288446",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_3c5c6439d70fb6606aa8",
+      "source_url": "https://place.map.kakao.com/26013430",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_3dd887e356bc25adfa24",
+      "source_url": "https://www.google.com/maps/place/%ED%88%AC%EC%8D%B8%ED%94%8C%EB%A0%88%EC%9D%B4%EC%8A%A4+%EC%B2%9C%ED%98%B8%EC%97%AD%ED%95%B4%EB%A7%81%ED%84%B4%ED%83%80%EC%9B%8C%EC%A0%90/data=!3m1!4b1!4m6!3m5!1s0x357ca50041642eed:0x6a0b2101c1b21d20!8m2!3d37.5359343!4d127.1228748!16s%2Fg%2F11lcrtv6z5?entry=ttu&g_ep=EgoyMDI2MDgyNi4wIKXMDSoASAFQAw%3D%3D",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_3e5dd36a22012fb0b950",
+      "source_url": "https://map.kakao.com/?q=%ED%95%A0%EB%A6%AC%EC%8A%A4%EC%BB%A4%ED%94%BC%20%EC%BB%A4%ED%94%BC(%EB%8C%80%EC%A0%84%EB%8F%84%EC%95%88DT)%20%EB%8C%80%EC%A0%84%20%EC%9C%A0%EC%84%B1%EA%B5%AC",
+      "status": "closed"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_3e80f7f38f90c9108090",
+      "source_url": "https://place.map.kakao.com/63218332",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_3f18f0fc54c800a1d72b",
+      "source_url": "https://map.kakao.com/?q=%EC%B9%B4%ED%8E%98%EC%9D%B4%EB%B8%8C%EB%A6%AD%EC%8A%A4(%EB%85%B8%EC%9D%80%EB%8F%99)%20%EB%8C%80%EC%A0%84%20%EC%9C%A0%EC%84%B1%EA%B5%AC",
+      "status": "closed"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_3f2e7b60e996baa3ca09",
+      "source_url": "https://www.google.com/maps/search/%ED%94%84%EB%9E%AD%ED%81%AC%20%EC%BB%A4%ED%95%80%EB%B0%94%20%EC%98%AC%EB%A6%BC%ED%94%BD%20%EA%B3%B5%EC%9B%90%EC%A0%90(%EC%98%AC%EB%A6%BC%ED%94%BD%20%EA%B3%B5%EC%9B%90%EC%A0%90)%20%EC%84%9C%EC%9A%B8%20%EA%B0%95%EC%98%B9%EA%B5%AC%20%EA%B0%95%EB%8F%99%EB%8C%80%EB%A1%9C%20143-18%201%EC%B8%B5%20102%ED%98%B8%20(%20%EA%B0%95%EB%8F%99%EA%B5%AC%EC%B2%AD%EC%97%AD%203%EB%B2%88%EC%B6%9C%EA%B5%AC%EC%97%90%EC%84%9C%20421m%205%EB%B6%84)",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_3f380ccda4bf09f6a66e",
+      "source_url": "https://map.kakao.com/?q=%EC%98%AC%EB%A6%AC%EB%B0%94%20%EB%8C%80%EC%A0%84%20%EC%9C%A0%EC%84%B1%EA%B5%AC",
+      "status": "closed"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_3f771d6e7833fe168e2b",
+      "source_url": "https://place.map.kakao.com/18782272",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_4143b4e25b500fdac7e8",
+      "source_url": "https://place.map.kakao.com/1432270615",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_41856628275d9fa96160",
+      "source_url": "https://place.map.kakao.com/1179017655",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_41da448a310480affb38",
+      "source_url": "https://place.map.kakao.com/661928791",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_4225c3b28b5dd9b2fe2c",
+      "source_url": "https://map.kakao.com/?q=%EC%97%98%EB%A6%AC%EC%A7%80%EC%9D%B8%20%EB%8C%80%EC%A0%84%20%EC%9C%A0%EC%84%B1%EA%B5%AC",
+      "status": "closed"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_42974503bfa52cdb539b",
+      "source_url": "https://place.map.kakao.com/1331538236",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_429749a4a3f50d516653",
+      "source_url": "https://www.google.com/maps/place/Cafe+RiverRidge/data=!3m1!4b1!4m6!3m5!1s0x357cbb50806c6989:0xa8323e38742a99a3!8m2!3d37.5419796!4d127.1214968!16s%2Fg%2F11yb32zcf5?entry=ttu&g_ep=EgoyMDI2MDgyNi4wIKXMDSoASAFQAw%3D%3D",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_42cb3916da6bc36bd6a9",
+      "source_url": "https://map.kakao.com/?q=%EB%AA%A8%EB%AF%B8%EC%A7%80%20%EB%8C%80%EC%A0%84%EB%B4%89%EB%AA%85%EB%B3%B8%EC%A0%90%20%EB%8C%80%EC%A0%84%20%EC%9C%A0%EC%84%B1%EA%B5%AC",
+      "status": "closed"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_42d862bcca99cb2db3bc",
+      "source_url": "https://map.kakao.com/?q=%EB%93%9C%EC%8B%9C%EC%98%A4%20%EB%8C%80%EC%A0%84%20%EC%9C%A0%EC%84%B1%EA%B5%AC",
+      "status": "closed"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_4360e884e23ffeccbcc2",
+      "source_url": "https://map.kakao.com/?q=%EB%9D%BC%20%ED%94%BC%EC%98%AC%EB%A0%88(La%20fiole)%20%EB%8C%80%EC%A0%84%20%EC%9C%A0%EC%84%B1%EA%B5%AC",
+      "status": "closed"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_45711c5e6daf2dac6b5b",
+      "source_url": "https://place.map.kakao.com/1221983060",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_458fe2a5361139dff90d",
+      "source_url": "https://map.kakao.com/?q=%EB%B3%B4%EB%A5%B4%EA%B3%A0%20%EB%8C%80%EC%A0%84%20%EC%9C%A0%EC%84%B1%EA%B5%AC",
+      "status": "closed"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_4596adf62f0eda2897ac",
+      "source_url": "https://map.kakao.com/?q=%EA%B8%88%EC%88%98%EB%B3%B5%EA%B5%AD%20%EB%8C%80%EC%A0%84%20%EC%9C%A0%EC%84%B1%EA%B5%AC",
+      "status": "closed"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_4660e938edb2f5f18f17",
+      "source_url": "https://place.map.kakao.com/1981238596",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_4671f76a80da882005b4",
+      "source_url": "https://map.kakao.com/?q=%EC%9C%A0%EB%9E%8C%20%EC%B9%B4%ED%8E%98(%EB%B4%89%EB%AA%85%EB%8F%99)%20%EB%8C%80%EC%A0%84%20%EC%9C%A0%EC%84%B1%EA%B5%AC",
+      "status": "closed"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_46f432824e792b56ebcf",
+      "source_url": "https://place.map.kakao.com/104699231",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_46fd1352f3b3e9389d40",
+      "source_url": "https://map.kakao.com/?q=%ED%88%AC%EC%8D%B8%ED%94%8C%EB%9E%98%EC%9D%B4%EC%8A%A4%20%EB%8C%80%EC%A0%84%EB%8F%84%EC%95%88%EB%B0%94%EB%A1%9C%EC%84%B8%EC%9B%80%EC%A0%90%20%EB%8C%80%EC%A0%84%20%EC%9C%A0%EC%84%B1%EA%B5%AC",
+      "status": "closed"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_475080f9c3822e9f2fe5",
+      "source_url": "https://place.map.kakao.com/13064303",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_4763627298f49a7d2232",
+      "source_url": "https://map.kakao.com/?q=LACO%20COFFEE%20%EB%8C%80%EC%A0%84%20%EC%9C%A0%EC%84%B1%EA%B5%AC",
+      "status": "closed"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_478be3097b6a23562b4a",
+      "source_url": "https://place.map.kakao.com/1218074329",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_479bc5e65a79f702b56c",
+      "source_url": "https://map.kakao.com/?q=%EB%A9%94%EC%9D%B4%EB%B9%88%20(%EB%AC%B8%EC%A7%80%EB%8F%99)%20%EB%8C%80%EC%A0%84%20%EC%9C%A0%EC%84%B1%EA%B5%AC",
+      "status": "closed"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_47a3fb6a730ac9028540",
+      "source_url": "https://map.kakao.com/?q=%ED%95%98%EC%9D%B4%EC%97%94%EB%93%9C%EB%AF%B8%EC%B9%9C%EB%93%B1%EC%8B%AC%20%EB%8C%80%EC%A0%84%20%EC%9C%A0%EC%84%B1%EA%B5%AC",
+      "status": "closed"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_47ea94a52430c6f6346f",
+      "source_url": "https://map.kakao.com/?q=%EC%B9%B4%ED%8E%98%EB%B9%84%EB%85%B8%20%EB%8C%80%EC%A0%84%20%EC%9C%A0%EC%84%B1%EA%B5%AC",
+      "status": "closed"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_4850627ef88fa4767732",
+      "source_url": "https://place.map.kakao.com/567532694",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_49592bf5f366f8aadd33",
+      "source_url": "https://place.map.kakao.com/1071941531",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_4960750879e39a1cb4b8",
+      "source_url": "https://place.map.kakao.com/1104601502",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_496e9070220453cb7fd2",
+      "source_url": "https://place.map.kakao.com/2022770859",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_49bb8ad0ff456805264a",
+      "source_url": "https://map.kakao.com/?q=%EA%B0%80%EB%82%B4%EC%88%98%EA%B3%B5%EC%97%85%20%EB%8C%80%EC%A0%84%20%EC%9C%A0%EC%84%B1%EA%B5%AC",
+      "status": "closed"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_4aca3e987e9d7cb805e9",
+      "source_url": "https://place.map.kakao.com/1711149816",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_4b095e5e8fd9a12d417d",
+      "source_url": "https://map.kakao.com/?q=%EC%B9%B4%ED%8E%98%20%EB%93%9C%20%EB%A1%9C%EB%8C%95(Cafe%20de%20Rodin)%20%EB%8C%80%EC%A0%84%20%EC%9C%A0%EC%84%B1%EA%B5%AC",
+      "status": "closed"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_4b395696d842473c7ae3",
+      "source_url": "https://map.kakao.com/?q=%EB%A1%9C%EC%8A%A4%ED%8B%B0%EB%93%9C%EB%B9%88%EC%8A%A4(%EC%83%81%EB%8C%80%EB%8F%99)%20%EB%8C%80%EC%A0%84%20%EC%9C%A0%EC%84%B1%EA%B5%AC",
+      "status": "closed"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_4b635c37ada299c2c04c",
+      "source_url": "https://map.kakao.com/?q=%EB%85%B8%EC%95%84%20%EB%8C%80%EC%A0%84%20%EC%9C%A0%EC%84%B1%EA%B5%AC",
+      "status": "closed"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_4b6457dc73137ab0c96d",
+      "source_url": "https://place.map.kakao.com/624680828",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_4bcaa46680369d8783d7",
+      "source_url": "https://map.kakao.com/?q=%EC%B9%B4%ED%8E%98%20%EC%82%AC%EC%9D%B4%EC%95%A0%20%EB%8C%80%EC%A0%84%20%EC%9C%A0%EC%84%B1%EA%B5%AC",
+      "status": "closed"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_4c346cb1d8121fec479b",
+      "source_url": "https://map.kakao.com/?q=%EC%8A%88%ED%83%90%ED%8B%B0%EC%89%AC%20%EB%8C%80%EC%A0%84%20%EC%9C%A0%EC%84%B1%EA%B5%AC",
+      "status": "closed"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_4c450e5d0de667485070",
+      "source_url": "https://map.kakao.com/?q=%EB%8D%94%EB%B8%8C%EB%A6%BF%EC%A7%80(%EC%A3%BD%EB%8F%99%EC%A0%90)%20%EB%8C%80%EC%A0%84%20%EC%9C%A0%EC%84%B1%EA%B5%AC",
+      "status": "closed"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_4cfb4b4329d080c62e5e",
+      "source_url": "https://place.map.kakao.com/2065225377",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_4d22558460db0a4ef416",
+      "source_url": "https://place.map.kakao.com/272700936",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_4d75a86d67f8683f25e4",
+      "source_url": "https://map.kakao.com/?q=%EB%A7%A4%EB%A8%B8%EB%93%9C%EC%9D%B5%EC%8A%A4%ED%94%84%EB%A0%88%EC%8A%A4%20%EB%8C%80%EC%A0%84%EB%AC%B8%EC%A7%80%EC%A0%90%20%EB%8C%80%EC%A0%84%20%EC%9C%A0%EC%84%B1%EA%B5%AC",
+      "status": "closed"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_4de4cca880d363324c30",
+      "source_url": "https://place.map.kakao.com/1547073197",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_4debc05d66345a44cf9e",
+      "source_url": "https://place.map.kakao.com/1654668564",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_4e0befdd92e80c8c5ca4",
+      "source_url": "https://map.kakao.com/?q=%EC%B9%B4%ED%8E%98%EC%A0%9C%EC%A0%9C%20%EB%8C%80%EC%A0%84%20%EC%9C%A0%EC%84%B1%EA%B5%AC",
+      "status": "closed"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_4e1110c1ef2e60360ba8",
+      "source_url": "https://map.kakao.com/?q=%EC%98%A4%EB%84%A4%EC%8A%A4%ED%86%A0%20%EB%8C%80%EC%A0%84%20%EC%9C%A0%EC%84%B1%EA%B5%AC",
+      "status": "closed"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_4e325103c89cead5d696",
+      "source_url": "https://place.map.kakao.com/1997769125",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_4e81fbb84b13a79f7aa2",
+      "source_url": "https://map.kakao.com/?q=%EB%A0%88%EC%9D%B8%EB%B3%B4%EC%9A%B0%EC%B9%B4%ED%8E%98%20%EB%8C%80%EC%A0%84%20%EC%9C%A0%EC%84%B1%EA%B5%AC",
+      "status": "closed"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_4f669fb560293199d2b2",
+      "source_url": "https://place.map.kakao.com/189336306",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_502b9a67b8d233f44a5b",
+      "source_url": "https://map.kakao.com/?q=%EC%88%98%EB%A6%B0%20%EB%8C%80%EC%A0%84%20%EC%9C%A0%EC%84%B1%EA%B5%AC",
+      "status": "closed"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_509e38bbf90ddb958419",
+      "source_url": "https://map.kakao.com/?q=%EC%9E%90%ED%83%84%ED%92%8D%20%EB%8C%80%EC%A0%84%20%EC%9C%A0%EC%84%B1%EA%B5%AC",
+      "status": "closed"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_517eb5694a4b69fee6b7",
+      "source_url": "https://map.naver.com/p/search/%ED%95%98%EC%9D%B4%EB%9E%9C%EB%93%9C%20%EA%B7%B8%EB%A6%B4(%EB%91%94%EC%B4%8C%EC%A0%90)%20%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C%20%EA%B0%95%EB%8F%99%EA%B5%AC%20%ED%92%8D%EC%84%B1%EB%A1%9C%20235",
+      "status": "closed"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_51938b62477d0fe3b460",
+      "source_url": "https://map.kakao.com/?q=%EC%86%90%EC%BF%A1%20%EB%8C%80%EC%A0%84%20%EC%9C%A0%EC%84%B1%EA%B5%AC",
+      "status": "closed"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_5195283ae685cb5d4797",
+      "source_url": "https://map.kakao.com/?q=%EC%BB%A4%ED%94%BC%ED%94%84%EB%9E%9C%EB%93%9C%20%EB%8C%80%EC%A0%84%20%EC%9C%A0%EC%84%B1%EA%B5%AC",
+      "status": "closed"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_5245f5c121d0155138c4",
+      "source_url": "https://place.map.kakao.com/27116918",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_529efaaea6efc82fe025",
+      "source_url": "https://place.map.kakao.com/798466647",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_5328bdb73a02028e67a5",
+      "source_url": "https://map.kakao.com/?q=%EB%B4%89%EB%AA%85%EA%B0%80%EB%93%A0%20(%EB%B4%89%EB%AA%85%EB%8F%99%20)%20%EB%8C%80%EC%A0%84%20%EC%9C%A0%EC%84%B1%EA%B5%AC",
+      "status": "closed"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_53b5b6e06fae0600d930",
+      "source_url": "https://www.google.com/maps/place/%EB%88%85%EC%8A%A4%EC%BB%A4%ED%94%BC+(NOOKS+COFFEE)/data=!3m1!4b1!4m6!3m5!1s0x357cb1005e3a7017:0x42bf0ff925c1b091!8m2!3d37.5367847!4d127.149954!16s%2Fg%2F11xmx6_sbc?entry=ttu&g_ep=EgoyMDI2MDgyNi4wIKXMDSoASAFQAw%3D%3D",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_54eec253ab1da5dfade1",
+      "source_url": "https://map.kakao.com/?q=%EC%98%A4%EB%84%A4%EB%9C%A8(%EB%AC%B8%EC%A7%80%EB%8F%99%20)%20%EB%8C%80%EC%A0%84%20%EC%9C%A0%EC%84%B1%EA%B5%AC",
+      "status": "closed"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_555800e59a41682324e0",
+      "source_url": "https://place.map.kakao.com/673631037",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_55a606b9cd673e6f4e98",
+      "source_url": "https://map.kakao.com/?q=%ED%95%98%EC%96%80%EC%B1%85%EC%83%81(%EB%8F%84%EC%95%88%EB%8F%99%EC%A0%90)%20%EB%8C%80%EC%A0%84%20%EC%9C%A0%EC%84%B1%EA%B5%AC",
+      "status": "closed"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_562d29a9329ed6acaf6c",
+      "source_url": "https://map.kakao.com/?q=%ED%8C%8C%EC%8A%A4%EC%BF%A0%EC%B0%8C%20(%EB%8C%80%EC%A0%84%EB%8F%84%EB%A3%A1%EC%A0%90)%20%EB%8C%80%EC%A0%84%20%EC%9C%A0%EC%84%B1%EA%B5%AC",
+      "status": "closed"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_5723c59096ec9a74ce13",
+      "source_url": "https://place.map.kakao.com/530206715",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_5730e69fabe258f2e43e",
+      "source_url": "https://map.kakao.com/?q=%EC%BB%A4%ED%94%BC%EB%8B%88(%EB%B0%98%EC%84%9D%EC%A0%90)%20%EB%8C%80%EC%A0%84%20%EC%9C%A0%EC%84%B1%EA%B5%AC",
+      "status": "closed"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_57f06b6a07f5f064e8e5",
+      "source_url": "https://place.map.kakao.com/1997769125",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_58bc8aea7a46d301bc88",
+      "source_url": "https://www.google.com/maps/search/%EA%B3%B5%EA%B0%9099%20%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C%20%EA%B0%95%EB%8F%99%EA%B5%AC%20%EC%98%AC%EB%A6%BC%ED%94%BD%EB%A1%9C98%EA%B0%80%EA%B8%B8%2031",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_59141409f856ba5907a5",
+      "source_url": "https://place.map.kakao.com/2108321472",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_595b4c9620be880d7a4c",
+      "source_url": "https://place.map.kakao.com/322382205",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_595fafc1ea2cfc56fbc8",
+      "source_url": "https://place.map.kakao.com/8079691",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_59e4a8bea094f93f7b92",
+      "source_url": "https://map.naver.com/p/search/%ED%95%A0%EB%A6%AC%EC%8A%A4%20%EA%B3%A0%EB%8D%95%EA%B7%B8%EB%9D%BC%EC%8B%9C%EC%9B%80%ED%9B%84%EB%AC%B8%EC%A0%90%20%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C%20%EA%B0%95%EB%8F%99%EA%B5%AC%20%EB%8F%99%EB%82%A8%EB%A1%9C82%EA%B8%B8%2077-1",
+      "status": "closed"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_5aa1b8de92f625aa78a5",
+      "source_url": "https://place.map.kakao.com/51459164",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_5b684c8bb17c72b5aa63",
+      "source_url": "https://map.kakao.com/?q=%ED%8B%B0%ED%81%AC%ED%8A%B8%EB%A6%AC%20%EB%8C%80%EC%A0%84%20%EC%9C%A0%EC%84%B1%EA%B5%AC",
+      "status": "closed"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_5c70c6b309b1ff5fc960",
+      "source_url": "https://map.kakao.com/?q=%EC%9D%B4%EC%BC%80%EC%9D%B4%EC%A7%80%EC%BB%A4%ED%94%BC%EB%B0%94%20%EB%8C%80%EC%A0%84%20%EC%9C%A0%EC%84%B1%EA%B5%AC",
+      "status": "closed"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_5d63254d1ab7b77ba55c",
+      "source_url": "https://map.kakao.com/?q=%EC%B9%B4%ED%8E%98%EC%8A%A4%ED%85%8C%EC%9D%B4%EC%9D%B8%ED%84%B0%EB%B7%B0%EA%B0%91%EB%8F%99%EC%A0%90%20%EB%8C%80%EC%A0%84%20%EC%9C%A0%EC%84%B1%EA%B5%AC",
+      "status": "closed"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_5d8dd593fae1018ecc6a",
+      "source_url": "https://place.map.kakao.com/26459234",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_5d9e14a0d53a534b5f3b",
+      "source_url": "https://map.kakao.com/?q=%EC%97%94%EC%A0%9C%EB%A6%AC%EB%84%88%EC%8A%A4%20(Angel-in-us)%20(%ED%85%8C%ED%81%AC%EB%85%B8%EB%B0%B8%EB%A6%AC%EC%A0%90)%20%EB%8C%80%EC%A0%84%20%EC%9C%A0%EC%84%B1%EA%B5%AC",
+      "status": "closed"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_5da8d6a5a46404a2f5f5",
+      "source_url": "https://www.google.com/maps/search/63%EB%B2%88%EA%B8%B8%20%EB%8C%80%EC%A0%84%EA%B4%91%EC%97%AD%EC%8B%9C%20%EC%9C%A0%EC%84%B1%EA%B5%AC%20%EA%B4%80%EC%9A%A9%EB%A1%9C63%EB%B2%88%EA%B8%B8%2021",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_5e065c09695838663471",
+      "source_url": "https://www.google.com/maps/place/55%C2%B0F+%EC%99%80%EC%9D%B8%ED%8F%AC%EC%B0%A8/data=!3m1!4b1!4m6!3m5!1s0x35654bbd9af9e897:0xf465f73d6a10f9f1!8m2!3d36.3621572!4d127.3538596!16s%2Fg%2F11c2p9tx0d?entry=ttu&g_ep=EgoyMDI2MDgyNi4wIKXMDSoASAFQAw%3D%3D",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_5e2eee6012a6de467c12",
+      "source_url": "https://www.google.com/maps/place/%ED%85%8C%EB%9D%BC%EB%A1%9C%EC%82%AC+%EA%B8%B8%EB%8F%99%EC%A0%90/data=!3m1!4b1!4m6!3m5!1s0x357cb1793d688d4b:0xb13ab1f371a4f611!8m2!3d37.5360952!4d127.1463262!16s%2Fg%2F11ls9c_74h?entry=ttu&g_ep=EgoyMDI2MDgyNi4wIKXMDSoASAFQAw%3D%3D",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_5ebdde6cdabe63baf85b",
+      "source_url": "https://place.map.kakao.com/699805711",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_5f8450577701667a14e0",
+      "source_url": "https://map.kakao.com/?q=%EB%A6%BC%EB%B2%85%EC%99%80%ED%94%8C%20%EB%8C%80%EC%A0%84%20%EC%9C%A0%EC%84%B1%EA%B5%AC",
+      "status": "closed"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_5feb9846781ab273c499",
+      "source_url": "https://map.kakao.com/?q=%EB%94%94%20%EC%97%90%EB%96%BC%20%EC%97%90%EC%8A%A4%ED%94%84%EB%A0%88%EC%86%8C(%EB%85%B8%EC%9D%80%EB%8F%99)%20%EB%8C%80%EC%A0%84%20%EC%9C%A0%EC%84%B1%EA%B5%AC",
+      "status": "closed"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_60004409cfc30d37edeb",
+      "source_url": "https://www.google.com/maps/place/%EC%8A%A4%ED%83%80%EB%B2%85%EC%8A%A4+%EC%B2%9C%ED%98%B8%EC%82%AC%EA%B1%B0%EB%A6%AC%EC%A0%90/data=!3m1!4b1!4m6!3m5!1s0x357ca535409f7517:0x5af4f8a5cbfaaa77!8m2!3d37.5397441!4d127.1232777!16s%2Fg%2F11k68nvrlh?entry=ttu&g_ep=EgoyMDI2MDgyNi4wIKXMDSoASAFQAw%3D%3D",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_6016ebdadcb62c03bb21",
+      "source_url": "https://place.map.kakao.com/27180413",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_602e8a19007c8b5a79ec",
+      "source_url": "https://place.map.kakao.com/1958806463",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_60675ba8444cd75e6781",
+      "source_url": "https://place.map.kakao.com/1946189409",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_60b91d2fa7a5d173757b",
+      "source_url": "https://place.map.kakao.com/1846232350",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_61896ea974590b137189",
+      "source_url": "https://place.map.kakao.com/24287212",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_61d634c235a4855d53c9",
+      "source_url": "https://www.google.com/maps/place/%EC%8A%A4%EC%9C%97%EC%86%94%ED%8A%B8+%EC%B9%B4%ED%8E%98/data=!3m1!4b1!4m6!3m5!1s0x357cb120fbcccf5b:0x67975d67b6b3c260!8m2!3d37.5454483!4d127.1541116!16s%2Fg%2F11g0mfq4cs?entry=ttu&g_ep=EgoyMDI2MDgyNi4wIKXMDSoASAFQAw%3D%3D",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_61ea45e46d3cedfa9d4e",
+      "source_url": "https://place.map.kakao.com/1952884383",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_6266cb10d7b6bd0e2320",
+      "source_url": "https://map.kakao.com/?q=%ED%82%A4%ED%82%A4%20%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C%20%EA%B0%95%EB%8F%99%EA%B5%AC%20%EC%96%91%EC%9E%AC%EB%8C%80%EB%A1%9C151%EA%B8%B8%2018",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_62fac42ea614e840c2dc",
+      "source_url": "https://place.map.kakao.com/425777137",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_63081f598422208aa472",
+      "source_url": "https://map.kakao.com/?q=%EC%A0%9C%EC%9D%B4%EB%8D%B8%EB%A7%81(%EB%8C%80%EC%A0%84%EC%9C%A0%EC%84%B1%EA%B5%AC%EC%A0%90)%20%EB%8C%80%EC%A0%84%20%EC%9C%A0%EC%84%B1%EA%B5%AC",
+      "status": "closed"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_63407d2e6adc59c16262",
+      "source_url": "https://place.map.kakao.com/1257113393",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_63f4c1e7312f5f2035e0",
+      "source_url": "https://www.google.com/maps/place/%EC%8A%A4%ED%83%80%EB%B2%85%EC%8A%A4+%EA%B0%95%EB%8F%99%EC%95%94%EC%82%ACDT%EC%A0%90/data=!3m1!4b1!4m6!3m5!1s0x357cb14d3d56774b:0x6e14b39ca2fff4fc!8m2!3d37.55504!4d127.1300647!16s%2Fg%2F11h5rhjnmn?entry=ttu&g_ep=EgoyMDI2MDgyNi4wIKXMDSoASAFQAw%3D%3D",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_64c9c6153755b383afb6",
+      "source_url": "https://map.kakao.com/?q=%EB%B9%84%20%EB%9D%BC%EC%9A%B4%EC%A7%80(%EC%9C%A0%EC%84%B1%EA%B5%AC)%20%EB%8C%80%EC%A0%84%20%EC%9C%A0%EC%84%B1%EA%B5%AC",
+      "status": "closed"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_65456d408a6a796eead1",
+      "source_url": "https://map.kakao.com/?q=%EC%BD%94%EB%84%88%EC%BB%A4%ED%94%BC%20%EB%8C%80%EC%A0%84%20%EC%9C%A0%EC%84%B1%EA%B5%AC",
+      "status": "closed"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_65507a9f2495a96377f0",
+      "source_url": "https://map.kakao.com/?q=%EC%9C%A0%EC%84%B1%ED%98%B8%ED%85%94%20%EB%A1%9C%EB%B9%84%EB%9D%BC%EC%9A%B4%EC%A7%80%20%EB%8C%80%EC%A0%84%20%EC%9C%A0%EC%84%B1%EA%B5%AC",
+      "status": "closed"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_6581126b4e9aef47882f",
+      "source_url": "https://map.kakao.com/?q=%ED%88%AC%EC%8D%B8%ED%94%8C%EB%A0%88%EC%9D%B4%EC%8A%A4%20%EB%85%B8%EC%9D%80%EC%97%AD%EC%A0%90%20%EB%8C%80%EC%A0%84%20%EC%9C%A0%EC%84%B1%EA%B5%AC",
+      "status": "closed"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_658982cda1281b1cb392",
+      "source_url": "https://place.map.kakao.com/773874021",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_660643a662b19166c832",
+      "source_url": "https://map.kakao.com/?q=%EB%B6%81%EB%8C%80%EC%A0%84%20ic%20%EB%A7%8C%EB%82%A8%EC%9D%98%20%EA%B4%91%EC%9E%A5(%EB%8C%80%EC%A0%84)%20%EB%8C%80%EC%A0%84%20%EC%9C%A0%EC%84%B1%EA%B5%AC",
+      "status": "closed"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_67e59c116238dc06da0d",
+      "source_url": "https://place.map.kakao.com/725432692",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_6812be914227d0026f01",
+      "source_url": "https://www.google.com/maps/place/%ED%8E%84%EC%8A%A4%EB%A7%A5+%EA%B3%A0%EB%8D%95%EC%A0%90/data=!3m1!4b1!4m6!3m5!1s0x357cb1999a66a009:0xb99a05ca7f45ac70!8m2!3d37.5525981!4d127.1546278!16s%2Fg%2F11vlddlwhy?entry=ttu&g_ep=EgoyMDI2MDgyNi4wIKXMDSoASAFQAw%3D%3D",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_6855e37e365380841199",
+      "source_url": "https://place.map.kakao.com/27391718",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_6944d714c865179e92c3",
+      "source_url": "https://map.kakao.com/?q=%EB%A9%94%EC%9D%B4%EB%B9%88(%EC%9B%90%EC%B4%8C%EB%8F%99%20)%20%EB%8C%80%EC%A0%84%20%EC%9C%A0%EC%84%B1%EA%B5%AC",
+      "status": "closed"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_69c0650c4bc4728a2261",
+      "source_url": "https://map.kakao.com/?q=%ED%8C%8C%EC%8A%A4%EC%BF%A0%EC%B0%8C%20%EB%B4%89%EB%AA%85%EB%8F%99%EC%A0%90%20%EB%8C%80%EC%A0%84%20%EC%9C%A0%EC%84%B1%EA%B5%AC",
+      "status": "closed"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_69ea595e9c700a6a27e9",
+      "source_url": "https://place.map.kakao.com/27595430",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_6a21706d831a77f4be2f",
+      "source_url": "https://place.map.kakao.com/1429359605",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_6a6141d658cff9575a51",
+      "source_url": "https://place.map.kakao.com/1101454804",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_6ac916141490be8a34ad",
+      "source_url": "https://place.map.kakao.com/2144850647",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_6c02979e1fc68ba6c4f3",
+      "source_url": "https://map.kakao.com/?q=%EC%83%A4%EC%9D%B4%EB%B0%94%EB%8B%88(%EC%9C%A0%EC%84%B1%EC%A0%90)%20%EB%8C%80%EC%A0%84%20%EC%9C%A0%EC%84%B1%EA%B5%AC",
+      "status": "closed"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_6ca1ac62256bcc02060f",
+      "source_url": "https://place.map.kakao.com/962143862",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_6d2082089364d18d1df8",
+      "source_url": "https://place.map.kakao.com/460452555",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_6d23fbd0257ed8107300",
+      "source_url": "https://place.map.kakao.com/1050842035",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_6dde4220854ca6b5ce4a",
+      "source_url": "https://place.map.kakao.com/1538099549",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_6e76c3b291edcdf24afc",
+      "source_url": "https://map.kakao.com/?q=%ED%88%AC%EC%8D%B8%ED%94%8C%EB%A0%88%EC%9D%B4%EC%8A%A4%20%EB%85%B8%EC%9D%803%EC%A7%80%EA%B5%AC%EC%A0%90%20%EB%8C%80%EC%A0%84%20%EC%9C%A0%EC%84%B1%EA%B5%AC",
+      "status": "closed"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_6eb6f9cae99af53f4ad0",
+      "source_url": "https://place.map.kakao.com/1100543372",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_6f999d126925d16151dd",
+      "source_url": "https://map.kakao.com/?q=%EB%8F%99%EB%B0%A9%EC%BB%A4%ED%94%BC%20%EC%9B%90%EC%8B%A0%ED%9D%A5%EC%A0%90%20%EB%8C%80%EC%A0%84%20%EC%9C%A0%EC%84%B1%EA%B5%AC",
+      "status": "closed"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_6f9d4b7b1a96a078262b",
+      "source_url": "https://www.google.com/maps/place/%ED%8C%8C%EC%8A%A4%EC%BF%A0%EC%B0%8C+%EB%AA%85%EC%9D%BC%EC%97%AD%EC%A0%90/data=!3m1!4b1!4m6!3m5!1s0x357cb1cee7e76c4b:0xfb1b05989bafc1c6!8m2!3d37.5506327!4d127.1437512!16s%2Fg%2F11vxx0zwxk?entry=ttu&g_ep=EgoyMDI2MDgyNi4wIKXMDSoASAFQAw%3D%3D",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_6fb587223cdd157e3363",
+      "source_url": "https://place.map.kakao.com/26784858",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_6ff97dee7158847441bc",
+      "source_url": "https://map.kakao.com/?q=%EC%97%94%EC%A0%9C%EB%A6%AC%EB%84%88%EC%8A%A4%20(Angel-in-us)%20(%EC%B6%A9%EB%82%A8%EB%8C%80%EC%A0%90)%20%EB%8C%80%EC%A0%84%20%EC%9C%A0%EC%84%B1%EA%B5%AC",
+      "status": "closed"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_701f1564d6638212cc61",
+      "source_url": "https://map.kakao.com/?q=%EB%B9%84%EC%8A%A4%ED%8A%B8%EB%A1%9C%ED%8D%BC%EB%B8%94%EB%A6%AD%20%EB%8C%80%EC%A0%84%20%EC%9C%A0%EC%84%B1%EA%B5%AC",
+      "status": "closed"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_70c4d0a7b6ef820d2fe9",
+      "source_url": "https://place.map.kakao.com/27291736",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_711065ac0a7d5d2c8bae",
+      "source_url": "https://map.kakao.com/?q=%EA%B3%A0%EC%96%91%EC%9D%B4%20%EB%82%AE%EC%9E%A0%20%EB%8C%80%EC%A0%84%20%EC%9C%A0%EC%84%B1%EA%B5%AC",
+      "status": "closed"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_715dc574a0e0d52b8b1d",
+      "source_url": "https://place.map.kakao.com/1183701383",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_72980a4642e21519d1cf",
+      "source_url": "https://map.kakao.com/?q=85%EB%8F%84%EC%94%A8%20%EB%8C%80%EC%A0%84%EA%B4%91%EC%97%AD%EC%8B%9C%20%EC%9C%A0%EC%84%B1%EA%B5%AC%20%EC%88%98%ED%86%B5%EA%B3%A8%EB%A1%9C%2069",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_72b07a0ffc3ac9bb19ad",
+      "source_url": "https://place.map.kakao.com/1695474255",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_72db68e91ff01343ef25",
+      "source_url": "https://place.map.kakao.com/495898978",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_735c3d3f845ca59ca232",
+      "source_url": "https://map.kakao.com/?q=ROAST330(%EC%9B%90%EC%8B%A0%ED%9D%A5%EB%8F%99%20)%20%EB%8C%80%EC%A0%84%20%EC%9C%A0%EC%84%B1%EA%B5%AC",
+      "status": "closed"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_7426058cb8d56bcd8bc8",
+      "source_url": "https://place.map.kakao.com/26459234",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_7434b4716a49d723c3f7",
+      "source_url": "https://www.google.com/maps/search/%EB%8F%84%EB%AF%B8%EB%84%8C%ED%8A%B8+%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C+%EA%B0%95%EB%8F%99%EA%B5%AC+%EC%96%91%EC%9E%AC%EB%8C%80%EB%A1%9C83%EA%B8%B8+14/data=!3m1!4b1?entry=ttu&g_ep=EgoyMDI2MDgyNi4wIKXMDSoASAFQAw%3D%3D",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_750c32dae1add354d0d8",
+      "source_url": "https://map.kakao.com/?q=%EB%9E%91%EA%B3%A8%EB%A1%9C(%EC%9B%90%EC%8B%A0%ED%9D%A5%EB%A1%9C)%20%EB%8C%80%EC%A0%84%20%EC%9C%A0%EC%84%B1%EA%B5%AC",
+      "status": "closed"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_7568486c4484e6775355",
+      "source_url": "https://map.kakao.com/?q=%EB%AF%B8%EB%8B%A4%EB%B0%A9%20%EB%8C%80%EC%A0%84%20%EC%9C%A0%EC%84%B1%EA%B5%AC",
+      "status": "closed"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_7584aa46908c10b6c504",
+      "source_url": "https://place.map.kakao.com/1469122952",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_769013e0544a6ba23f44",
+      "source_url": "https://place.map.kakao.com/1728663058",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_76912bc44b35999dc04d",
+      "source_url": "https://place.map.kakao.com/972340054",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_76b7942a38b12478fa25",
+      "source_url": "https://map.kakao.com/?q=%ED%8C%AC%EC%9D%B4%ED%83%9C%EB%A6%AC%20(%EA%B5%AC%20%EB%A3%A8%EB%82%98%EB%A6%AC%EC%B9%98)%20%EB%8C%80%EC%A0%84%20%EC%9C%A0%EC%84%B1%EA%B5%AC",
+      "status": "closed"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_76df267d88c2e784cdde",
+      "source_url": "https://place.map.kakao.com/21721140",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_77d9854408cc6c696c13",
+      "source_url": "https://place.map.kakao.com/795525023",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_787a989ee11fcb192fd7",
+      "source_url": "https://map.kakao.com/?q=B.haus%20%EB%8C%80%EC%A0%84%20%EC%9C%A0%EC%84%B1%EA%B5%AC",
+      "status": "closed"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_7939bffe6201c8cc5d5c",
+      "source_url": "https://map.kakao.com/?q=%EB%8B%B4%EC%86%8C%20%EB%8C%80%EC%A0%84%20%EC%9C%A0%EC%84%B1%EA%B5%AC",
+      "status": "closed"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_798bd2c122556ec2d7cf",
+      "source_url": "https://place.map.kakao.com/1319969903",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_799a7a499953df05ce7a",
+      "source_url": "https://map.kakao.com/?q=%EB%AA%A8%EB%8D%B0%EB%82%98(%EC%A7%80%EC%A1%B1%EB%8F%99)%20%EB%8C%80%EC%A0%84%20%EC%9C%A0%EC%84%B1%EA%B5%AC",
+      "status": "closed"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_7aaa234ea02eeeb2229b",
+      "source_url": "https://place.map.kakao.com/41721610",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_7bc104199b42b413e728",
+      "source_url": "https://map.kakao.com/?q=%EB%A1%9C%EC%95%84%EC%8A%A4%ED%86%A0%EB%A6%AC%20%EB%8C%80%EC%A0%84%20%EC%9C%A0%EC%84%B1%EA%B5%AC",
+      "status": "closed"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_7bc3ebe881294b61f29f",
+      "source_url": "https://place.map.kakao.com/11891985",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_7cf8a18ff91e478cec39",
+      "source_url": "https://place.map.kakao.com/2007461822",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_7de7ca25d94996bba838",
+      "source_url": "https://place.map.kakao.com/17768908",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_7e546877b2445120fdad",
+      "source_url": "https://place.map.kakao.com/12032635",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_7e748853d4dd035bb678",
+      "source_url": "https://place.map.kakao.com/701905154",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_7ecad85fa2ce525c7573",
+      "source_url": "https://map.kakao.com/?q=%ED%8C%8C%EC%8A%A4%EC%BF%A0%EC%B0%8C%20%EA%B4%80%ED%8F%89%EC%A0%90%20%EB%8C%80%EC%A0%84%20%EC%9C%A0%EC%84%B1%EA%B5%AC",
+      "status": "closed"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_7ef03e21b6999660ad17",
+      "source_url": "https://place.map.kakao.com/965928581",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_7f19e2784cfcfdfb6fb1",
+      "source_url": "https://place.map.kakao.com/2117775952",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_7f2701b5d4f39f280cc3",
+      "source_url": "https://map.kakao.com/?q=%EC%9D%B4%EB%94%94%EC%95%BC(%EC%B6%A9%EB%82%A8%EB%8C%80%EC%A0%90)%20%EB%8C%80%EC%A0%84%20%EC%9C%A0%EC%84%B1%EA%B5%AC",
+      "status": "closed"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_7f86152bf31aabd1b6fc",
+      "source_url": "https://place.map.kakao.com/1328515319",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_80f94b8c1dac51039727",
+      "source_url": "https://place.map.kakao.com/27391253",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_81032d4ea47ceb6bca92",
+      "source_url": "https://place.map.kakao.com/1408192872",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_818af10ff169e23226ea",
+      "source_url": "https://place.map.kakao.com/1995930846",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_8244d3c28560f008592b",
+      "source_url": "https://map.kakao.com/?q=%ED%83%90%EC%95%A4%ED%83%90%EC%8A%A4(%EB%85%B8%EC%9D%80%EC%97%AD%EC%A0%90)%20%EB%8C%80%EC%A0%84%20%EC%9C%A0%EC%84%B1%EA%B5%AC",
+      "status": "closed"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_825d9bfc76f995f0f92f",
+      "source_url": "https://place.map.kakao.com/2109738718",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_82a763cd46055fd886eb",
+      "source_url": "https://place.map.kakao.com/26459274",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_831d812806a4fbd3da3a",
+      "source_url": "https://map.kakao.com/?q=%EC%9D%B8%ED%84%B0%EC%8B%9C%ED%8B%B0%ED%98%B8%ED%85%94%202%EC%B8%B5%20%EB%8D%94%EB%B7%B0%20%EB%8C%80%EC%A0%84%20%EC%9C%A0%EC%84%B1%EA%B5%AC",
+      "status": "closed"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_83621ec6f550b237315e",
+      "source_url": "https://place.map.kakao.com/949594550",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_847501e77a97c2f80420",
+      "source_url": "https://map.kakao.com/?q=%EC%B9%B4%ED%8E%98%20%EB%93%9C%EB%BD%80%EB%98%90%20%EB%8C%80%EC%A0%84%20%EC%9C%A0%EC%84%B1%EA%B5%AC",
+      "status": "closed"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_84bca7ffef7180977e67",
+      "source_url": "https://map.kakao.com/?q=%EA%B3%84%EB%A3%A1%EC%8A%A4%ED%8C%8C%ED%85%94%20%EC%BB%A4%ED%94%BC%EC%86%9D%20%EB%8C%80%EC%A0%84%20%EC%9C%A0%EC%84%B1%EA%B5%AC",
+      "status": "closed"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_85978329e97b42d599f4",
+      "source_url": "https://place.map.kakao.com/1958005088",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_85b6d9559eba035671a3",
+      "source_url": "https://map.kakao.com/?q=%EB%A1%AF%EB%8D%B0%EC%8B%9C%ED%8B%B0%ED%98%B8%ED%85%94%20%EC%94%A8%EC%B9%B4%ED%8E%98(%EB%8F%84%EB%A3%A1)%20%EB%8C%80%EC%A0%84%20%EC%9C%A0%EC%84%B1%EA%B5%AC",
+      "status": "closed"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_85b899bc91bbab7d97de",
+      "source_url": "https://map.kakao.com/?q=%EB%B6%80%EB%9E%98%EC%98%A5%20%EB%8C%80%EC%A0%84%20%EC%9C%A0%EC%84%B1%EA%B5%AC",
+      "status": "closed"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_86cff9bb767a6a523cb3",
+      "source_url": "https://map.naver.com/p/search/%ED%95%A0%EB%A6%AC%EC%8A%A4%EC%BB%A4%ED%94%BC%20%EA%B5%BD%EC%9D%80%EB%8B%A4%EB%A6%AC%EC%97%AD%EC%A0%90(%EA%B5%BD%EC%9D%80%EB%8B%A4%EB%A6%AC%EC%97%AD%EC%A0%90)%20%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C%20%EA%B0%95%EB%8F%99%EA%B5%AC%20%EC%96%91%EC%9E%AC%EB%8C%80%EB%A1%9C%201591?placePath=%2Fhome%3Ffrom%3Dmap%26fromPanelNum%3D1%26additionalHeight%3D76%26timestamp%3D202608301902%26locale%3Dko%26svcName%3Dmap_pcv5%26searchText%3D%ED%95%A0%EB%A6%AC%EC%8A%A4%EC%BB%A4%ED%94%BC%20%EA%B5%BD%EC%9D%80%EB%8B%A4%EB%A6%AC%EC%97%AD%EC%A0%90(%EA%B5%BD%EC%9D%80%EB%8B%A4%EB%A6%AC%EC%97%AD%EC%A0%90)%20%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C%20%EA%B0%95%EB%8F%99%EA%B5%AC%20%EC%96%91%EC%9E%AC%EB%8C%80%EB%A1%9C%201591&c=15.00,0,0,0,dh",
+      "status": "closed"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_86f5eb3b3c8439f3f0a8",
+      "source_url": "https://map.kakao.com/?q=%EB%AF%B8%EC%B9%B4%EC%97%98%EB%9D%BC(%EB%8C%80%EC%A0%84%EC%A3%BD%EB%8F%99)%20%EB%8C%80%EC%A0%84%20%EC%9C%A0%EC%84%B1%EA%B5%AC",
+      "status": "closed"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_876be058a7b75cf99948",
+      "source_url": "https://map.kakao.com/?q=%EC%8B%AC%EB%8F%84%20%EB%B4%89%EB%AA%85%EC%A0%90(%EB%B4%89%EB%AA%85%EB%8F%99)%20%EB%8C%80%EC%A0%84%20%EC%9C%A0%EC%84%B1%EA%B5%AC",
+      "status": "closed"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_88e54214328ca36902d8",
+      "source_url": "https://map.kakao.com/?q=%ED%83%90%EC%95%A4%ED%83%90%EC%8A%A4%20%EC%9C%A0%EC%84%B1%ED%99%88%ED%94%8C%EB%9F%AC%EC%8A%A4%EC%A0%90(%ED%83%90%EC%95%A4%ED%83%90%EC%8A%A4)%20%EB%8C%80%EC%A0%84%20%EC%9C%A0%EC%84%B1%EA%B5%AC",
+      "status": "closed"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_891c882f0075e142221b",
+      "source_url": "https://map.naver.com/p/search/%ED%94%BC%EC%BD%9C%EB%A1%9C(%EA%B0%95%EB%8F%99%EC%97%AD)%20%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C%20%EA%B0%95%EB%8F%99%EA%B5%AC%20%EC%B2%9C%ED%98%B8%EB%8C%80%EB%A1%9C168%EA%B0%80%EA%B8%B8%2051",
+      "status": "closed"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_89d9f259ce1c871936e5",
+      "source_url": "https://map.kakao.com/?q=%EC%97%94%EC%A0%9C%EB%A6%AC%EB%84%88%EC%8A%A4%20%EB%8C%80%EC%A0%84%EC%9C%A0%EC%84%B1D%2FI%EC%A0%90%20%EB%8C%80%EC%A0%84%20%EC%9C%A0%EC%84%B1%EA%B5%AC",
+      "status": "closed"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_8a7c07228bc4b0c8dae1",
+      "source_url": "https://map.kakao.com/?q=%ED%8C%8C%EC%8F%98%EA%B2%8C%EB%9F%AC%EC%A7%80%20%EB%8C%80%EC%A0%84%20%EC%9C%A0%EC%84%B1%EA%B5%AC",
+      "status": "closed"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_8ae1040f083d751cb88d",
+      "source_url": "https://place.map.kakao.com/1097369307",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_8baa88dc95c086a18e54",
+      "source_url": "https://place.map.kakao.com/293872201",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_8c00f6cdc6e1d32aadfb",
+      "source_url": "https://place.map.kakao.com/149725655",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_8c125cc0c342772e663e",
+      "source_url": "https://www.google.com/maps/place/%EB%82%98%EB%AC%B4:%EC%88%98/data=!3m1!4b1!4m6!3m5!1s0x357cb103f2d018af:0x21854c90f0d55892!8m2!3d37.5653208!4d127.1735487!16s%2Fg%2F11c4wx5lt2?entry=ttu&g_ep=EgoyMDI2MDgyNi4wIKXMDSoASAFQAw%3D%3D",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_8c49cc3972e82ee921a9",
+      "source_url": "https://map.kakao.com/?q=%EC%9D%B8%EB%8B%A4%EA%B5%AC%EB%A5%B4%EB%B8%8C%20%EB%8C%80%EC%A0%84%20%EC%9C%A0%EC%84%B1%EA%B5%AC",
+      "status": "closed"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_8c4cfdb0a2f47213e9d5",
+      "source_url": "https://place.map.kakao.com/1597535056",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_8c81ad2b93bd94302ecd",
+      "source_url": "https://place.map.kakao.com/1234283996",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_8cebd20161aa43b18954",
+      "source_url": "https://map.kakao.com/?q=MUCCA%20%EB%8C%80%EC%A0%84%20%EC%9C%A0%EC%84%B1%EA%B5%AC",
+      "status": "closed"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_8d4580032058457c3be5",
+      "source_url": "https://map.kakao.com/?q=%EB%8B%AC%EB%B4%84%EC%BB%A4%ED%94%BC%20%EB%8C%80%EC%A0%84%20%EC%9C%A0%EC%84%B1%EA%B5%AC",
+      "status": "closed"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_8e152e3dcf77b51def57",
+      "source_url": "https://map.naver.com/p/search/%ED%88%AC%EC%8D%B8%ED%94%8C%EB%A0%88%EC%9D%B4%EC%8A%A4%20%EA%B0%95%EB%8F%99%EC%97%AD%EC%A0%90%20%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C%20%EA%B0%95%EB%8F%99%EA%B5%AC%20%EC%B2%9C%ED%98%B8%EB%8C%80%EB%A1%9C%201077?placePath=%2Fhome%3Ffrom%3Dmap%26fromPanelNum%3D1%26additionalHeight%3D76%26timestamp%3D202608301857%26locale%3Dko%26svcName%3Dmap_pcv5%26searchText%3D%ED%88%AC%EC%8D%B8%ED%94%8C%EB%A0%88%EC%9D%B4%EC%8A%A4%20%EA%B0%95%EB%8F%99%EC%97%AD%EC%A0%90%20%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C%20%EA%B0%95%EB%8F%99%EA%B5%AC%20%EC%B2%9C%ED%98%B8%EB%8C%80%EB%A1%9C%201077",
+      "status": "closed"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_8e47db5101cb9291de65",
+      "source_url": "https://place.map.kakao.com/600822939",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_8ea09fad5799a43332aa",
+      "source_url": "https://map.kakao.com/?q=%EC%95%84%ED%8A%B8%20%EC%97%90%EC%8A%A4%ED%94%84%EB%A0%88%EC%86%8C(%EB%8F%84%EB%A3%A1%EC%A0%90)%20%EB%8C%80%EC%A0%84%20%EC%9C%A0%EC%84%B1%EA%B5%AC",
+      "status": "closed"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_8eb4eb5813e35f740ef1",
+      "source_url": "https://map.kakao.com/?q=%EC%97%90%EB%B0%80%EB%A6%AC%ED%95%98%EC%9A%B0%EC%8A%A4%20%EB%8C%80%EC%A0%84%20%EC%9C%A0%EC%84%B1%EA%B5%AC",
+      "status": "closed"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_8f69b815d1b51a6d8cce",
+      "source_url": "https://place.map.kakao.com/1684044961",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_8fdffb5c7a57c1123afe",
+      "source_url": "https://map.kakao.com/?q=%EC%94%A8%EC%A6%88%EB%8D%94%ED%8F%AC%EC%8A%AC%20%EB%8C%80%EC%A0%84%20%EC%9C%A0%EC%84%B1%EA%B5%AC",
+      "status": "closed"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_90e22b10f7177a3d8e8b",
+      "source_url": "https://map.kakao.com/?q=%EC%B9%B4%ED%8E%98%EB%AF%B8%EB%87%BD%20%EB%8C%80%EC%A0%84%EC%A3%BD%EB%8F%99%EC%A0%90%20%EB%8C%80%EC%A0%84%20%EC%9C%A0%EC%84%B1%EA%B5%AC",
+      "status": "closed"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_91799778d56f71f4c4b1",
+      "source_url": "https://place.map.kakao.com/406229026",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_91b24c81d08344043d4e",
+      "source_url": "https://map.kakao.com/?q=%EB%B9%84%EC%95%99%EC%BD%94%20%EB%8C%80%EC%A0%84%20%EC%9C%A0%EC%84%B1%EA%B5%AC",
+      "status": "closed"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_91d99a2ae1b24d2c9e16",
+      "source_url": "https://map.kakao.com/?q=%EB%B6%81%EB%8C%80%EC%A0%84%20ic%20%EB%A7%8C%EB%82%A8%EC%9D%98%20%EA%B4%91%EC%9E%A5%20(%EB%8C%80%EC%A0%84%20)%20%EB%8C%80%EC%A0%84%20%EC%9C%A0%EC%84%B1%EA%B5%AC",
+      "status": "closed"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_9249b54f11208a02d410",
+      "source_url": "https://place.map.kakao.com/1947410513",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_92c4ce4c76940bb61647",
+      "source_url": "https://map.kakao.com/?q=%EC%9C%A0%EC%84%B1%EA%B4%80%EA%B4%91%ED%98%B8%ED%85%94%20%EB%8C%80%EC%A0%84%20%EC%9C%A0%EC%84%B1%EA%B5%AC",
+      "status": "closed"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_930b445f76ba9dc11ee8",
+      "source_url": "https://place.map.kakao.com/2079143207",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_93ac7d6751f1176edd21",
+      "source_url": "https://place.map.kakao.com/1203263806",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_94b75051fded45361933",
+      "source_url": "https://place.map.kakao.com/1164359080",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_95542b7b0f29fed8326e",
+      "source_url": "https://map.kakao.com/?q=%EA%B8%80%EB%A7%86%20%EB%8C%80%EC%A0%84%20%EC%9C%A0%EC%84%B1%EA%B5%AC",
+      "status": "closed"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_96038b5f7beb16c69323",
+      "source_url": "https://place.map.kakao.com/14557004",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_96d0d4401c963b7dd5f7",
+      "source_url": "https://map.kakao.com/?q=%EC%8A%A4%ED%86%A0%EB%9E%91%ED%8A%B8%201%ED%98%B8%EC%A0%90(%EC%9C%A0%EC%84%B1)%20%EB%8C%80%EC%A0%84%20%EC%9C%A0%EC%84%B1%EA%B5%AC",
+      "status": "closed"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_9706633484a3593e5246",
+      "source_url": "https://www.google.com/maps/search/%EB%B8%8C%EB%9E%9C%EC%9C%A0%ED%95%98%EC%9D%B4%EB%AA%AC%EB%93%9C%20%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C%20%EA%B0%95%EB%8F%99%EA%B5%AC%20%EC%96%91%EC%9E%AC%EB%8C%80%EB%A1%9C89%EA%B8%B8%2061",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_9759d8b8bee73dd44e07",
+      "source_url": "https://place.map.kakao.com/317264942",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_97ce9c172762ec7cd8a2",
+      "source_url": "https://map.kakao.com/?q=%EA%B7%B8%EB%A6%B0%EB%B8%8C%EB%9D%BC%EC%9A%B0%EB%8B%88(%ED%95%98%EA%B8%B0%EB%8F%99%EC%A0%90)%20%EB%8C%80%EC%A0%84%20%EC%9C%A0%EC%84%B1%EA%B5%AC",
+      "status": "closed"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_97edb6ebcd7b2bcb43c4",
+      "source_url": "https://place.map.kakao.com/149725655",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_98abf240208c0fdbd9a3",
+      "source_url": "https://place.map.kakao.com/731632113",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_9943b6359e62a4f1f4eb",
+      "source_url": "https://place.map.kakao.com/1728663058",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_99ef106e3e20b8432da6",
+      "source_url": "https://map.kakao.com/?q=%EC%B9%B4%ED%8E%98%EB%94%94%EC%9B%90(%EB%85%B8%EC%9D%80%EB%8F%99)%20%EB%8C%80%EC%A0%84%20%EC%9C%A0%EC%84%B1%EA%B5%AC",
+      "status": "closed"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_9af14c88a7574f2ad2ef",
+      "source_url": "https://map.kakao.com/?q=%EC%A0%95%EC%9D%8C(%EB%B0%98%EC%84%9D%EB%8F%99)%20%EB%8C%80%EC%A0%84%20%EC%9C%A0%EC%84%B1%EA%B5%AC",
+      "status": "closed"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_9c9f1f65daf8bb9b4d74",
+      "source_url": "https://map.kakao.com/?q=%EB%8A%90%EB%A3%A8209(%EA%B4%80%ED%8F%89%ED%85%8C%ED%81%AC%EB%85%B8%EC%A0%90)%20%EB%8C%80%EC%A0%84%20%EC%9C%A0%EC%84%B1%EA%B5%AC",
+      "status": "closed"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_9cacf89ba0ef43234783",
+      "source_url": "https://map.kakao.com/?q=%EA%B9%8C%EC%82%AC%EB%93%9C%EC%B9%B4%ED%8E%98%20%EB%8C%80%EC%A0%84%20%EC%9C%A0%EC%84%B1%EA%B5%AC",
+      "status": "closed"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_9d9f2dd270f9b543e210",
+      "source_url": "https://map.kakao.com/?q=%EB%8C%80%EC%A0%84%ED%8C%8C%EC%8A%A4%ED%83%80%EC%97%90%EC%9D%B4%EC%B9%98(%EB%AC%B8%EC%A7%80%EB%8F%99)%20%EB%8C%80%EC%A0%84%20%EC%9C%A0%EC%84%B1%EA%B5%AC",
+      "status": "closed"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_9db0299835f314ab1640",
+      "source_url": "https://place.map.kakao.com/821007026",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_9db305715b8e5ad96f82",
+      "source_url": "https://map.kakao.com/?q=%EB%A6%AC%EC%97%90%EB%98%90%ED%94%BC%EB%A0%8C%EC%B2%B4(%EB%8F%84%EB%A3%A1%EB%8F%99)%20%EB%8C%80%EC%A0%84%20%EC%9C%A0%EC%84%B1%EA%B5%AC",
+      "status": "closed"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_9e820c57d000b7cb56e0",
+      "source_url": "https://place.map.kakao.com/276590759",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_9ec33e718d836eac85c8",
+      "source_url": "https://map.kakao.com/?q=%ED%95%98%EB%B0%95%ED%82%A4%EC%B9%9C%20%EB%8C%80%EC%A0%84%20%EC%9C%A0%EC%84%B1%EA%B5%AC",
+      "status": "closed"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_9fc3b55c44d51e9e20d6",
+      "source_url": "https://map.kakao.com/?q=%EB%B8%8C%EB%9F%B0%EC%B9%98%EB%B9%88%20%EB%8F%84%EC%95%88%ED%98%B8%EC%88%98%EA%B3%B5%EC%9B%90%EC%A0%90%20%EB%8C%80%EC%A0%84%20%EC%9C%A0%EC%84%B1%EA%B5%AC",
+      "status": "closed"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_a0e74edf6a3cf0ce4c57",
+      "source_url": "https://place.map.kakao.com/1775794564",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_a1059aa01df22f793436",
+      "source_url": "https://map.kakao.com/?q=%EB%B2%A0%EB%A6%AC%EC%BB%A4%ED%94%BC%20%EB%8C%80%EC%A0%84%20%EC%9C%A0%EC%84%B1%EA%B5%AC",
+      "status": "closed"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_a1e104866089788fd403",
+      "source_url": "https://map.kakao.com/?q=%EC%B9%B4%ED%8E%98%20%EB%B3%B4%EB%8B%88%EB%98%90%20%EA%B4%80%ED%8F%89%EC%A0%90%20%EB%8C%80%EC%A0%84%20%EC%9C%A0%EC%84%B1%EA%B5%AC",
+      "status": "closed"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_a1f451117bcddad54962",
+      "source_url": "https://map.naver.com/p/search/%EC%B9%B4%ED%8E%98%EC%82%AC%EB%B8%8C%EB%A5%B4%20(%ED%98%84%EB%8C%80%EB%B0%B1%ED%99%94%EC%A0%90%EC%B2%9C%ED%98%B8%EC%A0%90)%20%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C%20%EA%B0%95%EB%8F%99%EA%B5%AC%20%EC%B2%9C%ED%98%B8%EB%8C%80%EB%A1%9C%201005?placePath=%2Fhome%3Ffrom%3Dmap%26fromPanelNum%3D1%26additionalHeight%3D76%26timestamp%3D202608301855%26locale%3Dko%26svcName%3Dmap_pcv5%26searchText%3D%EC%B9%B4%ED%8E%98%EC%82%AC%EB%B8%8C%EB%A5%B4%20(%ED%98%84%EB%8C%80%EB%B0%B1%ED%99%94%EC%A0%90%EC%B2%9C%ED%98%B8%EC%A0%90)%20%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C%20%EA%B0%95%EB%8F%99%EA%B5%AC%20%EC%B2%9C%ED%98%B8%EB%8C%80%EB%A1%9C%201005&c=15.00,0,0,0,dh",
+      "status": "closed"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_a21a7608c6c85f71fb38",
+      "source_url": "https://place.map.kakao.com/74516400",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_a2b51871aec3d01fdf49",
+      "source_url": "https://www.google.com/maps/place/%EC%8A%A4%ED%83%80%EB%B2%85%EC%8A%A4+%EB%AA%85%EC%9D%BC%EC%9D%B4%EB%A7%88%ED%8A%B8%EC%A0%90/data=!3m1!4b1!4m6!3m5!1s0x357cb045aff755b7:0x76b31fffb2d603d8!8m2!3d37.5539649!4d127.1559881!16s%2Fg%2F11bwfmmbg2?entry=ttu&g_ep=EgoyMDI2MDgyNi4wIKXMDSoASAFQAw%3D%3D",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_a41ca90f192f0d027427",
+      "source_url": "https://www.google.com/maps/search/%ED%8F%B4%EB%B0%94%EC%85%8B(%EC%83%81%EC%9D%BC%EB%8F%99%EC%A0%90)%20%EC%84%9C%EC%9A%B8%EC%8B%9C%20%EA%B0%95%EB%8F%99%EA%B5%AC%20%EC%83%81%EC%9D%BC%EB%8F%99%20371-1%20%ED%95%9C%EA%B5%AD%EC%A2%85%ED%95%A9%EA%B8%B0%EC%88%A0%201%EC%B8%B5%20%2F%2F%20%EC%A7%80%ED%95%98%EC%B2%A0%EC%97%AD%EC%97%90%EC%84%9C%EB%8A%94%20%EB%8F%84%EB%B3%B4%EB%A1%9C%20%EA%B0%80%EA%B8%B0%20%EC%96%B4%EB%A0%A4%EC%9B%80",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_a42f802d20b762574b53",
+      "source_url": "https://place.map.kakao.com/754531730",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_a44c6f7c0701744ae9a4",
+      "source_url": "https://map.kakao.com/?q=%EC%BB%A8%ED%8B%B0%EB%84%A8%ED%83%88%20%EB%A0%88%EC%8A%A4%ED%86%A0%EB%9E%91%20%EB%8C%80%EC%A0%84%20%EC%9C%A0%EC%84%B1%EA%B5%AC",
+      "status": "closed"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_a4bb154ba0dc05e25917",
+      "source_url": "https://place.map.kakao.com/687110101",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_a4dad9016627531e69b0",
+      "source_url": "https://place.map.kakao.com/1028915022",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_a56560c5daa869927827",
+      "source_url": "https://place.map.kakao.com/1813814907",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_a57bf8bb69d9b76abf0a",
+      "source_url": "https://map.kakao.com/?q=%EB%8D%B0%EC%9D%B4%ED%8A%B8%200411%20%EB%8C%80%EC%A0%84%20%EC%9C%A0%EC%84%B1%EA%B5%AC",
+      "status": "closed"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_a5952323b9b1e81c4ed8",
+      "source_url": "https://place.map.kakao.com/26420912",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_a5b4b6a23c5f532ff5fc",
+      "source_url": "https://place.map.kakao.com/782941861",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_a629d17ac68223923553",
+      "source_url": "https://place.map.kakao.com/7920363",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_a6966f2476eddc218915",
+      "source_url": "https://www.google.com/maps/place/%ED%88%AC%EC%8D%B8%ED%94%8C%EB%A0%88%EC%9D%B4%EC%8A%A4+%EA%B5%BD%EC%9D%80%EB%8B%A4%EB%A6%AC%EC%97%AD%EC%A0%90/data=!3m1!4b1!4m6!3m5!1s0x357cb1148a3a756f:0x7a5f217c688a71e6!8m2!3d37.5431493!4d127.1416967!16s%2Fg%2F11j435xph5?entry=ttu&g_ep=EgoyMDI2MDgyNi4wIKXMDSoASAFQAw%3D%3D",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_a6b729d0c2a735227b73",
+      "source_url": "https://map.kakao.com/?q=%EC%B9%B4%ED%8E%98%EB%B2%A0%EB%84%A4%20(%EC%9C%A0%EC%84%B1%EC%9E%90%EC%9D%B4%EC%A0%90)%20%EB%8C%80%EC%A0%84%20%EC%9C%A0%EC%84%B1%EA%B5%AC",
+      "status": "closed"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_a6f96a05303c5c501eac",
+      "source_url": "https://place.map.kakao.com/209194151",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_a73f3bf62ba6cd3cd181",
+      "source_url": "https://map.kakao.com/?q=%EC%BD%A4%ED%94%BC%EC%BB%A4%ED%94%BC%EC%95%A4%EB%B2%A0%EC%9D%B4%ED%81%AC%EC%88%8D%20%EB%8C%80%EC%A0%84%20%EC%9C%A0%EC%84%B1%EA%B5%AC",
+      "status": "closed"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_a7a0bed576ddce4d7335",
+      "source_url": "https://map.naver.com/p/search/250%EB%8F%84%ED%8C%8C%EC%8A%A4%ED%83%80%20%EB%8C%80%EC%A0%84%EA%B4%91%EC%97%AD%EC%8B%9C%20%EC%9C%A0%EC%84%B1%EA%B5%AC%20%EC%A7%80%EC%A1%B1%EB%A1%9C349%EB%B2%88%EA%B8%B8%2048-5",
+      "status": "closed"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_abee5c7296376e302d06",
+      "source_url": "https://www.google.com/maps/place/%EB%A6%AC%EC%96%B4%EB%9D%BC%EC%9A%B4%EB%93%9C/data=!3m1!4b1!4m6!3m5!1s0x357cafa67f7a1365:0xddc027161c14d1fa!8m2!3d37.5340835!4d127.1316682!16s%2Fg%2F11s821s5tv?entry=ttu&g_ep=EgoyMDI2MDgyNi4wIKXMDSoASAFQAw%3D%3D",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_ac41a55c9eb1af00fd70",
+      "source_url": "https://place.map.kakao.com/315117152",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_ac7ca2470b8818f9c7da",
+      "source_url": "https://place.map.kakao.com/363569382",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_ac84150af123cfa275cc",
+      "source_url": "https://map.kakao.com/?q=%EB%AA%A8%EC%BF%A0%EC%9A%94%EB%B9%84%20%EC%9D%BC%EB%B3%B8%EC%8B%9D%EB%8D%AE%EB%B0%A5%20%EB%8C%80%EC%A0%84%20%EC%9C%A0%EC%84%B1%EA%B5%AC",
+      "status": "closed"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_ad05dbb2332263cf6bee",
+      "source_url": "https://map.kakao.com/?q=%EC%B9%B4%ED%8E%9C%20%EB%A0%8C%ED%86%A0%20%EB%8C%80%EC%A0%84%20%EC%9C%A0%EC%84%B1%EA%B5%AC",
+      "status": "closed"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_ad3d56c5d73486eedca4",
+      "source_url": "https://place.map.kakao.com/27420066",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_ad65a34974f175ae1e86",
+      "source_url": "https://place.map.kakao.com/26586396",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_ad6e6acf2496c5039975",
+      "source_url": "https://map.kakao.com/?q=%EC%96%B4%EC%8D%B8%20%EB%8C%80%EC%A0%84%20%EC%9C%A0%EC%84%B1%EA%B5%AC",
+      "status": "closed"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_addd320c323450616a5b",
+      "source_url": "https://map.kakao.com/?q=%EC%97%98%EA%B0%80%EC%BB%A4%ED%94%BC(%EA%B4%80%ED%8F%89%EB%8F%99%EC%A0%90)%20%EB%8C%80%EC%A0%84%20%EC%9C%A0%EC%84%B1%EA%B5%AC",
+      "status": "closed"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_adea347e1b672047e8a6",
+      "source_url": "https://place.map.kakao.com/1577536623",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_adf7c4de1e9757473cf2",
+      "source_url": "https://place.map.kakao.com/1328272700",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_ae3e3bba9890cce64bf9",
+      "source_url": "https://place.map.kakao.com/26859086",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_ae4c6c4618f2042d792e",
+      "source_url": "https://place.map.kakao.com/24765608",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_af676cbdbdce9b926eb7",
+      "source_url": "https://map.kakao.com/?q=%EB%A0%88%EB%B9%84%EC%B8%A0%EC%B2%B4%EC%96%B4%20%EB%8C%80%EC%A0%84%20%EC%9C%A0%EC%84%B1%EA%B5%AC",
+      "status": "closed"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_afc65d17e7cd5c5ca4c9",
+      "source_url": "https://place.map.kakao.com/1971429923",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_b1404e9922822070daf5",
+      "source_url": "https://place.map.kakao.com/25589340",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_b218f4d5d3be81ffa5d0",
+      "source_url": "https://map.kakao.com/?q=%EB%9D%BC%EB%B2%A0%EB%A6%AC%ED%83%80(%ED%85%8C%ED%81%AC%EB%85%B8%EC%A0%90)%20%EB%8C%80%EC%A0%84%20%EC%9C%A0%EC%84%B1%EA%B5%AC",
+      "status": "closed"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_b21bb06a09ffdc35a1c7",
+      "source_url": "https://place.map.kakao.com/1388813786",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_b21e1b92b3e312346ee3",
+      "source_url": "https://www.google.com/maps/search/%EC%95%99%EC%83%81%EB%B8%94+%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C+%EA%B0%95%EB%8F%99%EA%B5%AC+%EC%96%91%EC%9E%AC%EB%8C%80%EB%A1%9C147%EA%B8%B8+5/data=!3m1!4b1?entry=ttu&g_ep=EgoyMDI2MDgyNi4wIKXMDSoASAFQAw%3D%3D",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_b27053407b3de4d17499",
+      "source_url": "https://map.naver.com/p/search/%ED%95%A0%EB%A6%AC%EC%8A%A4%EC%BB%A4%ED%94%BC%20%EC%B2%9C%ED%98%B8%EB%B2%A0%EB%84%A4%EC%8B%9C%ED%8B%B0%EC%A0%90(%EC%B2%9C%ED%98%B8%EB%B2%A0%EB%84%A4%EC%8B%9C%ED%8B%B0%EC%A0%90)%20%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C%20%EA%B0%95%EB%8F%99%EA%B5%AC%20%EC%98%AC%EB%A6%BC%ED%94%BD%EB%A1%9C%20664",
+      "status": "closed"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_b27a23bff3f1a55d5370",
+      "source_url": "https://place.map.kakao.com/133033901",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_b284167eb00115f0ed90",
+      "source_url": "https://place.map.kakao.com/142301119",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_b2ab05d2a7976b4176dd",
+      "source_url": "https://map.kakao.com/?q=%EC%95%84%EB%AE%A4%EC%A6%88%EB%B6%80%EC%89%AC(%EC%A3%BD%EB%8F%99)%20%EB%8C%80%EC%A0%84%20%EC%9C%A0%EC%84%B1%EA%B5%AC",
+      "status": "closed"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_b2ceabbd21c5a6a5f775",
+      "source_url": "https://place.map.kakao.com/27497234",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_b30422a8da94b719c462",
+      "source_url": "https://map.kakao.com/?q=%EB%B3%B4%EB%93%A0%20%EB%8C%80%EC%A0%84%20%EC%9C%A0%EC%84%B1%EA%B5%AC",
+      "status": "closed"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_b3046b20714bf8214c78",
+      "source_url": "https://map.kakao.com/?q=%EC%97%98%EB%A7%88%EB%85%B8(%EC%A0%84%EB%AF%BC%EC%A0%90)%20%EB%8C%80%EC%A0%84%20%EC%9C%A0%EC%84%B1%EA%B5%AC",
+      "status": "closed"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_b3547090978eea3f6521",
+      "source_url": "https://map.kakao.com/?q=%EB%B8%94%EB%A3%A8%ED%8C%AC(%EC%9C%A0%EC%84%B1%EC%A0%90)%20%EB%8C%80%EC%A0%84%20%EC%9C%A0%EC%84%B1%EA%B5%AC",
+      "status": "closed"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_b38322a97faacf82aab4",
+      "source_url": "https://map.naver.com/p/search/%EC%9A%B0%EC%98%A4%EB%A7%88%EC%82%AC%20%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C%20%EA%B0%95%EB%8F%99%EA%B5%AC%20%EC%98%AC%EB%A6%BC%ED%94%BD%EB%A1%9C%20769",
+      "status": "closed"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_b46d19e969450258f5b2",
+      "source_url": "https://place.map.kakao.com/1061324023",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_b4cb1fdaefa556c56a31",
+      "source_url": "https://map.kakao.com/?q=%EB%9C%B0%EC%9D%B4%20%EC%9E%88%EB%8A%94%EC%A7%91%20%EB%8C%80%EC%A0%84%20%EC%9C%A0%EC%84%B1%EA%B5%AC",
+      "status": "closed"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_b503da7b0309b5a1c562",
+      "source_url": "https://map.kakao.com/?q=%EC%B9%B4%ED%8E%98%20%EC%88%98%EC%9A%94%EC%9D%BC%20%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C%20%EA%B0%95%EB%8F%99%EA%B5%AC%20%EB%8F%99%EB%82%A8%EB%A1%9C%20891",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_b512898a2bacf6eac1b3",
+      "source_url": "https://map.naver.com/p/search/%EC%98%A4%ED%8E%98%EB%9C%A8%20(%EA%B0%95%EB%8F%99%EC%97%AD%EC%A0%90)%20%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C%20%EA%B0%95%EB%8F%99%EA%B5%AC%20%EC%B2%9C%ED%98%B8%EB%8C%80%EB%A1%9C%201120",
+      "status": "closed"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_b5440231d14f174e7709",
+      "source_url": "https://map.kakao.com/?q=%ED%88%AC%EC%8D%B8%ED%95%9C%EB%B0%AD%EB%8C%80%EC%A0%90%20%EB%8C%80%EC%A0%84%20%EC%9C%A0%EC%84%B1%EA%B5%AC",
+      "status": "closed"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_b5d01867791dc2079992",
+      "source_url": "https://map.naver.com/p/search/%EB%A7%88%EB%8D%B0%EB%A6%B0%EC%BB%A4%ED%94%BC%20%EC%B2%9C%ED%98%B8%EC%A0%90%20%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C%20%EA%B0%95%EB%8F%99%EA%B5%AC%20%EC%98%AC%EB%A6%BC%ED%94%BD%EB%A1%9C%20654-15",
+      "status": "closed"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_b649f8cf0128229bef50",
+      "source_url": "https://place.map.kakao.com/1714630839",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_b66fbace7883710cd6df",
+      "source_url": "https://map.kakao.com/?q=%EC%84%B8%EC%8B%A4%26%EC%9D%B4%EC%86%8C%20%EB%8C%80%EC%A0%84%20%EC%9C%A0%EC%84%B1%EA%B5%AC",
+      "status": "closed"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_b6c322e9c4b788f0fa37",
+      "source_url": "https://place.map.kakao.com/26859086",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_b8879bff43d16547de93",
+      "source_url": "https://www.google.com/maps/place/%EC%97%B4%ED%85%8C%EC%9D%B4%EB%B8%94/data=!3m1!4b1!4m6!3m5!1s0x357caf59c9fb8bad:0x76756589a231c48e!8m2!3d37.5337545!4d127.1328793!16s%2Fg%2F11h9h0bcnw?entry=ttu&g_ep=EgoyMDI2MDgyNi4wIKXMDSoASAFQAw%3D%3D",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_b8ec02aa532882e4a3bc",
+      "source_url": "https://place.map.kakao.com/1388711404",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_b93826469f270b0a03d0",
+      "source_url": "https://map.kakao.com/?q=REAL%20CAKE(%EB%8F%84%EC%95%88%EC%A0%90)%20%EB%8C%80%EC%A0%84%20%EC%9C%A0%EC%84%B1%EA%B5%AC",
+      "status": "closed"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_b9acce2d845442b5eca4",
+      "source_url": "https://place.map.kakao.com/1039076168",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_b9e0835bbb00bc767ef3",
+      "source_url": "https://map.naver.com/p/search/%EB%9D%BC%ED%94%84%EC%9B%A8%EB%8D%94%20%EC%B9%B4%ED%8E%98%20%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C%20%EA%B0%95%EB%8F%99%EA%B5%AC%20%EC%96%91%EC%9E%AC%EB%8C%80%EB%A1%9C%201548",
+      "status": "closed"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_ba3cc13e67192c0d5093",
+      "source_url": "https://place.map.kakao.com/1958005088",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_ba414dadd7c5869e2ac3",
+      "source_url": "https://map.kakao.com/?q=%ED%8C%8C%EC%8A%A4%EC%BF%A0%EC%B0%8C%20(%EB%8C%80%EB%8D%95%EB%B0%B8%EB%A6%AC%EC%A0%90)%20%EB%8C%80%EC%A0%84%20%EC%9C%A0%EC%84%B1%EA%B5%AC",
+      "status": "closed"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_bb7c2ad708dffa4c1c30",
+      "source_url": "https://map.kakao.com/?q=%EC%B9%B4%ED%8E%98%EB%8B%AC.com%20%EB%8C%80%EC%A0%84%20%EC%9C%A0%EC%84%B1%EA%B5%AC",
+      "status": "closed"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_bc65e5e55278cf200b2d",
+      "source_url": "https://www.google.com/maps/place/%EC%B9%B4%ED%8E%98%ED%95%AD%EC%83%81/data=!3m1!4b1!4m6!3m5!1s0x357ca5b882fe5881:0x6310dcce760b6d10!8m2!3d37.530665!4d127.122101!16s%2Fg%2F11fmqmbq__?entry=ttu&g_ep=EgoyMDI2MDgyNi4wIKXMDSoASAFQAw%3D%3D",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_bc6f72517bf568529061",
+      "source_url": "https://map.kakao.com/?q=%EB%A6%AC%EC%BD%94%20%EB%A0%88%EC%8A%A4%ED%86%A0%EB%9E%91%20%EC%97%94%20%EA%B0%80%EA%B5%AC%20%EB%8C%80%EC%A0%84%20%EC%9C%A0%EC%84%B1%EA%B5%AC",
+      "status": "closed"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_bc93f17cb6e7a3ef7cc5",
+      "source_url": "https://place.map.kakao.com/2045599169",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_bd2d10dd330877458f01",
+      "source_url": "https://map.kakao.com/?q=%EC%98%A4%EB%8A%98%EC%A0%9C%EB%B9%B5%EC%86%8C%20(%EB%8C%80%EC%A0%84%EC%A0%90)%20%EB%8C%80%EC%A0%84%20%EC%9C%A0%EC%84%B1%EA%B5%AC",
+      "status": "closed"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_be7e38d5113fdca266d0",
+      "source_url": "https://www.google.com/maps/place/%EB%B8%8C%EB%9E%9C%EB%89%B4%ED%95%98%EC%9D%B4%EB%AA%AC%EB%93%9C/data=!3m1!4b1!4m6!3m5!1s0x357ca5558463e0b1:0x76ae3cf1bfc05c31!8m2!3d37.536532!4d127.1261813!16s%2Fg%2F1td0kyyf?entry=ttu&g_ep=EgoyMDI2MDgyNi4wIKXMDSoASAFQAw%3D%3D",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_bea2fc7d9b8ac910f41a",
+      "source_url": "https://place.map.kakao.com/2117775952",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_bf66e46e67119face215",
+      "source_url": "https://place.map.kakao.com/1447465298",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_bf842ee783c2cbe8f6ba",
+      "source_url": "https://place.map.kakao.com/258724481",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_bf9235ff726e407b3d22",
+      "source_url": "https://place.map.kakao.com/27500726",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_bff7d343f62d7e9520d4",
+      "source_url": "https://map.kakao.com/?q=%EC%95%84%EC%9D%B4%EC%95%88%EB%B8%8C%EB%A6%AD(%EC%A3%BD%EB%8F%99)%20%EB%8C%80%EC%A0%84%20%EC%9C%A0%EC%84%B1%EA%B5%AC",
+      "status": "closed"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_c0a0aebcc13efb1fd5bb",
+      "source_url": "https://map.kakao.com/?q=%EB%A1%A4%EB%A7%81%ED%95%80%EA%B4%80%ED%8F%89%EC%A0%90%20%EB%8C%80%EC%A0%84%20%EC%9C%A0%EC%84%B1%EA%B5%AC",
+      "status": "closed"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_c0adaed788892cf4b0cb",
+      "source_url": "https://map.kakao.com/?q=%ED%86%A0%ED%8A%B8(%EC%A7%80%EC%A1%B1%EC%A0%90)%20%EB%8C%80%EC%A0%84%20%EC%9C%A0%EC%84%B1%EA%B5%AC",
+      "status": "closed"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_c0baa47ef18409957812",
+      "source_url": "https://map.kakao.com/?q=%EB%9D%A0%EC%95%84%EB%AA%A8%20%EB%85%B8%EC%9D%80%EC%97%AD%EC%A0%90%20%EB%8C%80%EC%A0%84%20%EC%9C%A0%EC%84%B1%EA%B5%AC",
+      "status": "closed"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_c0fa5b24502bd3832df6",
+      "source_url": "https://place.map.kakao.com/1560512149",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_c0fd9aab04255110a26c",
+      "source_url": "https://map.kakao.com/?q=%EB%B2%A0%EC%9D%B4%EC%BB%A4%EB%A6%AC%20%EB%B3%84%20%EB%8C%80%EC%A0%84%20%EC%9C%A0%EC%84%B1%EA%B5%AC",
+      "status": "closed"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_c106b70b7228d8fe3150",
+      "source_url": "https://map.kakao.com/?q=AVE(%EC%95%84%EB%B9%84)%20%EB%8C%80%EC%A0%84%20%EC%9C%A0%EC%84%B1%EA%B5%AC",
+      "status": "closed"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_c1aa260f72f2a4d3fe9e",
+      "source_url": "https://map.kakao.com/?q=%ED%99%8D%EC%9D%B8%ED%98%B8%ED%85%94%20%EC%BB%A4%ED%94%BC%EC%88%8D%20%EB%8C%80%EC%A0%84%20%EC%9C%A0%EC%84%B1%EA%B5%AC",
+      "status": "closed"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_c1df6d068cf1c9aa9c4c",
+      "source_url": "https://www.google.com/maps/search/%EB%94%94%EC%A0%80%ED%8A%B839+%EA%B0%95%EB%8F%99%EC%97%AD%EC%A0%90+%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C+%EA%B0%95%EB%8F%99%EA%B5%AC+%EC%B2%9C%ED%98%B8%EB%8C%80%EB%A1%9C+1092/data=!3m1!4b1?entry=ttu&g_ep=EgoyMDI2MDgyNi4wIKXMDSoASAFQAw%3D%3D",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_c202aab4bf8af5c8a221",
+      "source_url": "https://place.map.kakao.com/1485290691",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_c2405a1ca739b9e6555c",
+      "source_url": "https://place.map.kakao.com/17100705",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_c289e5162f1ff8776e1e",
+      "source_url": "https://map.kakao.com/?q=%EC%97%94%EC%A0%9C%EB%A6%AC%EB%84%88%EC%8A%A4%20(Angel-in-us)%20(%EB%8C%80%EC%A0%84%EB%85%B8%EC%9D%80%EC%A0%90)%20%EB%8C%80%EC%A0%84%20%EC%9C%A0%EC%84%B1%EA%B5%AC",
+      "status": "closed"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_c33af8db1ea912f7c9e8",
+      "source_url": "https://place.map.kakao.com/1846009136",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_c39488cbfcac4aa51dcc",
+      "source_url": "https://map.kakao.com/?q=%EC%8A%A4%EB%B0%80%EB%A6%AC%20%EB%8C%80%EC%A0%84%20%EC%9C%A0%EC%84%B1%EA%B5%AC",
+      "status": "closed"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_c4af9257ee28c3e7e8d2",
+      "source_url": "https://place.map.kakao.com/1380630915",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_c55fc5a3862d995402be",
+      "source_url": "https://place.map.kakao.com/169296446",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_c597bda8aaf55476422c",
+      "source_url": "https://map.kakao.com/?q=%EB%B0%8B%EB%AF%B8%EC%95%B3%EB%B4%89%EC%8A%A4%20%EB%8C%80%EC%A0%84%20%EC%9C%A0%EC%84%B1%EA%B5%AC",
+      "status": "closed"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_c5b3f380a7f07fbf2cbd",
+      "source_url": "https://map.kakao.com/?q=%EB%93%9C%EB%A1%AD%ED%83%91(%EB%8C%80%EC%A0%84%EB%8F%84%EC%95%88%EC%A0%90)%20%EB%8C%80%EC%A0%84%20%EC%9C%A0%EC%84%B1%EA%B5%AC",
+      "status": "closed"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_c669bdedad40a7ddb497",
+      "source_url": "https://www.google.com/maps/place/%ED%88%AC%EC%8D%B8%ED%94%8C%EB%A0%88%EC%9D%B4%EC%8A%A4+%EC%83%81%EC%9D%BC%EB%8F%99/data=!3m1!4b1!4m6!3m5!1s0x357cb15f785dee99:0xb3d660d67887023!8m2!3d37.556705!4d127.1687848!16s%2Fg%2F11jdzkvj7b?entry=ttu&g_ep=EgoyMDI2MDgyNi4wIKXMDSoASAFQAw%3D%3D",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_c6edd16373412dcdf113",
+      "source_url": "https://place.map.kakao.com/2144850647",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_c7e110bc7dece619bf9b",
+      "source_url": "https://place.map.kakao.com/41736077",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_c8341b06446a5ddf2c70",
+      "source_url": "https://place.map.kakao.com/27383139",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_c84ff8dbcdda20626beb",
+      "source_url": "https://place.map.kakao.com/533545366",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_c88b14b2e664270fb64d",
+      "source_url": "https://map.kakao.com/?q=%EB%8A%90%EB%A3%A8209%20%EA%B4%80%ED%8F%89%ED%85%8C%ED%81%AC%EB%85%B8%EC%A0%90%20%EB%8C%80%EC%A0%84%20%EC%9C%A0%EC%84%B1%EA%B5%AC",
+      "status": "closed"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_c903e1a2bf20282b0c9e",
+      "source_url": "https://map.kakao.com/?q=%EC%8A%88%EA%B0%80%ED%8C%8C%EC%9D%B4%20%EB%8C%80%EC%A0%84%20%EC%9C%A0%EC%84%B1%EA%B5%AC",
+      "status": "closed"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_ca1d1b555468d7aff958",
+      "source_url": "https://place.map.kakao.com/31211740",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_ca23b8e44d1f328a1610",
+      "source_url": "https://place.map.kakao.com/2088759548",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_ca411eb29910c40d83ef",
+      "source_url": "https://map.kakao.com/?q=%EC%BB%A4%ED%94%BC%20%EB%B0%94%20%EB%85%B8%EB%A3%A8(%EC%9B%90%EC%8B%A0%ED%9D%A5%EB%8F%99)%20%EB%8C%80%EC%A0%84%20%EC%9C%A0%EC%84%B1%EA%B5%AC",
+      "status": "closed"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_ca799d9f54edf02d2804",
+      "source_url": "https://place.map.kakao.com/1542562215",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_cb3dbd8d6fb0eaa511fb",
+      "source_url": "https://map.kakao.com/?q=%EB%A6%AC%EC%B9%B4%ED%8E%98%20%EB%8C%80%EC%A0%84%20%EC%9C%A0%EC%84%B1%EA%B5%AC",
+      "status": "closed"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_cc96f92d81313a0f707e",
+      "source_url": "https://place.map.kakao.com/26247258",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_cce59c8c618fa1ae90a2",
+      "source_url": "https://map.kakao.com/?q=%ED%8C%80%EC%BF%A1(%EB%85%B8%EC%9D%80%EC%A0%90)%20%EB%8C%80%EC%A0%84%20%EC%9C%A0%EC%84%B1%EA%B5%AC",
+      "status": "closed"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_ccf2a21e1436f02b99c7",
+      "source_url": "https://place.map.kakao.com/909278123",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_cd8ae515021a319d38ac",
+      "source_url": "https://map.kakao.com/?q=%EB%B9%84%EC%97%94%EB%82%98%EC%BB%A4%ED%94%BC%ED%95%98%EC%9A%B0%EC%8A%A4(%EB%8C%80%EB%8D%95%ED%85%8C%ED%81%AC%EB%85%B8%ED%94%84%EB%9D%BC%EC%9E%90%EC%A0%90)%20%EB%8C%80%EC%A0%84%20%EC%9C%A0%EC%84%B1%EA%B5%AC",
+      "status": "closed"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_ce29e1256493dea3f6bc",
+      "source_url": "https://place.map.kakao.com/1929925740",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_ce6dda06df24ffb5a3b3",
+      "source_url": "https://place.map.kakao.com/168455654",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_ce82e4c8baa960375007",
+      "source_url": "https://place.map.kakao.com/955678742",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_d04d92a00573093965e0",
+      "source_url": "https://www.google.com/maps/search/%ED%88%AC%EC%8D%B8%ED%94%8C%EB%A0%88%EC%9D%B4%EC%8A%A4%20%EC%B2%9C%ED%98%B8%EB%A1%9C%EB%8D%B0%EC%98%A4%EC%A0%90%20%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C%20%EA%B0%95%EB%8F%99%EA%B5%AC%20%EC%B2%9C%ED%98%B8%EB%8C%80%EB%A1%9C157%EA%B8%B8%2019",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_d062087d85efe2a3bf80",
+      "source_url": "https://place.map.kakao.com/2020333116",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_d1038c9db6223d72b333",
+      "source_url": "https://place.map.kakao.com/1815763449",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_d16dcbf4f13ad3be402f",
+      "source_url": "https://place.map.kakao.com/1633887187",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_d174c38e8104913c85b6",
+      "source_url": "https://map.kakao.com/?q=leafful%20%EB%8C%80%EC%A0%84%20%EC%9C%A0%EC%84%B1%EA%B5%AC",
+      "status": "closed"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_d2173e6d440380922793",
+      "source_url": "https://map.kakao.com/?q=%EC%B9%B4%ED%8E%98%20%EB%9D%A0%EC%95%84%EB%AA%A8(%EB%8C%80%EB%8D%95%EC%97%B0%EA%B5%AC%EB%8B%A8%EC%A7%80)%20%EB%8C%80%EC%A0%84%20%EC%9C%A0%EC%84%B1%EA%B5%AC",
+      "status": "closed"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_d21e859db64ab8f4485d",
+      "source_url": "https://www.google.com/maps/place/%EC%B9%B4%ED%8E%98%EC%94%A8%EB%AA%A8/data=!3m1!4b1!4m6!3m5!1s0x357cb1ffbee7403b:0xb88c73771adf9b9e!8m2!3d37.5514943!4d127.1426629!16s%2Fg%2F11gjxcw93x?entry=ttu&g_ep=EgoyMDI2MDgyNi4wIKXMDSoASAFQAw%3D%3D",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_d25663bedb00c15173a9",
+      "source_url": "https://map.kakao.com/?q=%EC%88%98%EC%9A%94%EC%9D%BC%20%EA%B0%95%EB%8F%99%EA%B5%AC%20%EB%AA%85%EC%9D%BC2%EB%8F%99%2047-18%20%ED%98%84%EB%8C%80%EB%8D%B8%EB%A6%AC%EC%95%88%20202..",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_d2990e4219a01ca6fb00",
+      "source_url": "https://place.map.kakao.com/1061968688",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_d29a60f1a3b3bd70416a",
+      "source_url": "https://map.kakao.com/?q=%EB%A9%94%EC%9D%B4%20%EB%8D%B0%EC%9D%B4%20%EB%8C%80%EC%A0%84%20%EC%9C%A0%EC%84%B1%EA%B5%AC",
+      "status": "closed"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_d2e3856a70d829f69868",
+      "source_url": "https://place.map.kakao.com/1871034986",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_d3d92420b01d4b6b785a",
+      "source_url": "https://map.kakao.com/?q=%EC%B2%BC%EB%A1%9C%20%EC%B9%B4%ED%8E%98%20%EB%8C%80%EC%A0%84%20%EC%9C%A0%EC%84%B1%EA%B5%AC",
+      "status": "closed"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_d5337cf41b76f7be359b",
+      "source_url": "https://www.google.com/maps/place/%EC%8A%A4%EC%9C%84%ED%8A%B81225+%EC%83%81%EC%9D%BC%EC%A0%90/data=!3m1!4b1!4m6!3m5!1s0x357cb1e5776290fb:0xdc07f7452792b82a!8m2!3d37.556916!4d127.1729708!16s%2Fg%2F11l6qjdbwj?entry=ttu&g_ep=EgoyMDI2MDgyNi4wIKXMDSoASAFQAw%3D%3D",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_d578da03a619566c104f",
+      "source_url": "https://place.map.kakao.com/1086266956",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_d5bf67cb53694736324b",
+      "source_url": "https://place.map.kakao.com/1032448085",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_d61711473cc8ded109e1",
+      "source_url": "https://place.map.kakao.com/27391718",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_d6be879e36ff880d9c46",
+      "source_url": "https://map.kakao.com/?q=%EC%BB%A4%ED%94%BC%EC%97%90%EB%88%88%EB%9C%A8%EB%8B%A4%20%EB%8C%80%EC%A0%84%20%EC%9C%A0%EC%84%B1%EA%B5%AC",
+      "status": "closed"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_d6e6e2432a07a4666652",
+      "source_url": "https://place.map.kakao.com/385806902",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_d6ed6a6bfd94bec588b6",
+      "source_url": "https://map.kakao.com/?q=%EC%BB%A4%ED%94%BC%EC%8A%A4%EB%AF%B8%EC%8A%A4%20%EB%8C%80%EC%A0%84%20%EC%9C%A0%EC%84%B1%EA%B5%AC",
+      "status": "closed"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_d89df01d9c3f42478189",
+      "source_url": "https://map.kakao.com/?q=%EB%A6%AC%EB%B3%B8%EC%BB%A4%ED%94%BC%20%EB%8C%80%EC%A0%84%20%EC%9C%A0%EC%84%B1%EA%B5%AC",
+      "status": "closed"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_d9b0053fd11d35490a47",
+      "source_url": "https://place.map.kakao.com/1376589046",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_d9e02b9aa8a6f4a6257b",
+      "source_url": "https://map.kakao.com/?q=%EC%9D%B8%ED%84%B0%EB%B7%B0%EB%A7%A8%EC%85%98(%EA%B5%AC%EC%95%94%EB%8F%99)%20%EB%8C%80%EC%A0%84%20%EC%9C%A0%EC%84%B1%EA%B5%AC",
+      "status": "closed"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_dad23400ee855183ec58",
+      "source_url": "https://place.map.kakao.com/1995930846",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_dc6949e992c7c813cf57",
+      "source_url": "https://place.map.kakao.com/1481402783",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_dd054eae8cef10d32b77",
+      "source_url": "https://map.kakao.com/?q=%EC%BB%A8%EB%B2%A0%EC%9D%B4%EC%96%B4%EC%8A%A4by%20Brewing%20Lounge(%EB%B8%8C%EB%A3%A8%EC%9E%89%EB%9D%BC%EC%9A%B4%EC%A7%80)%20%EB%8C%80%EC%A0%84%20%EC%9C%A0%EC%84%B1%EA%B5%AC",
+      "status": "closed"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_dd5baeaf5d75286a224f",
+      "source_url": "https://map.kakao.com/?q=%EC%8D%A8%EB%8B%88%EC%82%AC%EC%9D%B4%EB%93%9C%EC%97%85%20%EB%8C%80%EC%A0%84%20%EC%9C%A0%EC%84%B1%EA%B5%AC",
+      "status": "closed"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_df11f6c244b417aaad65",
+      "source_url": "https://www.google.com/maps/place/%ED%83%90%EC%95%A4%ED%83%90%EC%8A%A4/data=!3m1!4b1!4m6!3m5!1s0x357cafe294d0defb:0x12c462093eee2288!8m2!3d37.5345686!4d127.1381132!16s%2Fg%2F11ghrh3ldh?entry=ttu&g_ep=EgoyMDI2MDgyNi4wIKXMDSoASAFQAw%3D%3D",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_e06e06795ae23b27b96a",
+      "source_url": "https://place.map.kakao.com/1201297378",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_e195e8c8c3bbc777071e",
+      "source_url": "https://map.kakao.com/?q=%ED%8C%8C%EC%8A%A4%EC%BF%A0%EC%B9%98%20%EB%8C%80%EC%A0%84%EC%8A%A4%EB%A7%88%ED%8A%B8%EC%8B%9C%ED%8B%B0%EC%A0%90%20%EB%8C%80%EC%A0%84%20%EC%9C%A0%EC%84%B1%EA%B5%AC",
+      "status": "closed"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_e225f281cf4e317360a5",
+      "source_url": "https://place.map.kakao.com/1074104958",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_e349baeb69278f154ff6",
+      "source_url": "https://place.map.kakao.com/558657538",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_e3561b40cde6ac663ff5",
+      "source_url": "https://map.kakao.com/?q=%EC%BB%A4%ED%94%BC%ED%95%98%EC%9A%B0%EC%8A%A41573(%EA%B0%95%EB%8F%99%EC%97%AD)%20%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C%20%EA%B0%95%EB%8F%99%EA%B5%AC%20%EC%A7%84%ED%99%A9%EB%8F%84%EB%A1%9C%2059-1",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_e47e27795bee95daa881",
+      "source_url": "https://place.map.kakao.com/364618296",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_e49a231015960694088f",
+      "source_url": "https://www.google.com/maps/search/%EC%8A%A4%ED%83%80%EB%B2%85%EC%8A%A4(%EC%9D%B4%EB%A7%88%ED%8A%B8)%20%EA%B0%95%EB%8F%99%EA%B5%AC%20%EC%B2%9C%ED%98%B8%EB%8C%80%EB%A1%9C%201015-4%20%EC%9D%B4%EB%A7%88%ED%8A%B8%20%EB%B3%84%EA%B4%80%2F%EC%B2%9C%ED%98%B8%EC%97%AD%205%EB%B2%88%20%EC%B6%9C%EA%B5%AC",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_e4b92f49cd8e19b9c25b",
+      "source_url": "https://place.map.kakao.com/1543507913",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_e55c90c431cadff8e036",
+      "source_url": "https://place.map.kakao.com/27232197",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_e564a7bb7565c7d93609",
+      "source_url": "https://place.map.kakao.com/294844697",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_e56da6ca349c21df2f79",
+      "source_url": "https://place.map.kakao.com/35489216",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_e58b7cace7ca2aeeaead",
+      "source_url": "https://map.kakao.com/?q=%EA%B7%B8%EB%A6%B0%EB%B8%8C%EB%9D%BC%EC%9A%B0%EB%8B%88(%EC%83%81%EB%8C%80%EB%8F%99%EC%A0%90)%20%EB%8C%80%EC%A0%84%20%EC%9C%A0%EC%84%B1%EA%B5%AC",
+      "status": "closed"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_e5c3c2f1e74914782885",
+      "source_url": "https://map.naver.com/p/search/%EB%A1%A4%EB%A7%81%ED%95%80%20%EB%AA%85%EC%9D%BC%EC%A0%90%20%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C%20%EA%B0%95%EB%8F%99%EA%B5%AC%20%EC%96%91%EC%9E%AC%EB%8C%80%EB%A1%9C%201661?placePath=%2Fhome%3Ffrom%3Dmap%26fromPanelNum%3D1%26additionalHeight%3D76%26timestamp%3D202608301853%26locale%3Dko%26svcName%3Dmap_pcv5%26searchText%3D%EB%A1%A4%EB%A7%81%ED%95%80%20%EB%AA%85%EC%9D%BC%EC%A0%90%20%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C%20%EA%B0%95%EB%8F%99%EA%B5%AC%20%EC%96%91%EC%9E%AC%EB%8C%80%EB%A1%9C%201661&c=15.00,0,0,0,dh",
+      "status": "closed"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_e5d1c3f5ed4b89639170",
+      "source_url": "https://map.kakao.com/?q=%EC%88%98%ED%86%B5%EA%B3%A8%20%EC%8B%9C%ED%81%AC%EB%A6%BF%EA%B0%80%EB%93%A0%20%EC%B9%B4%ED%8E%98%20%EB%8C%80%EC%A0%84%20%EC%9C%A0%EC%84%B1%EA%B5%AC",
+      "status": "closed"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_e69731dc4a7f12af1aff",
+      "source_url": "https://place.map.kakao.com/84561958",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_e697fdbe15467fbc1f84",
+      "source_url": "https://www.google.com/maps/place/%EC%95%84%EC%B9%B4%EB%A3%A8%EC%9D%B4/data=!3m1!4b1!4m6!3m5!1s0x357ca567fd409839:0x70f18b7b24129a91!8m2!3d37.5394012!4d127.1254022!16s%2Fg%2F11lqm0w1ym?entry=ttu&g_ep=EgoyMDI2MDgyNi4wIKXMDSoASAFQAw%3D%3D",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_e6985e77507f24d2da6d",
+      "source_url": "https://place.map.kakao.com/1882423666",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_e71bd76454ff4eb3e02d",
+      "source_url": "https://place.map.kakao.com/990785547",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_e742c1bbfe911f6f0e6e",
+      "source_url": "https://place.map.kakao.com/369704891",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_e7b4135f7c1ed0ef6567",
+      "source_url": "https://map.kakao.com/?q=%ED%97%88%EB%8B%88%EB%A7%88%EC%BC%93(%EC%9C%A0%EC%84%B1%ED%84%B0%EB%AF%B8%EB%84%90%EC%A0%90)%20%EB%8C%80%EC%A0%84%20%EC%9C%A0%EC%84%B1%EA%B5%AC",
+      "status": "closed"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_e80f32b6f35e13650df5",
+      "source_url": "https://place.map.kakao.com/536100612",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_e850c4d40f115f395575",
+      "source_url": "https://place.map.kakao.com/901123714",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_e88320f88b589ff4a746",
+      "source_url": "https://place.map.kakao.com/577875324",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_e88a8c125908bf8c6073",
+      "source_url": "https://place.map.kakao.com/466598418",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_e9367170320ff38446b1",
+      "source_url": "https://place.map.kakao.com/18515659",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_ea4c6dfc7ae75f9cefb6",
+      "source_url": "https://map.kakao.com/?q=%EC%B2%BC%EC%8B%9C%EB%A7%88%EC%BC%93%20%EB%8C%80%EC%A0%84%20%EC%9C%A0%EC%84%B1%EA%B5%AC",
+      "status": "closed"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_ea9bc6bb014fa8a26032",
+      "source_url": "https://map.kakao.com/?q=%EB%A8%BC%EB%8D%B0%EC%9D%B4%EB%B8%94%EB%A3%A8%EC%8A%A4%20%EC%84%B1%EB%82%B4%EC%A0%90%20%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C%20%EA%B0%95%EB%8F%99%EA%B5%AC%20%EC%84%B1%EB%82%B4%EB%A1%9C6%EA%B8%B8%2014-13",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_eb7d04bcd7be337d96ed",
+      "source_url": "https://map.kakao.com/?q=14%EB%B2%88%EA%B8%B8%20%EC%9D%B4%ED%83%88%EB%A6%AC%EC%95%88%EB%A0%88%EC%8A%A4%ED%86%A0%EB%9E%91%20%EB%8C%80%EC%A0%84%EA%B4%91%EC%97%AD%EC%8B%9C%20%EC%9C%A0%EC%84%B1%EA%B5%AC%20%EC%98%A8%EC%B2%9C%EB%B6%81%EB%A1%9C%2014",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_ebc16cea20214480d132",
+      "source_url": "https://place.map.kakao.com/1381547143",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_ec794898f62ce8f5d3bf",
+      "source_url": "https://www.google.com/maps/place/%ED%88%AC%EC%8D%B8%ED%94%8C%EB%A0%88%EC%9D%B4%EC%8A%A4+%EC%95%94%EC%82%AC%EC%97%AD%EC%A0%90/data=!3m1!4b1!4m6!3m5!1s0x357cb19546d94a07:0x48b859d2beb4f7a9!8m2!3d37.5503513!4d127.1278494!16s%2Fg%2F11nh95k3f7?entry=ttu&g_ep=EgoyMDI2MDgyNi4wIKXMDSoASAFQAw%3D%3D",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_ecab7f3632a1037947d4",
+      "source_url": "https://map.kakao.com/?q=%EC%A0%9C%EC%A3%BC%EC%8A%A4%20%EC%A1%B0%EC%9D%B4%EB%A7%88%EB%A3%A8%EC%A0%90%20%EB%8C%80%EC%A0%84%20%EC%9C%A0%EC%84%B1%EA%B5%AC",
+      "status": "closed"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_ed3a9319864cfcf48378",
+      "source_url": "https://place.map.kakao.com/1273795823",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_ed76338d9c634ccdddcb",
+      "source_url": "https://map.naver.com/p/search/%EC%B9%B4%ED%8E%98%20%EC%A1%B0%EC%95%84%20%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C%20%EA%B0%95%EB%8F%99%EA%B5%AC%20%EB%8F%99%EB%82%A8%EB%A1%9C82%EA%B8%B8%2079",
+      "status": "closed"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_edb6dfe41e98ed3a6446",
+      "source_url": "https://place.map.kakao.com/823283327",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_edbebbd6ddc3f9678b04",
+      "source_url": "https://map.kakao.com/?q=%ED%86%A0%ED%86%A0%ED%81%AC%EB%A0%88%ED%8E%98%20%EB%8C%80%EC%A0%84%20%EC%9C%A0%EC%84%B1%EA%B5%AC",
+      "status": "closed"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_edc643e9c0ae50b53326",
+      "source_url": "https://www.google.com/maps/search/%EC%8A%A4%ED%83%80%EB%B2%85%EC%8A%A4(%EA%B0%95%EB%8F%99%EC%97%AD%EC%A0%90)+%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C+%EA%B0%95%EB%8F%99%EA%B5%AC+%EC%B2%9C%ED%98%B8%EB%8C%80%EB%A1%9C+1089/data=!3m1!4b1?entry=ttu&g_ep=EgoyMDI2MDgyNi4wIKXMDSoASAFQAw%3D%3D",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_ee1cf64efd9d007a1d90",
+      "source_url": "https://map.kakao.com/?q=%EC%B9%B4%EC%82%AC%EB%B9%84%EC%95%99%EC%B9%B4%20%EB%8C%80%EC%A0%84%20%EC%9C%A0%EC%84%B1%EA%B5%AC",
+      "status": "closed"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_ee6a4454cbe470459898",
+      "source_url": "https://place.map.kakao.com/21657598",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_ee9c8f44d7034210fb46",
+      "source_url": "https://place.map.kakao.com/1561403158",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_ef8a92e7a1468c132799",
+      "source_url": "https://place.map.kakao.com/13720584",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_efaf281d202e05cef00b",
+      "source_url": "https://place.map.kakao.com/1841740737",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_f057599d58486c98e7f6",
+      "source_url": "https://map.kakao.com/?q=%EC%98%A8%ED%95%98%EB%A3%A8%20%EB%8C%80%EC%A0%84%20%EC%9C%A0%EC%84%B1%EA%B5%AC",
+      "status": "closed"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_f061ddc9d708f6f47098",
+      "source_url": "https://place.map.kakao.com/1143235841",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_f071a71fb2ff4dd6d4c7",
+      "source_url": "https://place.map.kakao.com/27558110",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_f184747d5ff0b3dde24b",
+      "source_url": "https://www.google.com/maps/place/%EA%B8%B4%EC%9E%90+%EC%98%AC%EB%A6%BC%ED%94%BD%EC%A0%90/data=!3m1!4b1!4m6!3m5!1s0x357caff476e2f547:0x3e43594b6517bb3!8m2!3d37.5231799!4d127.1311729!16s%2Fg%2F11fnnn040n?entry=ttu&g_ep=EgoyMDI2MDgyNi4wIKXMDSoASAFQAw%3D%3D",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_f1aa0d818341011be7cb",
+      "source_url": "https://map.kakao.com/?q=%EB%AC%B4%EB%93%9C%EB%B2%A0%EC%9D%B4%EC%A7%80%20%EB%8C%80%EC%A0%84%20%EC%9C%A0%EC%84%B1%EA%B5%AC",
+      "status": "closed"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_f1b1244f41b771ebfeb9",
+      "source_url": "https://place.map.kakao.com/44600236",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_f1b483248021860cace1",
+      "source_url": "https://map.kakao.com/?q=%EC%B9%B4%ED%8E%98%EC%BD%94%EC%9D%B4(%EC%A3%BD%EB%8F%99%EC%A0%90)%20%EB%8C%80%EC%A0%84%20%EC%9C%A0%EC%84%B1%EA%B5%AC",
+      "status": "closed"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_f22a3f7bf6be678b7ddb",
+      "source_url": "https://map.kakao.com/?q=%EB%8D%94%EB%9D%BC%EB%9D%BC%20%EB%8C%80%EC%A0%84%20%EC%9C%A0%EC%84%B1%EA%B5%AC",
+      "status": "closed"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_f24dabdbc49e44f90fe5",
+      "source_url": "https://place.map.kakao.com/1701298795",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_f278bfce20e339f007dd",
+      "source_url": "https://place.map.kakao.com/21853998",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_f284619fd984c37fc32d",
+      "source_url": "https://place.map.kakao.com/902438416",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_f38840ee8b1b99a1a69e",
+      "source_url": "https://www.google.com/maps/search/%EB%88%84%EC%98%A4%EB%B3%B4%EB%82%98%ED%8F%B4%EB%A6%AC(%EA%B6%81%EB%8F%99%EC%A0%90)%20%EB%8C%80%EC%A0%84%EA%B4%91%EC%97%AD%EC%8B%9C%20%EC%9C%A0%EC%84%B1%EA%B5%AC%20%EB%86%8D%EB%8C%80%EB%A1%9C%2015",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_f38cbd2d8ba6c143915b",
+      "source_url": "https://place.map.kakao.com/1328492373",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_f4080cc30338e5679fd2",
+      "source_url": "https://place.map.kakao.com/27481676",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_f40f9686532f5c06ae0c",
+      "source_url": "https://place.map.kakao.com/2031348282",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_f4b0bd5ae42e5814ad78",
+      "source_url": "https://map.kakao.com/?q=%EB%82%A8%EB%8F%84%EB%AA%85%EA%B0%80%20%EB%8C%80%EC%A0%84%20%EC%9C%A0%EC%84%B1%EA%B5%AC",
+      "status": "closed"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_f4f1fe4b021e19688fd5",
+      "source_url": "https://place.map.kakao.com/3543780",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_f533400b6c6a78c1bea2",
+      "source_url": "https://www.google.com/maps/search/%EC%8A%A4%ED%83%80%EB%B2%85%EC%8A%A4+(%EA%B8%B8%EB%8F%99%EC%97%AD%EC%A0%90)+%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C+%EA%B0%95%EB%8F%99%EA%B5%AC+%EC%96%91%EC%9E%AC%EB%8C%80%EB%A1%9C+1487/data=!3m1!4b1?entry=ttu&g_ep=EgoyMDI2MDgyNi4wIKXMDSoASAFQAw%3D%3D",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_f5b71c1e0dc2e42f225b",
+      "source_url": "https://map.kakao.com/?q=%EC%9A%94%EB%82%A8%EC%9E%90(%EB%85%B8%EC%9D%80%EC%A0%90)%20%EB%8C%80%EC%A0%84%20%EC%9C%A0%EC%84%B1%EA%B5%AC",
+      "status": "closed"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_f6c2a4dc97df0763c8c9",
+      "source_url": "https://map.kakao.com/?q=%EB%AA%A8%EC%A0%95(%ED%95%9C%EC%A0%95%EC%8B%9D)%20%EB%8C%80%EC%A0%84%20%EC%9C%A0%EC%84%B1%EA%B5%AC",
+      "status": "closed"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_f71c113d7f4efd56c573",
+      "source_url": "https://map.kakao.com/?q=%ED%97%88%EB%8B%88%EB%B9%88%EC%8A%A4(%EB%8F%84%EB%A3%A1%EB%8F%99)%20%EB%8C%80%EC%A0%84%20%EC%9C%A0%EC%84%B1%EA%B5%AC",
+      "status": "closed"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_f74c73b4ef7d804ba5ec",
+      "source_url": "https://www.google.com/maps/place/%EC%8A%A4%ED%83%80%EB%B2%85%EC%8A%A4+%EA%B0%95%EB%8F%99%EC%95%94%EC%82%ACDT%EC%A0%90/data=!3m1!4b1!4m6!3m5!1s0x357cb14d3d56774b:0x6e14b39ca2fff4fc!8m2!3d37.55504!4d127.1300647!16s%2Fg%2F11h5rhjnmn?entry=ttu&g_ep=EgoyMDI2MDgyNi4wIKXMDSoASAFQAw%3D%3D",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_f82c48582efe5a7b99ca",
+      "source_url": "https://place.map.kakao.com/22547066",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_f8cd4e3c4d37384c8ec9",
+      "source_url": "https://www.google.com/maps/search/628%ED%8C%8C%EC%8A%A4%ED%83%80(%EC%A3%BD%EB%8F%99)+%EB%8C%80%EC%A0%84%EA%B4%91%EC%97%AD%EC%8B%9C+%EC%9C%A0%EC%84%B1%EA%B5%AC+%EC%9D%80%EA%B5%AC%EB%B9%84%EB%A1%9C155%EB%B2%88%EA%B8%B8+32-9/data=!3m1!4b1?entry=ttu&g_ep=EgoyMDI2MDgyNi4wIKXMDSoASAFQAw%3D%3D",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_f915f1a1572024a703c1",
+      "source_url": "https://place.map.kakao.com/325077367",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_f934120b50fde28ac91c",
+      "source_url": "https://map.kakao.com/?q=%EC%9A%B0%EB%AC%B4%EB%A6%AC%EC%B9%B4%ED%8E%98%20%EB%8C%80%EC%A0%84%20%EC%9C%A0%EC%84%B1%EA%B5%AC",
+      "status": "closed"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_f97198d66e9a144a1158",
+      "source_url": "https://map.kakao.com/?q=%EC%8A%A4%ED%83%80%EB%B2%85%EC%8A%A4%EB%8F%84%EC%95%88%20DT%EC%A0%90%20%EB%8C%80%EC%A0%84%20%EC%9C%A0%EC%84%B1%EA%B5%AC",
+      "status": "closed"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_fa02940704592efcfdc4",
+      "source_url": "https://map.kakao.com/?q=%EB%A3%A8%ED%8B%B0%EB%82%98(%EB%B4%89%EB%AA%85%EB%8F%99)%20%EB%8C%80%EC%A0%84%20%EC%9C%A0%EC%84%B1%EA%B5%AC",
+      "status": "closed"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_faf8753d6da8c08f2941",
+      "source_url": "https://place.map.kakao.com/27215753",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_fafac8d8167f857250a5",
+      "source_url": "https://place.map.kakao.com/1797733586",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_fb08e57a0eeab99a684e",
+      "source_url": "https://map.kakao.com/?q=%EC%9D%BC%EB%A7%88%EC%A7%80%EC%98%A4(%EB%8C%80%EC%A0%84%EB%8F%84%EC%95%88%EC%A0%90)%20%EB%8C%80%EC%A0%84%20%EC%9C%A0%EC%84%B1%EA%B5%AC",
+      "status": "closed"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_fc8085e9490197766a02",
+      "source_url": "https://place.map.kakao.com/24203702",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_fd4d47f04774a180d01e",
+      "source_url": "https://www.google.com/maps/search/%EC%BB%A4%ED%94%BC%EB%AA%BD%ED%83%80%EC%A3%BC(%EA%B0%95%EB%8F%99%EA%B5%AC%EC%B2%AD)%20%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C%20%EA%B0%95%EB%8F%99%EA%B5%AC%20%EC%98%AC%EB%A6%BC%ED%94%BD%EB%A1%9C48%EA%B8%B8%2023-12",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_fe5d177adf3aba8727c8",
+      "source_url": "https://place.map.kakao.com/19452878",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_febbe6daf10a053bc78a",
+      "source_url": "https://www.google.com/maps/place/%EB%9D%BC%EA%B7%B8%EB%A6%B4%EB%A6%AC%EC%95%84+%EC%B2%9C%ED%98%B8%EC%A0%90/data=!3m1!4b1!4m6!3m5!1s0x357ca5df5a834ad1:0x6b51519d61a40c!8m2!3d37.5390265!4d127.1240433!16s%2Fg%2F11f7lytqk7?entry=ttu&g_ep=EgoyMDI2MDgyNi4wIKXMDSoASAFQAw%3D%3D",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_fef7562d0f8b7ff89e47",
+      "source_url": "https://map.kakao.com/?q=%EC%BF%A0%EC%BB%A4%ED%8E%98%EC%9D%B4%EC%8A%A4%20%EB%8C%80%EC%A0%84%20%EC%9C%A0%EC%84%B1%EA%B5%AC",
+      "status": "closed"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_ff31939275fedc5c535d",
+      "source_url": "https://www.google.com/maps/search/%EC%B9%B4%ED%8E%98%ED%97%A4%EC%97%84%20%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C%20%EA%B0%95%EB%8F%99%EA%B5%AC%20%EC%96%91%EC%9E%AC%EB%8C%80%EB%A1%9C%201549",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_ffc70b2d1f32c690a72a",
+      "source_url": "https://map.kakao.com/?q=%EC%83%A4%ED%86%A0%EB%B8%8C%EB%A6%AC%EC%95%99(%EB%91%94%EC%82%B0%EC%A0%90)%20%EB%8C%80%EC%A0%84%20%EC%9C%A0%EC%84%B1%EA%B5%AC",
+      "status": "closed"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_ffe8a5e1c695eff51bc5",
+      "source_url": "https://www.google.com/maps/place/%EC%9A%B0%EB%93%9C%EB%A9%9C%EB%A1%9C%EC%9A%B0/data=!3m1!4b1!4m6!3m5!1s0x357cb1b42fc2ff75:0x4038510b56e4828c!8m2!3d37.5629384!4d127.1551058!16s%2Fg%2F11q2vk515t?entry=ttu&g_ep=EgoyMDI2MDgyNi4wIKXMDSoASAFQAw%3D%3D",
+      "status": "active"
+    },
+    {
+      "observed_on": "2026-08-30",
+      "place_id": "mp_ffe945c258264a4f04b1",
+      "source_url": "https://map.kakao.com/?q=%EC%9D%BC%EB%A7%88%EC%A7%80%EC%98%A4(%EA%B4%80%ED%8F%89%EC%A0%90)%20%EB%8C%80%EC%A0%84%20%EC%9C%A0%EC%84%B1%EA%B5%AC",
+      "status": "closed"
+    }
+  ]
+}

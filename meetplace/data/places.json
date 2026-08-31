@@ -16651,5 +16651,995 @@
     "lat": null,
     "lng": null,
     "locationSource": null
+  },
+  {
+    "id": "mp_af9d80e04f175cddbbe1",
+    "placeZone": "03",
+    "city": "수원/경기",
+    "district": "하남",
+    "name": "88당 베이커리 카페",
+    "address": "경기도 하남시 검단산로 349-31",
+    "mapAddress": null,
+    "parking": true,
+    "meal": false,
+    "drink": true,
+    "categories": [
+      "cafe"
+    ],
+    "phone": "031-794-7500",
+    "homepage": null,
+    "lat": null,
+    "lng": null,
+    "locationSource": null
+  },
+  {
+    "id": "mp_1832fab5940f6bdc7eaa",
+    "placeZone": "03",
+    "city": "수원/경기",
+    "district": "하남",
+    "name": "그레이우드커피(미사역 )",
+    "address": "경기 하남시 미사강변중앙로 189 에코브릿지2 3층 310호/ 미사역 1번 출구에서 379m",
+    "mapAddress": "수원/경기 하남 미사강변중앙로 189",
+    "parking": true,
+    "meal": false,
+    "drink": true,
+    "categories": [
+      "cafe"
+    ],
+    "phone": "0507-1338-0429",
+    "homepage": null,
+    "lat": 37.5631562,
+    "lng": 127.1895602,
+    "locationSource": "https://www.google.com/maps/place/%EA%B7%B8%EB%A0%88%EC%9D%B4%EC%9A%B0%EB%93%9C%EC%BB%A4%ED%94%BC/data=!3m1!4b1!4m6!3m5!1s0x357cb1cce8a910fb:0xda9a9fd4d831372!8m2!3d37.5631562!4d127.1895602!16s%2Fg%2F11j382dp34?entry=ttu&g_ep=EgoyMDI2MDgyNi4wIKXMDSoASAFQAw%3D%3D"
+  },
+  {
+    "id": "mp_03a3098160113529e3b2",
+    "placeZone": "03",
+    "city": "수원/경기",
+    "district": "하남",
+    "name": "더라스트드롭",
+    "address": "경기도 하남시 서하남로 552-36",
+    "mapAddress": "수원/경기 하남 서하남로 552-36",
+    "parking": true,
+    "meal": false,
+    "drink": true,
+    "categories": [
+      "cafe"
+    ],
+    "phone": "0317938338",
+    "homepage": null,
+    "lat": 37.5213944,
+    "lng": 127.2015794,
+    "locationSource": "https://www.google.com/maps/place/%EB%8D%94%EB%9D%BC%EC%8A%A4%ED%8A%B8%EB%93%9C%EB%A1%AD/data=!3m1!4b1!4m6!3m5!1s0x357cb1faa6060d5f:0xe6e25c49d56b66d0!8m2!3d37.5213944!4d127.2015794!16s%2Fg%2F11c46clttc?entry=ttu&g_ep=EgoyMDI2MDgyNi4wIKXMDSoASAFQAw%3D%3D"
+  },
+  {
+    "id": "mp_8a45fd7595c8404231dc",
+    "placeZone": "03",
+    "city": "수원/경기",
+    "district": "하남",
+    "name": "도레도레(하남점)",
+    "address": "경기도 하남시 풍산동 386-1",
+    "mapAddress": "수원/경기 하남 풍산동 386-1",
+    "parking": true,
+    "meal": false,
+    "drink": true,
+    "categories": [
+      "cafe"
+    ],
+    "phone": "031-795-5132",
+    "homepage": null,
+    "lat": 37.545428,
+    "lng": 127.2236967,
+    "locationSource": "https://www.google.com/maps/place/%EB%8F%84%EB%A0%88%EB%8F%84%EB%A0%88+%EC%8A%A4%ED%83%80%ED%95%84%EB%93%9C+%ED%95%98%EB%82%A8%EC%A0%90/data=!3m1!4b1!4m6!3m5!1s0x357cb3c41459b2cd:0x9a532d56c4959895!8m2!3d37.545428!4d127.2236967!16s%2Fg%2F11t7_2qqbb?entry=ttu&g_ep=EgoyMDI2MDgyNi4wIKXMDSoASAFQAw%3D%3D"
+  },
+  {
+    "id": "mp_8f470f34f3b9591b7941",
+    "placeZone": "03",
+    "city": "수원/경기",
+    "district": "하남",
+    "name": "랑데자뷰(하남미사점)",
+    "address": "경기 하남시 미사강변중앙로 185 골든타임 빌딩 3층//5호선 미사역 1번 출구에서284m",
+    "mapAddress": "수원/경기 하남 미사강변중앙로 185",
+    "parking": true,
+    "meal": false,
+    "drink": true,
+    "categories": [
+      "cafe"
+    ],
+    "phone": "031-7951777",
+    "homepage": null,
+    "lat": 37.5628559,
+    "lng": 127.1896713,
+    "locationSource": "https://www.google.com/maps/place/%EB%9E%91%EB%8D%B0%EC%9E%90%EB%B7%B0+%ED%95%98%EB%82%A8%EB%AF%B8%EC%82%AC%EC%A0%90/data=!3m1!4b1!4m6!3m5!1s0x357cb162b8454f1d:0xa275401da36f898!8m2!3d37.5628559!4d127.1896713!16s%2Fg%2F11p_29g9mk?entry=ttu&g_ep=EgoyMDI2MDgyNi4wIKXMDSoASAFQAw%3D%3D"
+  },
+  {
+    "id": "mp_49cbe48de8264bea250e",
+    "placeZone": "03",
+    "city": "수원/경기",
+    "district": "하남",
+    "name": "로쏘폴라레",
+    "address": "미사역 3번출구 300M/경기 하남시 미사강변중앙로 193 3층 310호/망월동 1098/",
+    "mapAddress": "수원/경기 하남 미사강변중앙로 193",
+    "parking": true,
+    "meal": true,
+    "drink": false,
+    "categories": [
+      "meal"
+    ],
+    "phone": "070-4159-1234",
+    "homepage": null,
+    "lat": 37.5637986,
+    "lng": 127.1895398,
+    "locationSource": "https://www.google.com/maps/place/%EB%A1%9C%EC%8F%98%ED%8F%B4%EB%9D%BC%EB%A0%88/data=!3m1!4b1!4m6!3m5!1s0x357b3b7b8870ea47:0x495edd6ef99e25de!8m2!3d37.5637986!4d127.1895398!16s%2Fg%2F11rvj09bzl?entry=ttu&g_ep=EgoyMDI2MDgyNi4wIKXMDSoASAFQAw%3D%3D"
+  },
+  {
+    "id": "mp_7346dcc089d85f8ef11d",
+    "placeZone": "03",
+    "city": "수원/경기",
+    "district": "하남",
+    "name": "리꼬(RICCO)",
+    "address": "경기도 하남시 미사강변북로 30번길 65",
+    "mapAddress": null,
+    "parking": true,
+    "meal": true,
+    "drink": false,
+    "categories": [
+      "meal"
+    ],
+    "phone": "031-791-1898",
+    "homepage": null,
+    "lat": null,
+    "lng": null,
+    "locationSource": null
+  },
+  {
+    "id": "mp_77858b48b9c10d9391d7",
+    "placeZone": "03",
+    "city": "수원/경기",
+    "district": "하남",
+    "name": "미사 스타벅스",
+    "address": "경기도 하남시 미사강변북로 30번길 130",
+    "mapAddress": null,
+    "parking": true,
+    "meal": false,
+    "drink": true,
+    "categories": [
+      "cafe"
+    ],
+    "phone": "031-7943396",
+    "homepage": null,
+    "lat": null,
+    "lng": null,
+    "locationSource": null
+  },
+  {
+    "id": "mp_4b6057871bbe87d93be6",
+    "placeZone": "03",
+    "city": "수원/경기",
+    "district": "하남",
+    "name": "미사장(미사)",
+    "address": "경기 하남시 미사동로40번길 172 미사장 카페",
+    "mapAddress": "수원/경기 하남 미사동로40번길 172",
+    "parking": true,
+    "meal": true,
+    "drink": true,
+    "categories": [
+      "meal",
+      "cafe"
+    ],
+    "phone": "0507-1396-1377",
+    "homepage": "http://www.instagram.com/misajang_artistique",
+    "lat": 37.5639555,
+    "lng": 127.2066254,
+    "locationSource": "https://www.google.com/maps/place/%EB%AF%B8%EC%82%AC%EC%9E%A5/data=!3m1!4b1!4m6!3m5!1s0x357cb1db8d7ec68f:0x5f5162b633816e52!8m2!3d37.5639555!4d127.2066254!16s%2Fg%2F11hy51nf75?entry=ttu&g_ep=EgoyMDI2MDgyNi4wIKXMDSoASAFQAw%3D%3D"
+  },
+  {
+    "id": "mp_ab37478f5714261bdf6f",
+    "placeZone": "03",
+    "city": "수원/경기",
+    "district": "하남",
+    "name": "보노",
+    "address": "경기도 하남시 미사강변중앙로 181더퍼스트테라스 2층 / 미사역10번출구",
+    "mapAddress": "수원/경기 하남 미사강변중앙로 181",
+    "parking": true,
+    "meal": true,
+    "drink": false,
+    "categories": [
+      "meal"
+    ],
+    "phone": "031-791-2825",
+    "homepage": null,
+    "lat": 37.5624982,
+    "lng": 127.190149,
+    "locationSource": "https://www.google.com/maps/place/%EB%B3%B4%EB%85%B8/data=!3m1!4b1!4m6!3m5!1s0x357cb1da1fd16353:0x95aeac5e72473dbc!8m2!3d37.5624982!4d127.190149!16s%2Fg%2F11j7bq_wj6?entry=ttu&g_ep=EgoyMDI2MDgyNi4wIKXMDSoASAFQAw%3D%3D"
+  },
+  {
+    "id": "mp_8f170c5211d9b0f96399",
+    "placeZone": "03",
+    "city": "수원/경기",
+    "district": "하남",
+    "name": "브런치빈 미사점",
+    "address": "미사역 9번출구/ 경기 하남시 미사강변중앙로 173 미사리버에비뉴 2층 210호, 211호",
+    "mapAddress": "수원/경기 하남 미사강변중앙로 173",
+    "parking": true,
+    "meal": true,
+    "drink": true,
+    "categories": [
+      "meal",
+      "cafe"
+    ],
+    "phone": "031-8028-4115",
+    "homepage": null,
+    "lat": 37.5618891,
+    "lng": 127.1901966,
+    "locationSource": "https://www.google.com/maps/place/%EB%B8%8C%EB%9F%B0%EC%B9%98%EB%B9%88+%EB%AF%B8%EC%82%AC%EC%A0%90/data=!3m1!4b1!4m6!3m5!1s0x357cb194aa710265:0xe8bc042a8f8ea8d6!8m2!3d37.5618891!4d127.1901966!16s%2Fg%2F11p_29j4pd?entry=ttu&g_ep=EgoyMDI2MDgyNi4wIKXMDSoASAFQAw%3D%3D"
+  },
+  {
+    "id": "mp_014975cbdba90472986e",
+    "placeZone": "03",
+    "city": "수원/경기",
+    "district": "하남",
+    "name": "브로든커피컴퍼니",
+    "address": "경기 하남시 덕풍로81번길 12(하남풍산역 4번 출구에서 124m)",
+    "mapAddress": "수원/경기 하남 덕풍로81번길 12",
+    "parking": true,
+    "meal": false,
+    "drink": true,
+    "categories": [
+      "cafe"
+    ],
+    "phone": "0507-1333-6359",
+    "homepage": null,
+    "lat": 37.5512356,
+    "lng": 127.2037159,
+    "locationSource": "https://www.google.com/maps/place/%EB%B8%8C%EB%A1%9C%EB%93%A0%EC%BB%A4%ED%94%BC%EC%BB%B4%ED%8D%BC%EB%8B%88/data=!3m1!4b1!4m6!3m5!1s0x357cb143b9267339:0x93057fc694fcfd5b!8m2!3d37.5512356!4d127.2037159!16s%2Fg%2F11jwks4n4r?entry=ttu&g_ep=EgoyMDI2MDgyNi4wIKXMDSoASAFQAw%3D%3D"
+  },
+  {
+    "id": "mp_2a2d3fe92e2f215dfbcc",
+    "placeZone": "03",
+    "city": "수원/경기",
+    "district": "하남",
+    "name": "빈브라더스(스타필드 하남)",
+    "address": "경기 하남시 미사대로 750 스타필드 하남 1층",
+    "mapAddress": "수원/경기 하남 미사대로 750",
+    "parking": true,
+    "meal": false,
+    "drink": true,
+    "categories": [
+      "cafe"
+    ],
+    "phone": "0507-1446-8252",
+    "homepage": "https://naver.me/5pwsQa0G",
+    "lat": 37.546276,
+    "lng": 127.223327,
+    "locationSource": "https://www.google.com/maps/place/%EB%B9%88%EB%B8%8C%EB%9D%BC%EB%8D%94%EC%8A%A4+%EC%8A%A4%ED%83%80%ED%95%84%EB%93%9C+%ED%95%98%EB%82%A8/data=!3m1!4b1!4m6!3m5!1s0x357cb3cdfaf882ef:0xdc51b8956772f0b4!8m2!3d37.546276!4d127.223327!16s%2Fg%2F11csr4jq1h?entry=ttu&g_ep=EgoyMDI2MDgyNi4wIKXMDSoASAFQAw%3D%3D"
+  },
+  {
+    "id": "mp_09cc6d78acea9b8bd6d5",
+    "placeZone": "03",
+    "city": "수원/경기",
+    "district": "하남",
+    "name": "빌라델비아",
+    "address": "경기도 하남시 신장로 125-1",
+    "mapAddress": null,
+    "parking": true,
+    "meal": true,
+    "drink": true,
+    "categories": [
+      "meal",
+      "cafe"
+    ],
+    "phone": "031-791-1811",
+    "homepage": null,
+    "lat": null,
+    "lng": null,
+    "locationSource": null
+  },
+  {
+    "id": "mp_1f132219e85263e241bf",
+    "placeZone": "03",
+    "city": "수원/경기",
+    "district": "하남",
+    "name": "세컨디포레스트(하남미사점)",
+    "address": "경기 하남시 미사강변북로30번길 38 1층",
+    "mapAddress": "수원/경기 하남 미사강변북로30번길 38",
+    "parking": true,
+    "meal": true,
+    "drink": false,
+    "categories": [
+      "meal"
+    ],
+    "phone": "0507-1396-4226",
+    "homepage": "http://secondforrest.com/",
+    "lat": 37.5699646,
+    "lng": 127.1821744,
+    "locationSource": "https://www.google.com/maps/place/%EC%84%B8%EC%BB%A8%EB%94%94%ED%8F%AC%EB%A0%88%EC%8A%A4%ED%8A%B8+%ED%95%98%EB%82%A8%EB%AF%B8%EC%82%AC%EC%A0%90/data=!3m1!4b1!4m6!3m5!1s0x357cb1b5b84a3d4f:0x991347c09550cdcd!8m2!3d37.5699646!4d127.1821744!16s%2Fg%2F11spwg1qgg?entry=ttu&g_ep=EgoyMDI2MDgyNi4wIKXMDSoASAFQAw%3D%3D"
+  },
+  {
+    "id": "mp_4c3230920eaa0b8b2329",
+    "placeZone": "03",
+    "city": "수원/경기",
+    "district": "하남",
+    "name": "소진담",
+    "address": "경기 하남시 미사동로40번길 178-42/ 미사동 140-4",
+    "mapAddress": "수원/경기 하남 미사동로40번길 178-42",
+    "parking": true,
+    "meal": false,
+    "drink": true,
+    "categories": [
+      "cafe"
+    ],
+    "phone": "031-791-4959",
+    "homepage": null,
+    "lat": 37.5624194,
+    "lng": 127.207605,
+    "locationSource": "https://www.google.com/maps/place/%EC%86%8C%EC%A7%84%EB%8B%B4/data=!3m1!4b1!4m6!3m5!1s0x357cb161161a1c0f:0xac5238d15e7ec251!8m2!3d37.5624194!4d127.207605!16s%2Fg%2F11gdkp_wnl?entry=ttu&g_ep=EgoyMDI2MDgyNi4wIKXMDSoASAFQAw%3D%3D"
+  },
+  {
+    "id": "mp_644a83bbe62d988a8002",
+    "placeZone": "03",
+    "city": "수원/경기",
+    "district": "하남",
+    "name": "스타벅스(스타필드하남1층점)",
+    "address": "경기도 하남시 미사대로 750 스타필드 하남 1층",
+    "mapAddress": "수원/경기 하남 미사대로 750",
+    "parking": true,
+    "meal": false,
+    "drink": true,
+    "categories": [
+      "cafe"
+    ],
+    "phone": "031-8072-8283",
+    "homepage": null,
+    "lat": 37.5452305,
+    "lng": 127.2242855,
+    "locationSource": "https://www.google.com/maps/place/%EC%8A%A4%ED%83%80%EB%B2%85%EC%8A%A4+%EC%8A%A4%ED%83%80%ED%95%84%EB%93%9C%ED%95%98%EB%82%A82FR%EC%A0%90/data=!4m7!3m6!1s0x357cb3ce6536312b:0x258d14d2cfe70e!8m2!3d37.5452305!4d127.2242855!16s%2Fg%2F11c5wp8k9w!19sChIJKzE2Zc6zfDURDufP0hSNJQA?authuser=0&hl=ko&g_ep=EgoyMDI2MDgyNi4wIJJjKgBIAVAD&rclk=1"
+  },
+  {
+    "id": "mp_3b157cbe61df8f9466b1",
+    "placeZone": "03",
+    "city": "수원/경기",
+    "district": "하남",
+    "name": "스타벅스(하남시청)",
+    "address": "경기 하남시 대청로 34 1, 2",
+    "mapAddress": "수원/경기 하남 대청로 34",
+    "parking": false,
+    "meal": false,
+    "drink": true,
+    "categories": [
+      "cafe"
+    ],
+    "phone": "031-795-8724",
+    "homepage": null,
+    "lat": 37.5413957,
+    "lng": 127.2079531,
+    "locationSource": "https://www.google.com/maps/place/%EC%8A%A4%ED%83%80%EB%B2%85%EC%8A%A4+%ED%95%98%EB%82%A8%EC%8B%9C%EC%B2%AD%EC%97%AD%EC%A0%90/data=!4m7!3m6!1s0x357cb1187ee327ef:0x28f6da02fbe8dbb4!8m2!3d37.5413957!4d127.2079531!16s%2Fg%2F11pts46f9w!19sChIJ7yfjfhixfDURtNvo-wLa9ig?authuser=0&hl=ko&g_ep=EgoyMDI2MDgyNi4wIJJjKgBIAVAD&rclk=1"
+  },
+  {
+    "id": "mp_8925708498042cec3933",
+    "placeZone": "03",
+    "city": "수원/경기",
+    "district": "하남",
+    "name": "스타벅스 미사역그랑파사쥬점",
+    "address": "경기 하남시 미사강변동로 95 (망월동) 미사역 그랑파사쥬 1층",
+    "mapAddress": "수원/경기 하남 미사강변동로 95",
+    "parking": true,
+    "meal": false,
+    "drink": true,
+    "categories": [
+      "cafe"
+    ],
+    "phone": "1522-3232",
+    "homepage": null,
+    "lat": 37.5642166,
+    "lng": 127.191263,
+    "locationSource": "https://www.google.com/maps/place/%EC%8A%A4%ED%83%80%EB%B2%85%EC%8A%A4+%EB%AF%B8%EC%82%AC%EC%97%AD%EA%B7%B8%EB%9E%91%ED%8C%8C%EC%82%AC%EC%A5%AC%EC%A0%90/data=!3m1!4b1!4m6!3m5!1s0x357cb1c3bd8ed2c7:0x4c5f49c723d40af1!8m2!3d37.5642166!4d127.191263!16s%2Fg%2F11swtz6g5r?entry=ttu&g_ep=EgoyMDI2MDgyNi4wIKXMDSoASAFQAw%3D%3D"
+  },
+  {
+    "id": "mp_402dbe38579319e37814",
+    "placeZone": "03",
+    "city": "수원/경기",
+    "district": "하남",
+    "name": "스타벅스 하남시청역점",
+    "address": "5호선 하남시청역 3번 출구 도보 1분/경기 하남시 하남대로 808",
+    "mapAddress": "수원/경기 하남 대로 808",
+    "parking": false,
+    "meal": false,
+    "drink": true,
+    "categories": [
+      "cafe"
+    ],
+    "phone": "1522-3232",
+    "homepage": null,
+    "lat": 37.5413957,
+    "lng": 127.2079531,
+    "locationSource": "https://www.google.com/maps/place/%EC%8A%A4%ED%83%80%EB%B2%85%EC%8A%A4+%ED%95%98%EB%82%A8%EC%8B%9C%EC%B2%AD%EC%97%AD%EC%A0%90/data=!4m7!3m6!1s0x357cb1187ee327ef:0x28f6da02fbe8dbb4!8m2!3d37.5413957!4d127.2079531!16s%2Fg%2F11pts46f9w!19sChIJ7yfjfhixfDURtNvo-wLa9ig?authuser=0&hl=ko&g_ep=EgoyMDI2MDgyNi4wIJJjKgBIAVAD&rclk=1"
+  },
+  {
+    "id": "mp_23c4320d20595295d8a8",
+    "placeZone": "03",
+    "city": "수원/경기",
+    "district": "하남",
+    "name": "실프(sylph)(하남)",
+    "address": "경기 하남시 덕풍천서로 85 2층,3층",
+    "mapAddress": "수원/경기 하남 덕풍천서로 85",
+    "parking": true,
+    "meal": false,
+    "drink": true,
+    "categories": [
+      "cafe"
+    ],
+    "phone": "0507-1485-0715",
+    "homepage": null,
+    "lat": 37.5482469,
+    "lng": 127.2175234,
+    "locationSource": "https://www.google.com/maps/place/%EC%8B%A4%ED%94%84/data=!3m1!4b1!4m6!3m5!1s0x357cb3cef663224b:0xcd45c35c842ede09!8m2!3d37.5482469!4d127.2175234!16s%2Fg%2F11qrktytmg?entry=ttu&g_ep=EgoyMDI2MDgyNi4wIKXMDSoASAFQAw%3D%3D"
+  },
+  {
+    "id": "mp_3b4dfb34e42b72dcd854",
+    "placeZone": "03",
+    "city": "수원/경기",
+    "district": "하남",
+    "name": "아임홈 미사",
+    "address": "경기 하남시 미사강변한강로158번안길 40",
+    "mapAddress": "수원/경기 하남 미사강변한강로158번안길 40",
+    "parking": true,
+    "meal": true,
+    "drink": true,
+    "categories": [
+      "meal",
+      "cafe"
+    ],
+    "phone": "070-8840-1143",
+    "homepage": null,
+    "lat": 37.5753491,
+    "lng": 127.1914697,
+    "locationSource": "https://www.google.com/maps/place/%EC%95%84%EC%9E%84%ED%99%88/data=!3m1!4b1!4m6!3m5!1s0x357cb140b87c5645:0x480d785560df777c!8m2!3d37.5753491!4d127.1914697!16s%2Fg%2F11hbvcd78c?entry=ttu&g_ep=EgoyMDI2MDgyNi4wIKXMDSoASAFQAw%3D%3D"
+  },
+  {
+    "id": "mp_5709f500e401a602637a",
+    "placeZone": "03",
+    "city": "수원/경기",
+    "district": "하남",
+    "name": "앤드테라스 스타필드 하남점(하남점)",
+    "address": "하남검단산역 1번 출구/ 경기 하남시 미사대로 750 1F 앤드테라스 스타필드하남점",
+    "mapAddress": "수원/경기 하남 미사대로 750",
+    "parking": true,
+    "meal": true,
+    "drink": true,
+    "categories": [
+      "meal",
+      "cafe"
+    ],
+    "phone": "0507-1327-8495",
+    "homepage": null,
+    "lat": 37.5453741,
+    "lng": 127.2223925,
+    "locationSource": "https://www.google.com/maps/place/%EC%95%A4%EB%93%9C%ED%85%8C%EB%9D%BC%EC%8A%A4+%EC%8A%A4%ED%83%80%ED%95%84%EB%93%9C+%ED%95%98%EB%82%A8%EC%A0%90/data=!3m1!4b1!4m6!3m5!1s0x357cb3a1ced9bacf:0x7f3bc8b23ae91a4c!8m2!3d37.5453741!4d127.2223925!16s%2Fg%2F11qbklyx54?entry=ttu&g_ep=EgoyMDI2MDgyNi4wIKXMDSoASAFQAw%3D%3D"
+  },
+  {
+    "id": "mp_dcc51a1c11aaeb80483d",
+    "placeZone": "03",
+    "city": "수원/경기",
+    "district": "하남",
+    "name": "에이미테이블",
+    "address": "경기 하남시 미사동로 102-31 에이미테이블",
+    "mapAddress": "수원/경기 하남 미사동로 102-31",
+    "parking": true,
+    "meal": true,
+    "drink": true,
+    "categories": [
+      "meal",
+      "cafe"
+    ],
+    "phone": "0507-1418-0637",
+    "homepage": null,
+    "lat": 37.5753034,
+    "lng": 127.2053348,
+    "locationSource": "https://www.google.com/maps/place/%EC%97%90%EC%9D%B4%EB%AF%B8%ED%85%8C%EC%9D%B4%EB%B8%94/data=!3m1!4b1!4m6!3m5!1s0x357cb1a7a9bef99f:0xb9ec27504e53b73d!8m2!3d37.5753034!4d127.2053348!16s%2Fg%2F11rmv266b4?entry=ttu&g_ep=EgoyMDI2MDgyNi4wIKXMDSoASAFQAw%3D%3D"
+  },
+  {
+    "id": "mp_62e8e524ec23a1668477",
+    "placeZone": "03",
+    "city": "수원/경기",
+    "district": "하남",
+    "name": "오벧에돔(하남)",
+    "address": "경기 하남시 미사강변한강로 412 2층(하남풍산역 8번 출구에서 421m)",
+    "mapAddress": null,
+    "parking": true,
+    "meal": false,
+    "drink": true,
+    "categories": [
+      "cafe"
+    ],
+    "phone": "0507-1349-4672",
+    "homepage": null,
+    "lat": null,
+    "lng": null,
+    "locationSource": null
+  },
+  {
+    "id": "mp_d22351c61f1b81bde6e9",
+    "placeZone": "03",
+    "city": "수원/경기",
+    "district": "하남",
+    "name": "오브제커피",
+    "address": "경기 하남시미사강변중앙로 164 미타워 3층 (우)12913",
+    "mapAddress": "수원/경기 하남 시미사강변중앙로 164",
+    "parking": true,
+    "meal": false,
+    "drink": true,
+    "categories": [
+      "cafe"
+    ],
+    "phone": "031-792-0800",
+    "homepage": null,
+    "lat": 37.5613933,
+    "lng": 127.1910255,
+    "locationSource": "https://www.google.com/maps/place/%EC%98%A4%EB%B8%8C%EC%A0%9C%EC%BB%A4%ED%94%BC/data=!3m1!4b1!4m6!3m5!1s0x357cb1b8b389d561:0x1fd7f9b4c965f76d!8m2!3d37.5613933!4d127.1910255!16s%2Fg%2F11kmyt6lvc?entry=ttu&g_ep=EgoyMDI2MDgyNi4wIKXMDSoASAFQAw%3D%3D"
+  },
+  {
+    "id": "mp_08cbda7094a02667e9d8",
+    "placeZone": "03",
+    "city": "수원/경기",
+    "district": "하남",
+    "name": "오스테리아 렌조",
+    "address": "경기 하남시 미사강변북로30번안길 30 1층",
+    "mapAddress": "수원/경기 하남 미사강변북로30번안길 30",
+    "parking": true,
+    "meal": true,
+    "drink": false,
+    "categories": [
+      "meal"
+    ],
+    "phone": "0507-1472-8953",
+    "homepage": null,
+    "lat": 37.5697039,
+    "lng": 127.1816101,
+    "locationSource": "https://www.google.com/maps/place/%EC%98%A4%EC%8A%A4%ED%85%8C%EB%A6%AC%EC%95%84+%EB%A0%8C%EC%A1%B0/data=!3m1!4b1!4m6!3m5!1s0x357cb1b4ed766be1:0xf04ef06ab6b3cdb6!8m2!3d37.5697039!4d127.1816101!16s%2Fg%2F11y8z1txq8?entry=ttu&g_ep=EgoyMDI2MDgyNi4wIKXMDSoASAFQAw%3D%3D"
+  },
+  {
+    "id": "mp_122fdfa7f44d0da09fb6",
+    "placeZone": "03",
+    "city": "수원/경기",
+    "district": "하남",
+    "name": "온숲(하남시청역점)",
+    "address": "경기도 하남시 신장동 564-3 1층(5호선 하남시청역 3번출구에서 1분 )",
+    "mapAddress": null,
+    "parking": true,
+    "meal": false,
+    "drink": true,
+    "categories": [
+      "cafe"
+    ],
+    "phone": "010-7266-7331",
+    "homepage": null,
+    "lat": null,
+    "lng": null,
+    "locationSource": null
+  },
+  {
+    "id": "mp_0da915a5f1abf5f111f3",
+    "placeZone": "03",
+    "city": "수원/경기",
+    "district": "하남",
+    "name": "윈터포레스트 1224(하남)",
+    "address": "경기도 하남시 검단산로 267 1층",
+    "mapAddress": "수원/경기 하남 검단산로 267",
+    "parking": true,
+    "meal": true,
+    "drink": true,
+    "categories": [
+      "meal",
+      "cafe"
+    ],
+    "phone": "031-794-1903",
+    "homepage": null,
+    "lat": 37.537857,
+    "lng": 127.2304687,
+    "locationSource": "https://www.google.com/maps/place/%EC%9C%88%ED%84%B0%ED%8F%AC%EB%A0%88%EC%8A%A4%ED%8A%B81224/data=!3m1!4b1!4m6!3m5!1s0x357cb30072b70119:0x4407c1ebd9ef50a8!8m2!3d37.537857!4d127.2304687!16s%2Fg%2F11lf2dykrk?entry=ttu&g_ep=EgoyMDI2MDgyNi4wIKXMDSoASAFQAw%3D%3D"
+  },
+  {
+    "id": "mp_f346e7aaabc510aeb3e9",
+    "placeZone": "03",
+    "city": "수원/경기",
+    "district": "하남",
+    "name": "이디야커피 미사강변한강로점(이디야커피 미사강변한강로점)",
+    "address": "경기 하남시 미사강변한강로334번길 34 1층(5미사역 8번 출구에서 817m)",
+    "mapAddress": "수원/경기 하남 미사강변한강로334번길 34",
+    "parking": true,
+    "meal": false,
+    "drink": true,
+    "categories": [
+      "cafe"
+    ],
+    "phone": "031-793-5437",
+    "homepage": null,
+    "lat": 37.5601157,
+    "lng": 127.1989441,
+    "locationSource": "https://www.google.com/maps/place/%EC%9D%B4%EB%94%94%EC%95%BC%EC%BB%A4%ED%94%BC+%EB%AF%B8%EC%82%AC%EA%B0%95%EB%B3%80%ED%95%9C%EA%B0%95%EB%A1%9C%EC%A0%90/data=!4m7!3m6!1s0x357cb116fe786e23:0x1f4b2604d180968e!8m2!3d37.5601157!4d127.1989441!16s%2Fg%2F11h3w234zg!19sChIJI254_haxfDURjpaA0QQmSx8?authuser=0&hl=ko&g_ep=EgoyMDI2MDgyNi4wIJJjKgBIAVAD&rclk=1"
+  },
+  {
+    "id": "mp_70722b0dde88d0abcf43",
+    "placeZone": "03",
+    "city": "수원/경기",
+    "district": "하남",
+    "name": "인크커피(하남미사)",
+    "address": "경기 하남시 미사대로 550 C동 1층 42~47호(하남풍산역 8번 출구에서 554m)",
+    "mapAddress": "수원/경기 하남 미사대로 550",
+    "parking": true,
+    "meal": false,
+    "drink": true,
+    "categories": [
+      "cafe"
+    ],
+    "phone": "070-4607-2111",
+    "homepage": null,
+    "lat": 37.5562102,
+    "lng": 127.2063466,
+    "locationSource": "https://www.google.com/maps/place/%EC%9D%B8%ED%81%AC%EC%BB%A4%ED%94%BC+%ED%95%98%EB%82%A8%EB%AF%B8%EC%82%AC+1%ED%98%B8%EC%A0%90/data=!4m7!3m6!1s0x357cb1554a1cdb87:0xfd2fc5c2b0f39c0f!8m2!3d37.5562102!4d127.2063466!16s%2Fg%2F11rxrpwm51!19sChIJh9scSlWxfDURD5zzsMLFL_0?authuser=0&hl=ko&g_ep=EgoyMDI2MDgyNi4wIJJjKgBIAVAD&rclk=1"
+  },
+  {
+    "id": "mp_6b80f7bd66c3d9f6909f",
+    "placeZone": "03",
+    "city": "수원/경기",
+    "district": "하남",
+    "name": "일마레 하남점(하남점)",
+    "address": "경기도 하남시 덕풍동 31-6",
+    "mapAddress": null,
+    "parking": true,
+    "meal": true,
+    "drink": false,
+    "categories": [
+      "meal"
+    ],
+    "phone": "031-791-6886",
+    "homepage": null,
+    "lat": null,
+    "lng": null,
+    "locationSource": null
+  },
+  {
+    "id": "mp_4d0012333fdbe0adafc6",
+    "placeZone": "03",
+    "city": "수원/경기",
+    "district": "하남",
+    "name": "카페 투힘(하남시청역)",
+    "address": "경기 하남시 하남대로 843 신정프라자 303-1호(하남시청역 6번출구)",
+    "mapAddress": null,
+    "parking": true,
+    "meal": false,
+    "drink": true,
+    "categories": [
+      "cafe"
+    ],
+    "phone": "0507-1323-8967",
+    "homepage": null,
+    "lat": null,
+    "lng": null,
+    "locationSource": null
+  },
+  {
+    "id": "mp_8224264f780ec937d643",
+    "placeZone": "03",
+    "city": "수원/경기",
+    "district": "하남",
+    "name": "카페노엘",
+    "address": "하남시 아리수로 570 효성헤링턴타워 더퍼스트3층",
+    "mapAddress": "수원/경기 하남 아리수로 570",
+    "parking": true,
+    "meal": false,
+    "drink": true,
+    "categories": [
+      "cafe"
+    ],
+    "phone": "070-8645-2677",
+    "homepage": null,
+    "lat": 37.5668056,
+    "lng": 127.19048,
+    "locationSource": "https://www.google.com/maps/place/%EC%B9%B4%ED%8E%98+%EB%85%B8%EC%97%98/data=!3m1!4b1!4m6!3m5!1s0x357cb185988d5c63:0x1b1c0fda5347c04d!8m2!3d37.5668056!4d127.19048!16s%2Fg%2F11jm7cn554?entry=ttu&g_ep=EgoyMDI2MDgyNi4wIKXMDSoASAFQAw%3D%3D"
+  },
+  {
+    "id": "mp_11f795e2a00165f6b7e9",
+    "placeZone": "03",
+    "city": "수원/경기",
+    "district": "하남",
+    "name": "카페마마스(하남 스타필드점)",
+    "address": "하남시 미사대로 750 2층",
+    "mapAddress": "수원/경기 하남 미사대로 750",
+    "parking": true,
+    "meal": true,
+    "drink": true,
+    "categories": [
+      "meal",
+      "cafe"
+    ],
+    "phone": "031-8072-8376",
+    "homepage": null,
+    "lat": 37.5459807,
+    "lng": 127.2230042,
+    "locationSource": "https://www.google.com/maps/place/%EC%B9%B4%ED%8E%98%EB%A7%88%EB%A7%88%EC%8A%A4+%ED%95%98%EB%82%A8+%EC%8A%A4%ED%83%80%ED%95%84%EB%93%9C%EC%A0%90/data=!3m1!4b1!4m6!3m5!1s0x357cb38848f3bc6b:0xf131fb7c08a84563!8m2!3d37.5459807!4d127.2230042!16s%2Fg%2F11frrkfldq?entry=ttu&g_ep=EgoyMDI2MDgyNi4wIKXMDSoASAFQAw%3D%3D"
+  },
+  {
+    "id": "mp_fc4f6d8cd196b6600613",
+    "placeZone": "03",
+    "city": "수원/경기",
+    "district": "하남",
+    "name": "카페미락",
+    "address": "경기도 하남시 춘궁동420-2",
+    "mapAddress": "수원/경기 하남 춘궁동 420-2",
+    "parking": true,
+    "meal": false,
+    "drink": true,
+    "categories": [
+      "cafe"
+    ],
+    "phone": "050713770035",
+    "homepage": null,
+    "lat": 37.517654,
+    "lng": 127.196773,
+    "locationSource": "https://www.google.com/maps/place/%EC%B9%B4%ED%8E%98+%EB%AF%B8%EB%9D%BD/data=!4m7!3m6!1s0x357cb1e3ea812a77:0x20c317d357680915!8m2!3d37.517654!4d127.196773!16s%2Fg%2F1tfg10mn!19sChIJdyqB6uOxfDURFQloV9MXwyA?authuser=0&hl=ko&g_ep=EgoyMDI2MDgyNi4wIJJjKgBIAVAD&rclk=1"
+  },
+  {
+    "id": "mp_94745f057bba15b58899",
+    "placeZone": "03",
+    "city": "수원/경기",
+    "district": "하남",
+    "name": "카페알로",
+    "address": "경기도 하남시 미사강변서로 16 하우스디스마트밸리 RB158호 1층/ 경기도 하남시 풍산동 490-2 하우스디스마트밸리 RB158호 1층",
+    "mapAddress": "수원/경기 하남 미사강변서로 16",
+    "parking": true,
+    "meal": false,
+    "drink": true,
+    "categories": [
+      "cafe"
+    ],
+    "phone": "031-5175-7075",
+    "homepage": null,
+    "lat": 37.5747508,
+    "lng": 127.1933656,
+    "locationSource": "https://www.google.com/maps/place/%EC%B9%B4%ED%8E%98%EC%95%8C%EB%A1%9C/data=!3m1!4b1!4m6!3m5!1s0x357cb1138aee09e9:0xffc8faca24530143!8m2!3d37.5747508!4d127.1933656!16s%2Fg%2F11vwv09s0h?entry=ttu&g_ep=EgoyMDI2MDgyNi4wIKXMDSoASAFQAw%3D%3D"
+  },
+  {
+    "id": "mp_0af056f02c02eed9ead5",
+    "placeZone": "03",
+    "city": "수원/경기",
+    "district": "하남",
+    "name": "탐앤탐스 하남스마트밸리점(하남스마트밸리점)",
+    "address": "경기 하남시 미사강변서로 16 1층 R144~147",
+    "mapAddress": "수원/경기 하남 미사강변서로 16",
+    "parking": true,
+    "meal": false,
+    "drink": true,
+    "categories": [
+      "cafe"
+    ],
+    "phone": "031-5175-7300",
+    "homepage": null,
+    "lat": 37.551435,
+    "lng": 127.184503,
+    "locationSource": "https://www.google.com/maps/place/%ED%83%90%EC%95%A4%ED%83%90%EC%8A%A4+%EB%AF%B8%EC%82%AC%EC%8A%A4%EB%A7%88%ED%8A%B8%EB%B0%B8%EB%A6%AC%EC%A0%90/data=!3m1!4b1!4m6!3m5!1s0x357cb197f47ee859:0xcdd44ef594895139!8m2!3d37.551435!4d127.184503!16s%2Fg%2F11qh3_cmjh?entry=ttu&g_ep=EgoyMDI2MDgyNi4wIKXMDSoASAFQAw%3D%3D"
+  },
+  {
+    "id": "mp_18d4c046bebefc50acda",
+    "placeZone": "03",
+    "city": "수원/경기",
+    "district": "하남",
+    "name": "투썸플레이스 (하남미사중앙점)",
+    "address": "경기 하남시 미사강변대로 38 위너스프라자 1층, 2층",
+    "mapAddress": "수원/경기 하남 미사강변대로 38",
+    "parking": true,
+    "meal": false,
+    "drink": true,
+    "categories": [
+      "cafe"
+    ],
+    "phone": "031-795-3990",
+    "homepage": null,
+    "lat": 37.5536574,
+    "lng": 127.1855721,
+    "locationSource": "https://www.google.com/maps/place/%ED%88%AC%EC%8D%B8%ED%94%8C%EB%A0%88%EC%9D%B4%EC%8A%A4+%ED%95%98%EB%82%A8%EB%AF%B8%EC%82%AC%EC%A4%91%EC%95%99%EC%A0%90/data=!3m1!4b1!4m6!3m5!1s0x357cb186d23ac465:0xd24fa5815f632522!8m2!3d37.5536574!4d127.1855721!16s%2Fg%2F11sxy_0m3q?entry=ttu&g_ep=EgoyMDI2MDgyNi4wIKXMDSoASAFQAw%3D%3D"
+  },
+  {
+    "id": "mp_c3ced5fb65cf9d128293",
+    "placeZone": "03",
+    "city": "수원/경기",
+    "district": "하남",
+    "name": "투썸플레이스 (미사호수공원점)",
+    "address": "경기도 하남시 미사강변중앙로 223 센트럴파크 1번건물 / 미사역 3번출구",
+    "mapAddress": "수원/경기 하남 미사강변중앙로 223",
+    "parking": true,
+    "meal": false,
+    "drink": true,
+    "categories": [
+      "cafe"
+    ],
+    "phone": "0317912588",
+    "homepage": null,
+    "lat": 37.5664814,
+    "lng": 127.1884818,
+    "locationSource": "https://www.google.com/maps/place/%ED%88%AC%EC%8D%B8%ED%94%8C%EB%A0%88%EC%9D%B4%EC%8A%A4+%EB%AF%B8%EC%82%AC%ED%98%B8%EC%88%98%EA%B3%B5%EC%9B%90%EC%A0%90/data=!4m7!3m6!1s0x357cb16cb22a3331:0x21beb348ffdf2a52!8m2!3d37.5664814!4d127.1884818!16s%2Fg%2F11fz9ynj2l!19sChIJMTMqsmyxfDURUirf_0izviE?authuser=0&hl=ko&g_ep=EgoyMDI2MDgyNi4wIJJjKgBIAVAD&rclk=1"
+  },
+  {
+    "id": "mp_13e273af5142ea808fa9",
+    "placeZone": "03",
+    "city": "수원/경기",
+    "district": "하남",
+    "name": "투썸플레이스 미사역점",
+    "address": "미사역 8번 출구에서 237m/ 경기 하남시 미사강변남로 99 1층",
+    "mapAddress": "수원/경기 하남 미사강변남로 99",
+    "parking": true,
+    "meal": false,
+    "drink": true,
+    "categories": [
+      "cafe"
+    ],
+    "phone": "031-8027-9077",
+    "homepage": null,
+    "lat": 37.5607569,
+    "lng": 127.1928268,
+    "locationSource": "https://www.google.com/maps/place/%ED%88%AC%EC%8D%B8%ED%94%8C%EB%A0%88%EC%9D%B4%EC%8A%A4+%EB%AF%B8%EC%82%AC%EC%97%AD%EC%A0%90/data=!4m7!3m6!1s0x357cb1ad7e6d93df:0x99bc6bb3e932500f!8m2!3d37.5607569!4d127.1928268!16s%2Fg%2F11sycsxnnl!19sChIJ35Ntfq2xfDURD1Ay6bNrvJk?authuser=0&hl=ko&g_ep=EgoyMDI2MDgyNi4wIJJjKgBIAVAD&rclk=1"
+  },
+  {
+    "id": "mp_95d6dbafd3317622cc16",
+    "placeZone": "03",
+    "city": "수원/경기",
+    "district": "하남",
+    "name": "폴바셋 스타필드시티 위례점",
+    "address": "경기 하남시 위례대로 200/ 학암동 660 4층",
+    "mapAddress": "수원/경기 하남 위례대로 200",
+    "parking": true,
+    "meal": false,
+    "drink": true,
+    "categories": [
+      "cafe"
+    ],
+    "phone": "031-8097-1443",
+    "homepage": null,
+    "lat": 37.4804536,
+    "lng": 127.1483645,
+    "locationSource": "https://www.google.com/maps/place/%ED%8F%B4+%EB%B0%94%EC%85%8B+%EC%8A%A4%ED%83%80%ED%95%84%EB%93%9C%EC%8B%9C%ED%8B%B0%EC%9C%84%EB%A1%80%EC%A0%90/data=!3m1!4b1!4m6!3m5!1s0x357caff5cca8b7b7:0x93b3bed592c47656!8m2!3d37.4804536!4d127.1483645!16s%2Fg%2F11mhb3m1zq?entry=ttu&g_ep=EgoyMDI2MDgyNi4wIKXMDSoASAFQAw%3D%3D"
+  },
+  {
+    "id": "mp_154778e40aafba88ebcf",
+    "placeZone": "03",
+    "city": "수원/경기",
+    "district": "하남",
+    "name": "폴바셋스타필드하남1호점(폴바셋스타필드하남1호점)",
+    "address": "경기 하남시 미사대로750 스타필드하남 지하1층",
+    "mapAddress": "수원/경기 하남 미사대로 750",
+    "parking": true,
+    "meal": true,
+    "drink": true,
+    "categories": [
+      "meal",
+      "cafe"
+    ],
+    "phone": "031-80728503",
+    "homepage": "https://www.baristapaulbassett.co.kr/Index.pb",
+    "lat": 37.5455494,
+    "lng": 127.2246237,
+    "locationSource": "https://www.google.com/maps/place/%ED%8F%B4%EB%B0%94%EC%85%8B+%EC%8A%A4%ED%83%80%ED%95%84%EB%93%9C%ED%95%98%EB%82%A81%ED%98%B8%EC%A0%90/data=!3m1!4b1!4m6!3m5!1s0x357cb3ce78cb01b3:0xad050afe9d53b8d0!8m2!3d37.5455494!4d127.2246237!16s%2Fg%2F11hchz2jnr?entry=ttu&g_ep=EgoyMDI2MDgyNi4wIKXMDSoASAFQAw%3D%3D"
+  },
+  {
+    "id": "mp_b6e0c0d06830c2d0590b",
+    "placeZone": "03",
+    "city": "수원/경기",
+    "district": "하남",
+    "name": "피카소카페",
+    "address": "미사역 7,8번 출구에서 2분/경기 하남시 미사강변동로84번길 20 116호/",
+    "mapAddress": null,
+    "parking": true,
+    "meal": true,
+    "drink": true,
+    "categories": [
+      "meal",
+      "cafe"
+    ],
+    "phone": "070-5151-6890",
+    "homepage": null,
+    "lat": null,
+    "lng": null,
+    "locationSource": null
+  },
+  {
+    "id": "mp_dba6f3d311f12b674f23",
+    "placeZone": "03",
+    "city": "수원/경기",
+    "district": "하남",
+    "name": "할리스 미사효성해링턴점",
+    "address": "미사역 3번 출구에서 340m/ 경기 하남시 아리수로 570 1,2층",
+    "mapAddress": "수원/경기 하남 아리수로 570",
+    "parking": true,
+    "meal": false,
+    "drink": true,
+    "categories": [
+      "cafe"
+    ],
+    "phone": "070-7733-9710",
+    "homepage": null,
+    "lat": 37.5664088,
+    "lng": 127.190384,
+    "locationSource": "https://www.google.com/maps/place/%ED%95%A0%EB%A6%AC%EC%8A%A4+%EB%AF%B8%EC%82%AC%ED%9A%A8%EC%84%B1%ED%95%B4%EB%A7%81%ED%84%B4%EC%A0%90/data=!3m1!4b1!4m6!3m5!1s0x357cb1801e09bc39:0x242c4c81c9b67143!8m2!3d37.5664088!4d127.190384!16s%2Fg%2F11pdk3fqt8?entry=ttu&g_ep=EgoyMDI2MDgyNi4wIKXMDSoASAFQAw%3D%3D"
+  },
+  {
+    "id": "mp_a39983758bb18e828d5e",
+    "placeZone": "03",
+    "city": "수원/경기",
+    "district": "하남",
+    "name": "홍종흔베이커리(미사한강점)",
+    "address": "경기 하남시 미사동로 52-5",
+    "mapAddress": "수원/경기 하남 미사동로 52-5",
+    "parking": true,
+    "meal": false,
+    "drink": true,
+    "categories": [
+      "cafe"
+    ],
+    "phone": "0507-1390-0325",
+    "homepage": null,
+    "lat": 37.5715025,
+    "lng": 127.2021938,
+    "locationSource": "https://www.google.com/maps/place/%ED%99%8D%EC%A2%85%ED%9D%94%EB%B2%A0%EC%9D%B4%EC%BB%A4%EB%A6%AC+%EB%AF%B8%EC%82%AC%ED%95%9C%EA%B0%95%EC%A0%90/data=!4m7!3m6!1s0x357cb1d987542791:0xa72cd60128d9c579!8m2!3d37.5715025!4d127.2021938!16s%2Fg%2F11rk8xdx1_!19sChIJkSdUh9mxfDURecXZKAHWLKc?authuser=0&hl=ko&g_ep=EgoyMDI2MDgyNi4wIJJjKgBIAVAD&rclk=1"
+  },
+  {
+    "id": "mp_25ad87fd26fae67c6e38",
+    "placeZone": "03",
+    "city": "수원/경기",
+    "district": "하남",
+    "name": "화이트헤이븐커피",
+    "address": "경기 하남시 미사 강변북로 30번안길 22",
+    "mapAddress": null,
+    "parking": true,
+    "meal": false,
+    "drink": true,
+    "categories": [
+      "cafe"
+    ],
+    "phone": "070-4120-5597",
+    "homepage": null,
+    "lat": null,
+    "lng": null,
+    "locationSource": null
+  },
+  {
+    "id": "mp_fa72261d1cc7017ff183",
+    "placeZone": "03",
+    "city": "수원/경기",
+    "district": "하남",
+    "name": "flos",
+    "address": "경기 하남시 월호로 56/ 5호선 하남풍산역 1번 출구에서 621m",
+    "mapAddress": "수원/경기 하남 월호로 56",
+    "parking": true,
+    "meal": false,
+    "drink": true,
+    "categories": [
+      "cafe"
+    ],
+    "phone": "031-792-3788",
+    "homepage": null,
+    "lat": 37.5541039,
+    "lng": 127.2088474,
+    "locationSource": "https://www.google.com/maps/place/%ED%94%8C%EB%A1%9C%EC%8A%A4%ED%8C%8C%ED%8A%B82/data=!3m1!4b1!4m6!3m5!1s0x357cb15cca8a9cc1:0xcb34cf896f7f421f!8m2!3d37.5541039!4d127.2088474!16s%2Fg%2F11tw__jq_r?entry=ttu&g_ep=EgoyMDI2MDgyNi4wIKXMDSoASAFQAw%3D%3D"
+  },
+  {
+    "id": "mp_242c5c9d2a04a5cb9e3e",
+    "placeZone": "03",
+    "city": "수원/경기",
+    "district": "하남",
+    "name": "G342 (G342 )",
+    "address": "하남시 고골로 342",
+    "mapAddress": "수원/경기 하남 고골로 342",
+    "parking": true,
+    "meal": false,
+    "drink": true,
+    "categories": [
+      "cafe"
+    ],
+    "phone": "070-7769-3533",
+    "homepage": null,
+    "lat": 37.49623,
+    "lng": 127.189349,
+    "locationSource": "https://www.google.com/maps/place/g342/data=!3m1!4b1!4m6!3m5!1s0x357cae4032f25885:0xbab6c060579b3be7!8m2!3d37.49623!4d127.189349!16s%2Fg%2F11g7zg394q?entry=ttu&g_ep=EgoyMDI2MDgyNi4wIKXMDSoASAFQAw%3D%3D"
   }
 ]

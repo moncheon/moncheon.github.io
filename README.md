@@ -27,11 +27,14 @@ python3 check_site.py
 ## 배포
 기존 `.github/workflows/static.yml`이 main/master 변경 시 GitHub Pages에 전체 정적 저장소를 배포합니다. Settings → Pages의 소스는 GitHub Actions를 사용합니다. 루트 `index.html`, `.nojekyll`을 유지합니다. `meetplace/`, `e1/`은 별도 기존 프로젝트이며 수정하지 않습니다.
 
-과거 문서의 `runmoon.github.io`는 이 저장소의 Pages 주소가 아닙니다. 올바른 주소는 **https://moncheon.github.io/** 입니다. 404 발생 시 주소와 Actions 배포 결과를 확인합니다.
+올바른 Pages 주소는 **https://moncheon.github.io/** 입니다. 404 발생 시 주소와 Actions 배포 결과를 확인합니다.
 
 ## 사업자 정보 확정 후 게시
 현재 상호는 runmoon(런문), 사업자등록은 준비 중입니다. 대표자, 사업자등록번호, 통신판매업 신고번호, 공개 사업장 주소, 고객 문의 전화/이메일, 개인정보 문의 창구를 확정한 뒤 index.html 하단과 privacy.html을 함께 갱신합니다. 미확정 번호/주소/연락처를 임의로 게시하지 않습니다. 기존 privacy@runmoon.com 주소도 운영 여부가 확인되지 않아 사용하지 않습니다.
 
 현재 판매/결제/회원가입은 없습니다. 준비 중 고지는 판매 사이트의 법정 고지 완비를 의미하지 않습니다. 판매 전 사업 형태에 맞는 고지와 정책 검토가 필요합니다. 개인정보 안내의 적용 범위는 루트 산책 게임입니다.
+
+## 연락처
+- Website: https://moncheon.github.io/
 
 © 2026 runmoon. All rights reserved.

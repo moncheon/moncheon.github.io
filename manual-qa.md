@@ -1,0 +1,13 @@
+# Browser QA
+- Desktop/mobile: no horizontal overflow, readable text, no console errors.
+- Choose each character. Selected state and accessible names are clear.
+- Tap grass: selected character moves, flower appears at prior position.
+- Tap lake/sky: no movement, grass guidance appears.
+- Keyboard Tab/Enter/Space and arrows work; characters stay in bounds.
+- Repeated movement keeps at most 24 flowers. Reset clears flowers.
+- Menu opens, links work, Escape restores focus, click/Tab outside closes.
+- Privacy page opens/reloads; Home and Back work.
+- Reduced motion removes movement transitions.
+- JavaScript disabled: static content and footer privacy link remain.
+- No external analytics/fonts/content dependencies.
+- e1/ and meetplace/ are unchanged.
